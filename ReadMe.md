@@ -13,3 +13,7 @@
 - Modeling Relational Data with Graph Convolutional Networks, 18, ESWC
 
 - Graph Convolutional Networks for Web-Scale Recommender Systems, 18, KDD
+
+## Transfer Learning
+
+- GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations, 18, NIPS
