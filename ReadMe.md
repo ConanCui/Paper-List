@@ -49,14 +49,14 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   
   
 ## Transfer Learning
-
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations NIPS 2018**
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
 
 
+
 [Thomas N. Kipf]: https://tkipf.github.io/
 [Max Welling]: https://staff.fnwi.uva.nl/m.welling/
 [Rex Ying]: https://cs.stanford.edu/people/rexy/
-[Lei Zheng] : https://lzheng21.github.io/publications/
-[Jure Leskovec] : https://cs.stanford.edu/~jure/
+[Lei Zheng]: https://lzheng21.github.io/publications/
+[Jure Leskovec]: https://cs.stanford.edu/~jure/
