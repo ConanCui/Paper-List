@@ -1,6 +1,11 @@
 
 
 ## Recomendation
+
+- Learning Consumer and Producer Embeddings for User-Generated Content Recommendation, 18, Recsys
+
+- Spectral Collaborative Filtering, 18, Recsys
+
 - Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration, 17, KDD
 
 - News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content, 13, WSDM
