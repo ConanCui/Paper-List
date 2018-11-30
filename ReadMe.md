@@ -29,12 +29,12 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   
 ## Graph
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
-  - Rianne van den Berg, [Thomas N. Kipf][Thomas N. Kipf],  [Max Welling](https://staff.fnwi.uva.nl/m.welling/)
+  - Rianne van den Berg, [Thomas N. Kipf][Thomas N. Kipf],  [Max Welling][Max Welling]
   - [Paper]](https://arxiv.org/pdf/1706.02263.pdf)
   - [tensorflow](https://github.com/riannevdberg/gc-mc)
   
 - **Hierarchical Graph Representation Learning with Differentiable Pooling (NIPS 2018)**
-  - Rex Ying, Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec  https://cs.stanford.edu/people/rexy/
+  - [Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
   
 - Modeling Relational Data with Graph Convolutional Networks, 18, ESWC
@@ -53,4 +53,6 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
 
 
-[Thomas N. Kipf]: https://tkipf.github.io/  "Thomas N. Kipf"
+[Thomas N. Kipf]: https://tkipf.github.io/
+[Max Welling]: https://staff.fnwi.uva.nl/m.welling/
+[Rex Ying]: https://cs.stanford.edu/people/rexy/
