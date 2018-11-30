@@ -1,15 +1,21 @@
 
 
-table of contents
+##### Table of Contents  
 
-1.[Recomendation][]
-2.[Graph][]
-3.[Transfer Learning][]
 
+1. [Recomendation](#factorization)  
+2. [Graph](#spectral-and-statistical-fingerprints)
+3. [Transfer Learning](#deep-learning)  
+4. [Graph Kernels](#graph-kernels)  
+
+# Paper References with the implementation(s)
 ## Recomendation
+- **Learning Consumer and Producer Embeddings for User-Generated Content Recommendation (Recsys 2018)**
+  - Sergey Ivanov, Evgeny Burnaev
+  - [[Paper]](https://arxiv.org/abs/1809.09739)
+  - [[Python Reference]]()
 
-- Learning Consumer and Producer Embeddings for User-Generated Content Recommendation (18, Recsys)
-    - [paper][https://arxiv.org/abs/1809.09739]
+
     
 - Spectral Collaborative Filtering, 18, Recsys
 
