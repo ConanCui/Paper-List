@@ -1,9 +1,16 @@
 
 
+table of contents
+
+1.[Recomendation][]
+2.[Graph][]
+3.[Transfer Learning][]
+
 ## Recomendation
 
-- Learning Consumer and Producer Embeddings for User-Generated Content Recommendation, 18, Recsys
-
+- Learning Consumer and Producer Embeddings for User-Generated Content Recommendation (18, Recsys)
+    - [paper][https://arxiv.org/abs/1809.09739]
+    
 - Spectral Collaborative Filtering, 18, Recsys
 
 - Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration, 17, KDD
