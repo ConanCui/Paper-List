@@ -7,11 +7,12 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
 
 1. [Recomendation](#Recomendation)  
 2. [Graph](#Graph)
-3. [Transfer Learning](#Transfer Learning)  
+3. [TransferLearning](#TransferLearning)  
 
 # Paper References with the implementation(s)
 ## Recomendation
 - **Learning Consumer and Producer Embeddings for User-Generated Content Recommendation (Recsys 2018)**
+  - [Wang-Cheng Kang], [Julian McAuley]
   - [Paper](https://arxiv.org/abs/1809.09739)
 
 - **Spectral Collaborative Filtering (Recsys 2018)**
@@ -48,7 +49,7 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
   
   
-## Transfer Learning
+## TransferLearning
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations NIPS 2018**
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
@@ -60,3 +61,5 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
 [Rex Ying]: https://cs.stanford.edu/people/rexy/
 [Lei Zheng]: https://lzheng21.github.io/publications/
 [Jure Leskovec]: https://cs.stanford.edu/~jure/
+[Wang-Cheng Kang]: http://cseweb.ucsd.edu/~wckang/
+[Julian McAuley]: https://cseweb.ucsd.edu/~jmcauley/
