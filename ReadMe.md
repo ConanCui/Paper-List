@@ -3,7 +3,7 @@
 ## Recomendation
 - Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration, 17, KDD
 
-- News recommendation via hypergraph learning, 13, WSDM
+- News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content, 13, WSDM
 
 ## Graph
 
