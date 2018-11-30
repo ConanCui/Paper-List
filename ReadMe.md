@@ -5,7 +5,7 @@
 A collection of graph embedding, deep learning, graph kernel and factorization papers with reference implementations
 
 <p align="center">
-  <img width="460" src="atlas.png">
+  <img width="460" src="Word Art.png">
 </p>
 
 ##### Table of Contents  
