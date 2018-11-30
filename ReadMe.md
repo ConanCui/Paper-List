@@ -5,10 +5,9 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
 
 ##### Table of Contents  
 
-1. [Recomendation](#factorization)  
-2. [Graph](#spectral-and-statistical-fingerprints)
-3. [Transfer Learning](#deep-learning)  
-4. [Graph Kernels](#graph-kernels)  
+1. [Recomendation](#Recomendation)  
+2. [Graph](#Graph)
+3. [Transfer Learning](#Transfer Learning)  
 
 # Paper References with the implementation(s)
 ## Recomendation
@@ -16,7 +15,7 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   - [Paper](https://arxiv.org/abs/1809.09739)
 
 - **Spectral Collaborative Filtering (Recsys 2018)**
-  - [Lei Zheng](https://lzheng21.github.io/publications/), Chun-Ta Lu, Fei Jiang, Jiawei Zhang, Philip S. Yu
+  - [Lei Zheng], Chun-Ta Lu, Fei Jiang, Jiawei Zhang, Philip S. Yu
   - [Paper](https://arxiv.org/abs/1808.10523v1)
   
 - **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)** 
@@ -29,7 +28,7 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   
 ## Graph
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
-  - Rianne van den Berg, [Thomas N. Kipf][Thomas N. Kipf],  [Max Welling][Max Welling]
+  - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
   - [Paper]](https://arxiv.org/pdf/1706.02263.pdf)
   - [tensorflow](https://github.com/riannevdberg/gc-mc)
   
@@ -37,22 +36,27 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
   - [Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
   
-- Modeling Relational Data with Graph Convolutional Networks, 18, ESWC
-   - Lei Li, Tao Li
-  - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
+- **Modeling Relational Data with Graph Convolutional Networks (ESWC 2018)**
+  - Michael Schlichtkrull, [Thomas N. Kipf], Peter Bloem, Rianne van den Berg, Ivan Titov, [Max Welling]
+  - [Paper](https://arxiv.org/abs/1703.06103)
+  - [keras](https://github.com/tkipf/relational-gcn)
+  - [tensorflow](https://github.com/MichSchli/RelationPrediction)
   
-- Graph Convolutional Networks for Web-Scale Recommender Systems, 18, KDD
-  - Lei Li, Tao Li
+  
+- **Graph Convolutional Neural Networks for Web-Scale Recommender Systems (KDD 2018)**
+  - [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
   
   
 ## Transfer Learning
 
-- GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations, 18, NIPS
-  - Lei Li, Tao Li
-  - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
+- **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations NIPS 2018**
+  - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
+  - [Paper](https://arxiv.org/abs/1806.05662)
 
 
 [Thomas N. Kipf]: https://tkipf.github.io/
 [Max Welling]: https://staff.fnwi.uva.nl/m.welling/
 [Rex Ying]: https://cs.stanford.edu/people/rexy/
+[Lei Zheng] : https://lzheng21.github.io/publications/
+[Jure Leskovec] : https://cs.stanford.edu/~jure/
