@@ -29,7 +29,7 @@ A collection of graph embedding, deep learning, graph kernel and factorization p
 ## Graph
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
   - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
-  - [Paper]](https://arxiv.org/pdf/1706.02263.pdf)
+  - [Paper](https://arxiv.org/pdf/1706.02263.pdf)
   - [tensorflow](https://github.com/riannevdberg/gc-mc)
   
 - **Hierarchical Graph Representation Learning with Differentiable Pooling (NIPS 2018)**
