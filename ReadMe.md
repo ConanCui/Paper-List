@@ -52,7 +52,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **Graph Convolutional Neural Networks for Web-Scale Recommender Systems (KDD 2018)**
   - [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
-  
+
+* other resource
+  - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
+  - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
   
 ## TransferLearning
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
