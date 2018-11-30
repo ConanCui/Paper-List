@@ -1,7 +1,12 @@
 # Awesome paper list
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
 
 A collection of graph embedding, deep learning, graph kernel and factorization papers with reference implementations
+
+<p align="center">
+  <img width="460" src="atlas.png">
+</p>
 
 ##### Table of Contents  
 
