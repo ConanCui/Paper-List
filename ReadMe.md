@@ -55,7 +55,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   
   
 ## TransferLearning
-- **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations NIPS 2018**
+- **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
 
