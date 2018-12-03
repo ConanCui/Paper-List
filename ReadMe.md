@@ -11,7 +11,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 ##### Table of Contents  
 
 1. [Recomendation](#Recomendation)  
-2. [Graph](#Graph)
+2. [GraphEmbedding](#GraphEmbedding)
 3. [TransferLearning](#TransferLearning)  
 
 # Paper References with the implementation(s)
@@ -32,7 +32,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Lei Li, Tao Li
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
   
-## Graph
+## GraphEmbedding
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
   - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
   - [Paper](https://arxiv.org/pdf/1706.02263.pdf)
@@ -53,6 +53,11 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
 
+- **Modeling Multi-way Relations with Hypergraph Embedding (CIKM 2018 short paper)**
+  - Chia-An Yu, Ching-Lun Tai, Tak-Shing Chan, Yi-Hsuan Yang
+  - [Paper](https://dl.acm.org/citation.cfm?id=3269274)
+  - [matlab](http://github.com/chia-an/HGE)
+  
 * other resource
   - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
   - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
