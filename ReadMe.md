@@ -25,7 +25,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://arxiv.org/abs/1808.10523v1)
   
 - **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)** 
-  - Xuejian Wang,Lantao Yu, Kan Ren
+  - Xuejian Wang, Lantao Yu, Kan Ren
   - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
   
 - **News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content (WSDM 2013)**
@@ -33,7 +33,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
 
 - **Music Recommendation by Uni fi ed Hypergraph : Combining Social Media Information and Music Content (WW 2010)**
-  - Bu Jiajun, Tan Shulong, He Xiaofei
+  - Bu Jiajun, Tan Shulong, [He Xiaofei]
   - [Paper](https://dl.acm.org/citation.cfm?id=1874005)
   
  
@@ -73,7 +73,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://arxiv.org/abs/1806.05662)
 
 
-
+[He Xiaofei]: http://www.cad.zju.edu.cn/home/xiaofeihe/
 [Thomas N. Kipf]: https://tkipf.github.io/
 [Max Welling]: https://staff.fnwi.uva.nl/m.welling/
 [Rex Ying]: https://cs.stanford.edu/people/rexy/
