@@ -36,7 +36,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Bu Jiajun, Tan Shulong, [Xiaofei He]
   - [Paper](https://dl.acm.org/citation.cfm?id=1874005)
   
-- **Heterogeneous hypergraph embedding for document recommendation (Neurocomputing 2016)
+- **Heterogeneous hypergraph embedding for document recommendation (Neurocomputing 2016)**
   - Yu Zhu, Ziyu Guan, Shulong Tan, Haifeng Liu, Deng Cai, [Xiaofei He]
   - [paper](https://www.sciencedirect.com/science/article/pii/S0925231216307755)
   
