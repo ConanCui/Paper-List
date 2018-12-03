@@ -32,11 +32,14 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Lei Li, Tao Li
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
 
-- **Music Recommendation by Uni fi ed Hypergraph : Combining Social Media Information and Music Content (WW 2010)**
+- **Music Recommendation by Uni fi ed Hypergraph : Combining Social Media Information and Music Content (MM 2010)**
   - Bu Jiajun, Tan Shulong, [He Xiaofei]
   - [Paper](https://dl.acm.org/citation.cfm?id=1874005)
   
- 
+- **Heterogeneous hypergraph embedding for document recommendation (Neurocomputing 2016)
+  - Yu Zhu, Ziyu Guan, Shulong Tan, Haifeng Liu, Deng Cai, [Xiaofei He]
+  - [paper](https://www.sciencedirect.com/science/article/pii/S0925231216307755)
+  
 ## GraphEmbedding
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
   - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
