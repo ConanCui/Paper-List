@@ -14,11 +14,11 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 2. [Graph](#Graph)
 3. [TransferLearning](#TransferLearning)
 
-# Paper References with the implementation(s)
+
 ## Recomendation
 
 ### Largel Scale
-- **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
+#### **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
   - Xuejian Wang, Lantao Yu, Kan Ren
   - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
 
