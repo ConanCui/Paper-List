@@ -9,7 +9,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 </p>
 
 ##### Table of Contents
-
+[TOC]
 1. [Recomendation](#Recomendation)
 2. [Graph](#Graph)
 3. [TransferLearning](#TransferLearning)
@@ -21,6 +21,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
   - Xuejian Wang, Lantao Yu, Kan Ren
   - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
+
 
 ### Normal
 - **Learning Consumer and Producer Embeddings for User-Generated Content Recommendation (Recsys 2018)**
@@ -43,10 +44,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Yu Zhu, Ziyu Guan, Shulong Tan, Haifeng Liu, Deng Cai, [Xiaofei He]
   - [paper](https://www.sciencedirect.com/science/article/pii/S0925231216307755)
 
+
 ### Expainable
 - **Explainable Reasoning over Knowledge Graphs for Recommendation**
 - **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
-- **DKN : Deep Knowledge-Aware Network for News Recommendation (WWW 2018)**
 - **RippleNet : Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
 ## Graph
 
@@ -92,6 +93,25 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 
 - **SimplE Embedding for Link Prediction in Knowledge Graphs**
 
+- **DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)**
+  - [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo
+  - [Paper](https://dl.acm.org/citation.cfm?id=3186175)
+  - [tensorflow](https://github.com/hwwang55/DKN)
+
+DKN is a content-based recomendation framework for click-through rate prediction. The key component of DKN is a multi-channel and word-entity-aligned knoledge-aware convolutional neural network (KCNN) that fuses semantic-level and knowledge-level representations of news. More specific, KCNN treats words and entities as multiple channels, and explicitly keep their alignment relationship during convolution. In addition, to address users' diverse interests, the model also uses an attention module to dynamically aggregate a user's history with respect to current candidate news.
+
+**Problem defination**. The news recomendation is quite difficult as it poses three major challenges.
+  1. news article are highly time-sensitive and their relevance expirs quickly within a short period.
+  2. people are topic-sensitive in news reading as they usually intrested in multiple specific news categories. How to dynamically measure a user's interest based on his diversified reading history.
+  3. News language is usually highly condensed and comprised of a lage amount of knowledge entities and commen sense.
+So the problem is that given a set of user's news reading histories and a candidate news, we need the model to predict the user would click this candidate news or not. So this paper treate this problem as a click-through rate prediction.
+
+**Methodology**. This model is consist of three sub-module: **knowledge distillation**, **knowledge-aware CNN**, **attention-based user interest extraction**. The first sub-module need to be trained in preprocess. The rest sub-modules are trained then together in the influence of the first sub-module. In other words, the DKN model is a two-step model.
+
+**knowledge distillation**. Associate the word in news with predefined entities in a knowledge graph. Based on these
+
+
+
 ### HyperGraph
 
 - **Hypergraph Neural Networks (AAAI 2019)**
@@ -119,6 +139,8 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
 
+
+[Hongwei Wang]: https://github.com/hwwang55
 [Peng Cui]: http://pengcui.thumedialab.com/
 [William L. Hamilton]: https://williamleif.github.io/
 [Yue Gao]: http://www.gaoyue.org/tsinghua/pubs/index.htm
