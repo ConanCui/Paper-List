@@ -8,17 +8,17 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   <img width="460" src="Word Art.png">
 </p>
 
-##### Table of Contents
+**Table of Contents**
 [TOC]
-1. [Recomendation](#Recomendation)
-2. [Graph](#Graph)
-3. [TransferLearning](#TransferLearning)
+1. [Recomendation](##Recomendation)
+2. [Graph](##Graph)
+3. [TransferLearning](##TransferLearning)
 
 
 ## Recomendation
 
 ### Largel Scale
-#### **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
+- **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
   - Xuejian Wang, Lantao Yu, Kan Ren
   - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
 
@@ -32,10 +32,6 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Lei Zheng], Chun-Ta Lu, Fei Jiang, Jiawei Zhang, Philip S. Yu
   - [Paper](https://arxiv.org/abs/1808.10523v1)
 
-- **News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content (WSDM 2013)**
-  - Lei Li, Tao Li
-  - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
-
 - **Music Recommendation by Uni fi ed Hypergraph : Combining Social Media Information and Music Content (MM 2010)**
   - Bu Jiajun, Tan Shulong, [Xiaofei He]
   - [Paper](https://dl.acm.org/citation.cfm?id=1874005)
@@ -44,7 +40,22 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Yu Zhu, Ziyu Guan, Shulong Tan, Haifeng Liu, Deng Cai, [Xiaofei He]
   - [paper](https://www.sciencedirect.com/science/article/pii/S0925231216307755)
 
+### News recomendation
 
+- **News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content (WSDM 2013)**
+  - Lei Li, Tao Li
+  - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
+
+- **Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation (CIKM 2018 short paper)**
+  - Dhruv Khattar, Vaibhav Kumar, Vasudeva Varma, Manish Gupta
+  - [Paper](https://dl.acm.org/citation.cfm?id=3269307&dl=ACM&coll=DL)
+  - [keras](https://github.com/dhruvkhattar/WE3CN)
+
+
+### Review Based
+- **A3NCF: An Adaptive Aspect Attention Model for Rating Prediction (IJCAI 2018)**
+  - Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli
+  - [Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf)
 ### Expainable
 - **Explainable Reasoning over Knowledge Graphs for Recommendation**
 - **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
@@ -91,26 +102,16 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data)
   - [Code for TransE, TransH, TransR and PTransE](https://github.com/thunlp/KB2E)
 
-- **SimplE Embedding for Link Prediction in Knowledge Graphs**
+- **[SimplE Embedding for Link Prediction in Knowledge Graphs (NIPS 2013)](./paper-note/Structural-Deep-Embedding-for-Hyper-Networks.md)**
+  - [Seyed Mehran Kazemi], David Poole
+  - [Paper](https://arxiv.org/abs/1802.04868)
+  - [tensorflow](https://github.com/Mehran-k/SimplE)
 
-- **DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)**
+
+- **[DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)](./paper-note/DKN-Deep-Knowledge-Aware-Network-for-News-Recommendation.md)**
   - [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo
   - [Paper](https://dl.acm.org/citation.cfm?id=3186175)
   - [tensorflow](https://github.com/hwwang55/DKN)
-
-DKN is a content-based recomendation framework for click-through rate prediction. The key component of DKN is a multi-channel and word-entity-aligned knoledge-aware convolutional neural network (KCNN) that fuses semantic-level and knowledge-level representations of news. More specific, KCNN treats words and entities as multiple channels, and explicitly keep their alignment relationship during convolution. In addition, to address users' diverse interests, the model also uses an attention module to dynamically aggregate a user's history with respect to current candidate news.
-
-**Problem defination**. The news recomendation is quite difficult as it poses three major challenges.
-  1. news article are highly time-sensitive and their relevance expirs quickly within a short period.
-  2. people are topic-sensitive in news reading as they usually intrested in multiple specific news categories. How to dynamically measure a user's interest based on his diversified reading history.
-  3. News language is usually highly condensed and comprised of a lage amount of knowledge entities and commen sense.
-So the problem is that given a set of user's news reading histories and a candidate news, we need the model to predict the user would click this candidate news or not. So this paper treate this problem as a click-through rate prediction.
-
-**Methodology**. This model is consist of three sub-module: **knowledge distillation**, **knowledge-aware CNN**, **attention-based user interest extraction**. The first sub-module need to be trained in preprocess. The rest sub-modules are trained then together in the influence of the first sub-module. In other words, the DKN model is a two-step model.
-
-**knowledge distillation**. Associate the word in news with predefined entities in a knowledge graph. Based on these
-
-
 
 ### HyperGraph
 
@@ -118,7 +119,7 @@ So the problem is that given a set of user's news reading histories and a candid
   -  Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]
   - [Paper](https://arxiv.org/abs/1809.09401)
 
-- **Structural Deep Embedding for Hyper-Networks (AAAI 2018)**
+- **[Structural Deep Embedding for Hyper-Networks (AAAI 2018)](Structural-Deep-Embedding-for-Hyper-Networks.md)**
   - Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu
   - [Paper](https://arxiv.org/abs/1711.10146)
 
@@ -130,9 +131,9 @@ So the problem is that given a set of user's news reading histories and a candid
   - [matlab](http://github.com/chia-an/HGE)
 
 
-* other resource
-  - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
-  - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
+  * other resource
+    - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
+    - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
 
 ## TransferLearning
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
@@ -140,6 +141,8 @@ So the problem is that given a set of user's news reading histories and a candid
   - [Paper](https://arxiv.org/abs/1806.05662)
 
 
+[Seyed Mehran Kazemi]: https://www.cs.ubc.ca/~smkazemi/
+[Xiangnan He]: https://www.comp.nus.edu.sg/~xiangnan/
 [Hongwei Wang]: https://github.com/hwwang55
 [Peng Cui]: http://pengcui.thumedialab.com/
 [William L. Hamilton]: https://williamleif.github.io/
