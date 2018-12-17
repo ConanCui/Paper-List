@@ -91,6 +91,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://arxiv.org/pdf/1706.02216.pdf)
   - [code](http://snap.stanford.edu/graphsage/#code)
 
+- **HOW POWERFUL ARE GRAPH NEURAL NETWORKS (ICLR 2019)**
+  - Keyulu Xu, Weihua Hu, [Jure Leskovec], Stefanie Jegelka
+  - [Openreview](https://openreview.net/forum?id=ryGs6iA5Km)
+
 ### Graph Convolutional Application
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
   - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
@@ -157,6 +161,17 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://dl.acm.org/citation.cfm?id=3269274)
   - [matlab](http://github.com/chia-an/HGE)
 
+### Heterogeneous information network
+- **Leveraging Meta-path based Context for Top- N Recommendation with A Neural Co-Attention Model (KDD 2018)**
+  - Binbin Hu, [Chuan Shi], Wayne Xin Zhao, [Philip S. Yu]
+  - [Paper](http://shichuan.org/doc/47.pdf)
+  - [tensorflow&keras](https://github.com/librahu/MCRec)
+
+- **Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks (IJCAI 2018)**
+  - Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song
+  - [Paper](http://shichuan.org/doc/46.pdf)
+  - [tensorflow](https://github.com/ahxt/NeuACF)
+
 
   * other resource
     - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
@@ -167,6 +182,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
 
+[Chuan Shi]: http://shichuan.org/ShiChuan_ch.html
 [Xing Xie]: https://www.microsoft.com/en-us/research/people/xingx/#!representative-publications
 [Tim Dettmers]: http://timdettmers.com/about/
 [Seyed Mehran Kazemi]: https://www.cs.ubc.ca/~smkazemi/

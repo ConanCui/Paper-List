@@ -1,0 +1,9 @@
+[23424:24472:1217/214810.640:VERBOSE1:crash_service_main.cc(78)] Session start. cmdline is [--reporter-url=https://crashreporter.atom.io --application-name=Atom "--crashes-directory=C:\Users\conancui\AppData\Local\Temp\Atom Crashes" --v=1]
+[23424:24472:1217/214810.657:VERBOSE1:crash_service.cc(142)] window handle is 00000000000D0F2E
+[23424:24472:1217/214810.657:VERBOSE1:crash_service.cc(284)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\conancui\AppData\Local\Temp\Atom Crashes
+[23424:24472:1217/214810.657:VERBOSE1:crash_service.cc(288)] checkpoint is C:\Users\conancui\AppData\Local\Temp\Atom Crashes\crash_checkpoint.txt
+server is https://crashreporter.atom.io
+maximum 128 reports/day
+reporter is electron-crash-service
+[23424:24472:1217/214810.658:ERROR:crash_service.cc(295)] could not start dumper
