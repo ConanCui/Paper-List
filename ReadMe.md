@@ -91,7 +91,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://arxiv.org/pdf/1706.02216.pdf)
   - [code](http://snap.stanford.edu/graphsage/#code)
 
-- **HOW POWERFUL ARE GRAPH NEURAL NETWORKS (ICLR 2019)**
+- **[HOW POWERFUL ARE GRAPH NEURAL NETWORKS (ICLR 2019)](./paper-note/HOW-POWERFUL-ARE-GRAPH-NEURAL-NETWORKS.md)**
   - Keyulu Xu, Weihua Hu, [Jure Leskovec], Stefanie Jegelka
   - [Openreview](https://openreview.net/forum?id=ryGs6iA5Km)
 
@@ -150,7 +150,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   -  Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]
   - [Paper](https://arxiv.org/abs/1809.09401)
 
-- **[Structural Deep Embedding for Hyper-Networks (AAAI 2018)](Structural-Deep-Embedding-for-Hyper-Networks.md)**
+- **[Structural Deep Embedding for Hyper-Networks (AAAI 2018)](./paper-note/Structural-Deep-Embedding-for-Hyper-Networks.md)**
   - Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu
   - [Paper](https://arxiv.org/abs/1711.10146)
 
