@@ -15,12 +15,26 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 3. [TransferLearning](##TransferLearning)
 
 
+
 ## Recomendation
 
 ### Largel Scale
 - **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
   - Xuejian Wang, Lantao Yu, Kan Ren
   - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
+
+### CTR Based
+- **[DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)](./paper-note/DKN-Deep-Knowledge-Aware-Network-for-News-Recommendation.md)**
+  - [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo
+  - [Paper](https://dl.acm.org/citation.cfm?id=3186175)
+  - [tensorflow](https://github.com/hwwang55/DKN)
+
+
+- **Deep Interest Network for Click-Through Rate Prediction (KDD 2018)**
+  - Guorui Zhou, Chengru Song, Xiaoqiang Zhu, Ying Fan, Han Zhu, Xiao Ma, Yanghui Yan, Junqi Jin, Han Li, Kun Gai
+  - [Paper](https://arxiv.org/abs/1706.06978)
+  - [tensorflow](https://github.com/zhougr1993/DeepInterestNetwork)
+
 
 
 ### Normal
@@ -56,6 +70,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **A3NCF: An Adaptive Aspect Attention Model for Rating Prediction (IJCAI 2018)**
   - Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli
   - [Paper](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf)
+  - [Keras](https://github.com/hustlingchen/A3NCF)
 ### Expainable
 - **Explainable Reasoning over Knowledge Graphs for Recommendation**
 - **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
@@ -96,6 +111,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]
   - [Paper](https://dl.acm.org/citation.cfm?id=2433436)
 
+- **Graph Attention Networks (ICLR 2018)**
+  - Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio
+  - [Paper](https://arxiv.org/abs/1710.10903)
+  - [tensorflow](https://github.com/PetarV-/GAT)
 ### Knowledge Graph
 - **Translating Embeddings for Modeling Multi-relational Data (NIPS 2013)**
   - Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko
@@ -107,12 +126,20 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](https://arxiv.org/abs/1802.04868)
   - [tensorflow](https://github.com/Mehran-k/SimplE)
 
+- **RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
+  - [Hongwei Wang], Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, [Xing Xie], Minyi Guo
+  - [Paper](https://arxiv.org/abs/1803.03467)
+  - [tensorflow](https://github.com/hwwang55/RippleNet)
 
 - **[DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)](./paper-note/DKN-Deep-Knowledge-Aware-Network-for-News-Recommendation.md)**
   - [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo
   - [Paper](https://dl.acm.org/citation.cfm?id=3186175)
   - [tensorflow](https://github.com/hwwang55/DKN)
 
+- **Convolutional 2D Knowledge Graph Embeddings (AAAI 2017)**
+  - [Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel
+  - [Paper](https://arxiv.org/abs/1707.01476)
+  - [Pytorch](https://github.com/TimDettmers/ConvE)
 ### HyperGraph
 
 - **Hypergraph Neural Networks (AAAI 2019)**
@@ -140,10 +167,11 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
 
-
+[Xing Xie]: https://www.microsoft.com/en-us/research/people/xingx/#!representative-publications
+[Tim Dettmers]: http://timdettmers.com/about/
 [Seyed Mehran Kazemi]: https://www.cs.ubc.ca/~smkazemi/
 [Xiangnan He]: https://www.comp.nus.edu.sg/~xiangnan/
-[Hongwei Wang]: https://github.com/hwwang55
+[Hongwei Wang]: https://hwwang55.github.io/
 [Peng Cui]: http://pengcui.thumedialab.com/
 [William L. Hamilton]: https://williamleif.github.io/
 [Yue Gao]: http://www.gaoyue.org/tsinghua/pubs/index.htm
