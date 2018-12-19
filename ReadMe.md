@@ -162,10 +162,18 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [matlab](http://github.com/chia-an/HGE)
 
 ### Heterogeneous information network
+
+- **Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks (KDD 2018)**
+  - [Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee
+  - [Paper](http://www.cse.ust.hk/~hzhaoaf/data/kdd17-paper.pdf)
+  - [python](https://github.com/HKUST-KnowComp/FMG)
+
 - **Leveraging Meta-path based Context for Top- N Recommendation with A Neural Co-Attention Model (KDD 2018)**
   - Binbin Hu, [Chuan Shi], Wayne Xin Zhao, [Philip S. Yu]
   - [Paper](http://shichuan.org/doc/47.pdf)
   - [tensorflow&keras](https://github.com/librahu/MCRec)
+  - [data](https://github.com/librahu/Heterogeneous-Information-Network-Datasets-for-Recommendation)
+
 
 - **Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks (IJCAI 2018)**
   - Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song
