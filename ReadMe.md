@@ -14,7 +14,7 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 1. [Recomendation](##Recomendation)
 2. [Graph](##Graph)
 3. [Bayesian Deep Learning](##BayesianDeepLearning)
-
+4. [Datasets](##Datasets)
 
 
 
