@@ -6,13 +6,15 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 
 <p align="center">
   <img width="460" src="Word Art.png">
+  <figcaption><font size="2">word cloud</font></figcaption>
 </p>
 
 **Table of Contents**
 [TOC]
 1. [Recomendation](##Recomendation)
 2. [Graph](##Graph)
-3. [TransferLearning](##TransferLearning)
+3. [Bayesian Deep Learning](##BayesianDeepLearning)
+
 
 
 
@@ -95,6 +97,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - Keyulu Xu, Weihua Hu, [Jure Leskovec], Stefanie Jegelka
   - [Openreview](https://openreview.net/forum?id=ryGs6iA5Km)
 
+- **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
+  - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
+  - [Paper](https://arxiv.org/abs/1806.05662)
+
 ### Graph Convolutional Application
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
   - Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]
@@ -149,10 +155,12 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **Hypergraph Neural Networks (AAAI 2019)**
   -  Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]
   - [Paper](https://arxiv.org/abs/1809.09401)
+  - [pytorch](https://github.com/Yue-Group/HGNN)
 
 - **[Structural Deep Embedding for Hyper-Networks (AAAI 2018)](./paper-note/Structural-Deep-Embedding-for-Hyper-Networks.md)**
   - Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu
   - [Paper](https://arxiv.org/abs/1711.10146)
+  - [tensorflow](https://github.com/tadpole/DHNE)
 
 - **Exploiting Relational Information in Social Networks using Geometric Deep Learning on Hypergraphs**
 
@@ -185,10 +193,54 @@ A collection of graph embedding, deep learning, recomendation papers with refere
     - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
     - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
 
-## TransferLearning
-- **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
-  - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
-  - [Paper](https://arxiv.org/abs/1806.05662)
+
+## BayesianDeepLearning
+- **Recent Advances in Autoencoder-Based Representation Learning (NIPS 2018)**
+  - Michael Tschannen, Olivier Bachem, Mario Lucic
+  - [Paper](https://arxiv.org/abs/1812.05069)
+
+
+## Datasets
+
+### homegenerous graph dataset
+- **PubMed Diabetes**
+  - The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. The README file in the dataset provides more details.
+  - Download Link:
+    - https://linqs-data.soe.ucsc.edu/public/Pubmed-Diabetes.tgz
+  - Related Papers:
+    - Galileo Namata, et. al. "Query-driven Active Surveying for Collective Classification." MLG. 2012.
+
+- **Cora**
+  - The Cora dataset consists of 2708 scientific publications classified into one of seven classes. The citation network consists of 5429 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1433 unique words. The README file in the dataset provides more details.
+  - Download Link:
+    - https://linqs-data.soe.ucsc.edu/public/lbc/cora.tgz
+  - Related Papers:
+    - Qing Lu, and Lise Getoor. "Link-based classification." ICML, 2003.
+    - Prithviraj Sen, et al. "Collective classification in network data." AI Magazine, 2008.
+
+other useful datasets link:
+- citation dataset
+  - https://linqs.soe.ucsc.edu/data
+
+
+### heteregeneous graph datasets
+
+- **IMDB Datasets**
+  - MovieLens Latest Dataset which consists of 33,000 movies. And it contains four types of nodes: movie, director, actor and actress, connected by two types of relations/link: directed link and actor/actress staring link. Each movie is assigned with a set of class labels, indicating generes of the movie. For each movie, we extract a bag of words vector of all the plot summary about the movie as local features, which include 1000 words.
+  - Download Link:
+    - https://github.com/trangptm/Column_networks/tree/master/data
+  - Related Papers:
+    - T. Pham, et al. "Column networks for collective classification." In AAAI, 2017.
+    - Zhang, Yizhou et al. "Deep Collective Classification in Heterogeneous Information Networks" In WWW, 2018.
+
+
+other useful dataset links
+
+- processed Datasets
+  - https://github.com/librahu/Heterogeneous-Information-Network-Datasets-for-Recommendation-and-Network-Embedding/blob/master/README.md
+
+
+
 
 [Chuan Shi]: http://shichuan.org/ShiChuan_ch.html
 [Xing Xie]: https://www.microsoft.com/en-us/research/people/xingx/#!representative-publications
