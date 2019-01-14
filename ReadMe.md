@@ -83,20 +83,20 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **Survey: Representation Learning on Graphs: Methods and Applications**
   - [William L. Hamilton], [Rex Ying], [Jure Leskovec]
   - [Paper](https://arxiv.org/abs/1709.05584)
+- **A Comprehensive Survey on Graph Neural Networks**
+  - Zonghan Wu ,Philip S. Yu
+  - [Paper](https://arxiv.org/abs/1901.00596?context=cs)
 - **SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS (ICLR 2017)**
   - [Thomas N. Kipf],  [Max Welling]
   - [Paper](https://arxiv.org/abs/1609.02907)
   - [tensorflow](https://github.com/tkipf/gcn)
-
 - **GraphSAGE: Inductive Representation Learning on Large Graphs (NIPS 2017)**
   - [William L. Hamilton], [Rex Ying], [Jure Leskovec]
   - [Paper](https://arxiv.org/pdf/1706.02216.pdf)
   - [code](http://snap.stanford.edu/graphsage/#code)
-
 - **[HOW POWERFUL ARE GRAPH NEURAL NETWORKS (ICLR 2019)](./paper-note/HOW-POWERFUL-ARE-GRAPH-NEURAL-NETWORKS.md)**
   - Keyulu Xu, Weihua Hu, [Jure Leskovec], Stefanie Jegelka
   - [Openreview](https://openreview.net/forum?id=ryGs6iA5Km)
-
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
@@ -188,16 +188,42 @@ A collection of graph embedding, deep learning, recomendation papers with refere
   - [Paper](http://shichuan.org/doc/46.pdf)
   - [tensorflow](https://github.com/ahxt/NeuACF)
 
+- **Deep Collective Classification in Heterogeneous Information Networks (WWW 2018)**
+  - [Paper](https://dl.acm.org/authorize?N655839)
+  - [keras](https://github.com/zyz282994112/GraphInception)
 
-  * other resource
-    - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
-    - [Graph-neural-networks](https://github.com/SeongokRyu/Graph-neural-networks)
+  
+
+  
+
+  **other implement resource**:
+
+  - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
+  - [Graph-neural-networks jupyter tutorial](https://github.com/SeongokRyu/Graph-neural-networks)
+  - [Deep Graph Library (DGL) Python package](https://docs.dgl.ai/index.html)
+  - [gnn-benchmark](https://github.com/shchur/gnn-benchmark)
+  - [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
+
+  **Other reading materials**:
+
+  - [Tsinghua University Graph papers reading list](https://github.com/thunlp/GNNPapers)
 
 
 ## BayesianDeepLearning
 - **Recent Advances in Autoencoder-Based Representation Learning (NIPS 2018)**
   - Michael Tschannen, Olivier Bachem, Mario Lucic
   - [Paper](https://arxiv.org/abs/1812.05069)
+
+## Hyperbolic embedding
+
+- **Poincaré Embeddings for Learning Hierarchical Representations (NIPS 2017)**
+  - [Maximilian Nickel], Kiela Douwe
+  - [paper](https://arxiv.org/abs/1705.08039)
+  - [pytorch](https://github.com/facebookresearch/poincare-embeddings)
+- **Hyperbolic Neural Networks(NIPS 2018)**
+  - [Octavian Eugen Ganea], Hofmann, Thomas
+  - [paper](https://arxiv.org/abs/1805.09112)
+  - [tensorflow](https://github.com/dalab/hyperbolic_nn)
 
 
 ## Datasets
@@ -239,8 +265,8 @@ other useful dataset links
 - processed Datasets
   - https://github.com/librahu/Heterogeneous-Information-Network-Datasets-for-Recommendation-and-Network-Embedding/blob/master/README.md
 
-
-
+[Octavian Eugen Ganea]: http://people.inf.ethz.ch/ganeao/
+[Maximilian Nickel]: https://mnick.github.io/project/geometric-representation-learning/
 
 [Chuan Shi]: http://shichuan.org/ShiChuan_ch.html
 [Xing Xie]: https://www.microsoft.com/en-us/research/people/xingx/#!representative-publications
