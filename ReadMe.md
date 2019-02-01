@@ -81,13 +81,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings](https://dl.acm.org/citation.cfm?id=3271777) |   CIKM 2018    |                        [Rana Hussein]                        |                       Request in email                       |
 | [PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction](https://dl.acm.org/citation.cfm?id=3219986) |    KDD 2018    | [ Hongxu Chen](https://dl.acm.org/author_page.cfm?id=99659155111&coll=DL&dl=ACM&trk=0) et al |                       Request in email                       |
 | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |    KDD 2017    |                        [Yuxiao Dong]                         |  [C++](https://ericdongyx.github.io/metapath2vec/m2v.html)   |
-| [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |   AAAI 2019    |        Yuanfu Lu, [Chuan Shi]
-, Linmei Hu
-, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
+| [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |   AAAI 2019    |        Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
 |       **<font color=red>Hyperbolic embedding</font>**        |                |                                                              |                                                              |
 | [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039) |   NIPS 2017    |               [Maximilian Nickel], Kiela Douwe               | [Pytorch](https://github.com/facebookresearch/poincare-embeddings) |
 | [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |   NIPS 2018    |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
-
 - **Exploiting Relational Information in Social Networks using Geometric Deep Learning on Hypergraphs**
 
 
