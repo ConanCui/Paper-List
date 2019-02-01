@@ -20,12 +20,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 ## Recomendation
 
-|                                                              |                |                                                              |                                                              |
+| Title | **Conference** | **Author** | **Attachment** |
 | :----------------------------------------------------------: | :--------: | :------------------------------: | :--: |
-|                            **Title**                         | **Conference** |              **Author**              | **Attachment** |
 | **<font color=red>Large Scale Recommendation</font>** |  |  |  |
 | [Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration](https://dl.acm.org/citation.cfm?id=3098096) |  KDD 2017  | Xuejian Wang, Lantao Yu, Kan Ren |      |
-||                |||
 |[DKN: Deep Knowledge-Aware Network for News Recommendation ](https://dl.acm.org/citation.cfm?id=3186175)|WWW 2018|      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |[Tensorflow](https://github.com/hwwang55/DKN)|
 |[Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)|KDD 2018|                 Guorui Zhou, Kun Gai, et al                  |[Tensorflow](https://github.com/zhougr1993/DeepInterestNetwork)|
 |**<font color=red>Normal</font>**||                                                              ||
@@ -70,7 +68,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [SimplE Embedding for Link Prediction in Knowledge Graphs](https://arxiv.org/abs/1802.04868) |   NIPS 2018    |              [Seyed Mehran Kazemi], David Poole              |       [Tensorflow](https://github.com/Mehran-k/SimplE)       |
 | [RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems](https://arxiv.org/abs/1803.03467) |   CIKM 2018    | [Hongwei Wang], Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, [Xing Xie], Minyi Guo |     [Tensorflow](https://github.com/hwwang55/RippleNet)      |
 | [DKN: Deep Knowledge-Aware Network for News Recommendation](https://dl.acm.org/citation.cfm?id=3186175) |    WWW 2018    |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
-| 【Convolutional 2D Knowledge Graph Embeddings】(https://arxiv.org/abs/1707.01476) |   AAAI 2017    | [Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel |       [Pytorch](https://github.com/TimDettmers/ConvE)        |
+| [Convolutional 2D Knowledge Graph Embeddings](https://arxiv.org/abs/1707.01476) |   AAAI 2017    | [Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel |       [Pytorch](https://github.com/TimDettmers/ConvE)        |
 |            **<font color=red>HyperGraph</font>**             |                |                                                              |                                                              |
 | [Hypergraph Neural Networks](https://arxiv.org/abs/1809.09401) |   AAAI 2019    | Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao] |         [Pytorch](https://github.com/Yue-Group/HGNN)         |
 | [Structural Deep Embedding for Hyper-Networks](https://arxiv.org/abs/1711.10146) |   AAAI 2018    |      Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu       |        [Tensorflow](https://github.com/tadpole/DHNE)         |
@@ -83,6 +81,9 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings](https://dl.acm.org/citation.cfm?id=3271777) |   CIKM 2018    |                        [Rana Hussein]                        |                       Request in email                       |
 | [PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction](https://dl.acm.org/citation.cfm?id=3219986) |    KDD 2018    | [ Hongxu Chen](https://dl.acm.org/author_page.cfm?id=99659155111&coll=DL&dl=ACM&trk=0) et al |                       Request in email                       |
 | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |    KDD 2017    |                        [Yuxiao Dong]                         |  [C++](https://ericdongyx.github.io/metapath2vec/m2v.html)   |
+| [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |   AAAI 2019    |        Yuanfu Lu, [Chuan Shi]
+, Linmei Hu
+, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
 |       **<font color=red>Hyperbolic embedding</font>**        |                |                                                              |                                                              |
 | [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039) |   NIPS 2017    |               [Maximilian Nickel], Kiela Douwe               | [Pytorch](https://github.com/facebookresearch/poincare-embeddings) |
 | [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |   NIPS 2018    |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
