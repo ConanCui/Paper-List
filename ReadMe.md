@@ -100,6 +100,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 - **GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations (NIPS 2018)**
   - Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun
   - [Paper](https://arxiv.org/abs/1806.05662)
+- **Pitfalls of Graph Neural Network Evaluation (NIPS 2018)**
+  - Shchur  Oleksandr et al
+  - [Paper](https://arxiv.org/abs/1811.05868])
+  - [Tensorflow & gnn bench mark](https://github.com/shchur/gnn-benchmark)
 
 ### Graph Convolutional Application
 - **Graph Convolutional Matrix Completion (KDD deepalearningday 2018)**
@@ -171,6 +175,8 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 
 ### Heterogeneous information network
 
+
+
 - **Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks (KDD 2018)**
   - [Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee
   - [Paper](http://www.cse.ust.hk/~hzhaoaf/data/kdd17-paper.pdf)
@@ -184,13 +190,41 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 
 
 - **Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks (IJCAI 2018)**
+
   - Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song
   - [Paper](http://shichuan.org/doc/46.pdf)
   - [tensorflow](https://github.com/ahxt/NeuACF)
 
 - **Deep Collective Classification in Heterogeneous Information Networks (WWW 2018)**
+
   - [Paper](https://dl.acm.org/authorize?N655839)
-  - [keras](https://github.com/zyz282994112/GraphInception)
+  - [keras](https://github.com/zyz282994112/GraphInception.git)
+
+- **Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings (CIKM2018)**
+
+
+  - [Paper]
+  - [None]
+
+- **PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction (2018 KDD)**
+
+
+  - [Paper]
+  - [None]
+
+- **metapath2vec: Scalable Representation Learning for Heterogeneous Networks (KDD 2017)**
+
+
+  - [Paper](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf)
+  - [C++](https://ericdongyx.github.io/metapath2vec/m2v.html)
+
+  
+
+  
+
+  
+
+  
 
   
 
