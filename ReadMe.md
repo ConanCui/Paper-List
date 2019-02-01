@@ -21,9 +21,10 @@ A collection of graph embedding, deep learning, recomendation papers with refere
 ## Recomendation
 
 ### Largel Scale
-- **Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration (KDD 2017)**
-  - Xuejian Wang, Lantao Yu, Kan Ren
-  - [Paper](https://dl.acm.org/citation.cfm?id=3098096)
+
+| Title                                                        | Conference | Author                           | Paper                                           | Code |
+| ------------------------------------------------------------ | ---------- | -------------------------------- | ----------------------------------------------- | ---- |
+| Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration | KDD 2017   | Xuejian Wang, Lantao Yu, Kan Ren | [√](https://dl.acm.org/citation.cfm?id=3098096) |      |
 
 ### CTR Based
 - **[DKN: Deep Knowledge-Aware Network for News Recommendation (WWW 2018)](./paper-note/DKN-Deep-Knowledge-Aware-Network-for-News-Recommendation.md)**
