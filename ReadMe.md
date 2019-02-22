@@ -1,6 +1,6 @@
 # Awesome paper list
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](ReadMe.assets/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
@@ -20,21 +20,21 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 ## Recomendation
 
-| Title | **Conference** | **Author** | **Attachment** |
-| :----------------------------------------------------------: | :--------: | :------------------------------: | :--: |
-| **<font color=red>Large Scale Recommendation</font>** |  |  |  |
-| [Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration](https://dl.acm.org/citation.cfm?id=3098096) |  KDD 2017  | Xuejian Wang, Lantao Yu, Kan Ren |      |
-|[DKN: Deep Knowledge-Aware Network for News Recommendation ](https://dl.acm.org/citation.cfm?id=3186175)|WWW 2018|      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |[Tensorflow](https://github.com/hwwang55/DKN)|
-|[Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)|KDD 2018|                 Guorui Zhou, Kun Gai, et al                  |[Tensorflow](https://github.com/zhougr1993/DeepInterestNetwork)|
-|**<font color=red>Normal</font>**||                                                              ||
-|[Learning Consumer and Producer Embeddings for User-Generated Content Recommendation](https://arxiv.org/abs/1809.09739)|Recsys 2018|             [Wang-Cheng Kang], [Julian McAuley]              ||
-|[Spectral Collaborative Filtering](https://arxiv.org/abs/1808.10523v1)|Recsys 2018|              [Lei Zheng], Chun-Ta, Philip S. Yu              ||
-|[Music Recommendation by Unified Hypergraph : Combining Social Media Information and Music Content](https://dl.acm.org/citation.cfm?id=1874005)|MM 2010|             Bu Jiajun, Tan Shulong, [Xiaofei He]             ||
-|**<font color=red>News Recommendation</font>**||                                                              ||
-|[News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content](https://dl.acm.org/citation.cfm?id=2433436)|WSDM 2013|                        Lei Li, Tao Li                        ||
-|[Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation]()|CIKM 2018|                                                              |[Keras](https://github.com/dhruvkhattar/WE3CN)|
-|**<font color=red>Review Based Recommendation</font>**||                                                              ||
-|[A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf)|IJCAI 2018| Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli |[Keras](https://github.com/hustlingchen/A3NCF)|
+|                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
+| :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|    **<font color=red>Large Scale Recommendation</font>**     |                |                                                              |                                                              |
+| [Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration](https://dl.acm.org/citation.cfm?id=3098096) |    KDD 2017    |               Xuejian Wang, Lantao Yu, Kan Ren               |                                                              |
+| [DKN: Deep Knowledge-Aware Network for News Recommendation ](https://dl.acm.org/citation.cfm?id=3186175) |    WWW 2018    |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
+| [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978) |    KDD 2018    |                 Guorui Zhou, Kun Gai, et al                  | [Tensorflow](https://github.com/zhougr1993/DeepInterestNetwork) |
+|              **<font color=red>Normal</font>**               |                |                                                              |                                                              |
+| [Learning Consumer and Producer Embeddings for User-Generated Content Recommendation](https://arxiv.org/abs/1809.09739) |  Recsys 2018   |             [Wang-Cheng Kang], [Julian McAuley]              |                                                              |
+| [Spectral Collaborative Filtering](https://arxiv.org/abs/1808.10523v1) |  Recsys 2018   |              [Lei Zheng], Chun-Ta, Philip S. Yu              |                                                              |
+| [Music Recommendation by Unified Hypergraph : Combining Social Media Information and Music Content](https://dl.acm.org/citation.cfm?id=1874005) |    MM 2010     |             Bu Jiajun, Tan Shulong, [Xiaofei He]             |                                                              |
+|        **<font color=red>News Recommendation</font>**        |                |                                                              |                                                              |
+| [News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content](https://dl.acm.org/citation.cfm?id=2433436) |   WSDM 2013    |                        Lei Li, Tao Li                        |                                                              |
+| [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation]() |   CIKM 2018    |                                                              |        [Keras](https://github.com/dhruvkhattar/WE3CN)        |
+|    **<font color=red>Review Based Recommendation</font>**    |                |                                                              |                                                              |
+| [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf) |   IJCAI 2018   | Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli |        [Keras](https://github.com/hustlingchen/A3NCF)        |
 
 ### Expainable
 
@@ -172,4 +172,3 @@ other useful dataset links
 [Rana Hussein]:  https://exascale.info/members/rana-hussein/
 [Yuxiao Dong]:  https://ericdongyx.github.io/
 [Renjie Liao]: http://www.cs.toronto.edu/~rjliao/
-
