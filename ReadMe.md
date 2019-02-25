@@ -36,13 +36,13 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 |    **<font color=red>Review Based Recommendation</font>**    |                |                                                              |                                                              |
 | [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf) |   IJCAI 2018   | Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli |        [Keras](https://github.com/hustlingchen/A3NCF)        |
 
-### Expainable
+### Explainable
 
 - **Explainable Reasoning over Knowledge Graphs for Recommendation**
 - **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
 - **RippleNet : Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
 
-
+- [Min Zhang] website (aim at explainable recommender system)
 
 ## Graph
 
@@ -172,3 +172,4 @@ other useful dataset links
 [Rana Hussein]:  https://exascale.info/members/rana-hussein/
 [Yuxiao Dong]:  https://ericdongyx.github.io/
 [Renjie Liao]: http://www.cs.toronto.edu/~rjliao/
+[Min Zhang]: http://www.thuir.org/group/~mzhang/
