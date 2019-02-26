@@ -40,7 +40,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - **Explainable Reasoning over Knowledge Graphs for Recommendation**
 - **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
-- **RippleNet : Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
+- **Ripple Net : Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
 
 - [Min Zhang] website (aim at explainable recommender system)
 
