@@ -61,12 +61,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Hierarchical Graph Representation Learning with Differentiable Pooling](https://dl.acm.org/citation.cfm?id=2433436) |       NIPS 2018        | [Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec |         [Code](https://github.com/RexYing/diffpool)          |
 | [Graph Attention Networks](https://arxiv.org/abs/1710.10903) |       ICLR 2018        | Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio |         [Tensorflow](https://github.com/PetarV-/GAT)         |
 | [GeniePath: Graph Neural Networks with Adaptive Receptive Paths](https://arxiv.org/abs/1802.00910)![1551274095870](ReadMe.assets/1551274095870.png) |       AAAI 2019        |                   Le Song, Yuan Qi, et al                    |                                                              |
-| [Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153) | ICML 2019 under review | Wu, Felix
-Zhang, Tianyi
-Souza, Amauri Holanda de
-Fifty, Christopher
-Yu, Tao
-Weinberger, Kilian Q. |          [Pytorch](https://github.com/Tiiiger/SGC)           |
+| [Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153) | ICML 2019 under review | Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q. |          [Pytorch](https://github.com/Tiiiger/SGC)           |
 |         **<font color=red>Graph Application</font>**         |                        |                                                              |                                                              |
 | [Graph Convolutional Matrix Completion](https://arxiv.org/pdf/1706.02263.pdf) |        KDD 2018        |    Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]     |     [Tensorflow](https://github.com/riannevdberg/gc-mc)      |
 | [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) |       ESWC 2018        | Michael Schlichtkrull, [Thomas N. Kipf], Peter Bloem, Rianne van den Berg, Ivan Titov, [Max Welling] | [Keras](https://github.com/tkipf/relational-gcn),[Tensorflow](https://github.com/MichSchli/RelationPrediction) |
@@ -93,7 +88,7 @@ Weinberger, Kilian Q. |          [Pytorch](https://github.com/Tiiiger/SGC)      
 | [PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction](https://dl.acm.org/citation.cfm?id=3219986) |        KDD 2018        | [ Hongxu Chen](https://dl.acm.org/author_page.cfm?id=99659155111&coll=DL&dl=ACM&trk=0) et al |                       Request in email                       |
 | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |        KDD 2017        |                        [Yuxiao Dong]                         |  [C++](https://ericdongyx.github.io/metapath2vec/m2v.html)   |
 | [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |       AAAI 2019        |        Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
-| [Heterogeneous Graph Attention Network](http://pengcui.thumedialab.com/papers/HeterogeneousGAN.pdf)) |        WWW 2019        |                [Chuan Shi], [Peng Cui] et al                 |          [Pyotrch](https://github.com/Jhy1993/HAN)           |
+| [Heterogeneous Graph Attention Network](http://pengcui.thumedialab.com/papers/HeterogeneousGAN.pdf) |        WWW 2019        |                [Chuan Shi], [Peng Cui] et al                 |          [Pyotrch](https://github.com/Jhy1993/HAN)           |
 |       **<font color=red>Hyperbolic embedding</font>**        |                        |                                                              |                                                              |
 | [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039) |       NIPS 2017        |               [Maximilian Nickel], Kiela Douwe               | [Pytorch](https://github.com/facebookresearch/poincare-embeddings) |
 | [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |       NIPS 2018        |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
