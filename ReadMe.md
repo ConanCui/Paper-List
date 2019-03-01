@@ -95,7 +95,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - **Exploiting Relational Information in Social Networks using Geometric Deep Learning on Hypergraphs**
 
 
-  **other implement resource**:
+  **Other implement resource**:
 
   - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
   - [Graph-neural-networks jupyter tutorial](https://github.com/SeongokRyu/Graph-neural-networks)
@@ -107,6 +107,8 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
   - [Tsinghua University Graph papers reading list](https://github.com/thunlp/GNNPapers)
   - [gnn literature](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/README.md)
+  - [MIA reading group](https://github.com/shagunsodhani/Graph-Reading-Group)
+  - [awesome-network-embedding](https://github.com/chihming/awesome-network-embedding)
 
 ## BayesianDeepLearning
 
