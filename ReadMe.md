@@ -88,10 +88,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Structural Deep Embedding for Hyper-Networks](https://arxiv.org/abs/1711.10146) |                          AAAI 2018                           |      Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu       |        [Tensorflow](https://github.com/tadpole/DHNE)         |
 | [Modeling Multi-way Relations with Hypergraph Embedding](https://dl.acm.org/citation.cfm?id=3269274) |                          CIKM 2018                           |   Chia-An Yu, Ching-Lun Tai, Tak-Shing Chan, Yi-Hsuan Yang   |           [matlab](http://github.com/chia-an/HGE)            |
 | **<font color=red>Heterogeneous Information Network</font>** |                                                              |                                                              |                                                              |
-| [Cash-out User Detection based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](http://shichuan.org/doc/64.pdf) | Binbin Hu, Zhiqiang Zhang,[Chuan Shi]
-, Jun Zhou
-, Xiaolong Li
-, Yuan Qi |                          AAAI 2019                           | [Code will be released ?](https://github.com/librahu/HACUD)  |
+| [Cash-out User Detection based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](http://shichuan.org/doc/64.pdf) | Binbin Hu, Zhiqiang Zhang,[Chuan Shi], Jun Zhou, Xiaolong Li, Yuan Qi |                          AAAI 2019                           | [Code will be released ?](https://github.com/librahu/HACUD)  |
 | [Heterogeneous Graph Attention Network](http://pengcui.thumedialab.com/papers/HeterogeneousGAN.pdf) |                           WWW 2019                           |                [Chuan Shi], [Peng Cui] et al                 |          [Pyotrch](https://github.com/Jhy1993/HAN)           |
 | [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |                          AAAI 2019                           |        Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
 | [Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings](https://dl.acm.org/citation.cfm?id=3271777) |                          CIKM 2018                           |                        [Rana Hussein]                        |                       Request in email                       |
@@ -106,12 +103,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |                          NIPS 2018                           |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
 | **<font color=red>Network Representation Learning (unsupervised)</font>** |                                                              |                                                              |                                                              |
 |  [DEEP GRAPH INFOMAX](https://arxiv.org/pdf/1809.10341.pdf)  |                          ICLR 2019                           | Petar Velickovi ˇ c´, William L. Hamilton, [Yoshua Bengio] et al |          [Pytorch](https://github.com/PetarV-/DGI)           |
-| [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0438.pdf) |                          IJCAI 2018                          | Zhen Zhang, Hongxia Yang, Jiajun Bu
-, Sheng Zhou,
-Pinggang Yu
-, Jianwei Zhang
-, Martin Ester
-, Can Wang |      [Tensosrflow](https://github.com/cszhangzhen/ANRL)      |
+| [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0438.pdf) |                          IJCAI 2018                          | Zhen Zhang, Hongxia Yang, Jiajun Bu, Sheng Zhou, Pinggang Yu, Jianwei Zhang, Martin Ester, Can Wang |      [Tensosrflow](https://github.com/cszhangzhen/ANRL)      |
 - **Exploiting Relational Information in Social Networks using Geometric Deep Learning on Hypergraphs**
 
 
