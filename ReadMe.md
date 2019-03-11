@@ -10,6 +10,8 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 </p>
 
 
+![Graph convolutional neura](ReadMe.assets/Graph convolutional neura.png)
+
 **Table of Contents**
 1. [Recomendation](##Recomendation)
 2. [Graph](##Graph)
@@ -37,6 +39,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf) |   IJCAI 2018   | Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli |        [Keras](https://github.com/hustlingchen/A3NCF)        |
 |                                                              |                |                                                              |                                                              |
 | [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](http://www.thuir.cn/group/~mzhang/publications/WSDM2019ChenChong.pdf) |   WSDM 2019    |                 Chong Chen, Min Zhang, et al                 |      [Tensorflow](https://github.com/chenchongthu/SAMN)      |
+| [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf) |    WWW 2019    |             Wenqi Fan, [Yao Ma], [Jiliang Tang]              |                                                              |
 
 ### Explainable
 
@@ -77,10 +80,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 | [Graph convolutional networks for text classification](https://arxiv.org/abs/1809.05679) |                          AAAI 2019                           |             Liang Yao, Chengsheng Mao, Yuan Luo              |     [Tensorflow](https://github.com/yao8839836/text_gcn)     |
 | [Learning Graph Pooling and Hybrid Convolutional Operations for Text Representations](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/folders/gpool_www19/README.md) |                           WWW 2019                           |          Hongyang Gao,  Yongjun Chen,  Shuiwang Ji           |                                                              |
 | [Graph Convolutional Matrix Completion](https://arxiv.org/pdf/1706.02263.pdf) |                           KDD 2018                           |    Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]     |     [Tensorflow](https://github.com/riannevdberg/gc-mc)      |
-| [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) |                          ESWC 2018                           | Michael Schlichtkrull, [Thomas N. Kipf], Peter Bloem, Rianne van den Berg, Ivan Titov, [Max Welling] | [Keras](https://github.com/tkipf/relational-gcn),[Tensorflow](https://github.com/MichSchli/RelationPrediction) |
 | [PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://dl.acm.org/citation.cfm?id=3219890) |                           KDD 2018                           | [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec] |                                                              |
 |          **<font color=red>Knowledge Graph</font>**          |                                                              |                                                              |                                                              |
 | [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://arxiv.org/abs/1811.04441) |                           AAAI2019                           |                                                              | [Pytorch](1https://github.com/JD-AI-Research-Silicon-Valley/SACN) |
+| [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) |                          ESWC 2018                           | Michael Schlichtkrull, [Thomas N. Kipf], Peter Bloem, Rianne van den Berg, Ivan Titov, [Max Welling] | [Keras](https://github.com/tkipf/relational-gcn),[Tensorflow](https://github.com/MichSchli/RelationPrediction) |
 | [SimplE Embedding for Link Prediction in Knowledge Graphs](https://arxiv.org/abs/1802.04868) |                          NIPS 2018                           |              [Seyed Mehran Kazemi], David Poole              |       [Tensorflow](https://github.com/Mehran-k/SimplE)       |
 | [RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems](https://arxiv.org/abs/1803.03467) |                          CIKM 2018                           | [Hongwei Wang], Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, [Xing Xie], Minyi Guo |     [Tensorflow](https://github.com/hwwang55/RippleNet)      |
 | [DKN: Deep Knowledge-Aware Network for News Recommendation](https://dl.acm.org/citation.cfm?id=3186175) |                           WWW 2018                           |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
@@ -129,6 +132,8 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [gnn literature](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/README.md)
   - [MIA reading group](https://github.com/shagunsodhani/Graph-Reading-Group)
   - [awesome-network-embedding](https://github.com/chihming/awesome-network-embedding)
+  - [dynamic graph](https://github.com/woojeongjin/dynamic-KG)
+  - [zhihu link for graph](https://zhuanlan.zhihu.com/p/55944583)
 
 ## BayesianDeepLearning
 
@@ -200,3 +205,5 @@ other useful dataset links
 [Yuxiao Dong]:  https://ericdongyx.github.io/
 [Renjie Liao]: http://www.cs.toronto.edu/~rjliao/
 [Min Zhang]: http://www.thuir.org/group/~mzhang/
+[Yao Ma]: http://cse.msu.edu/~mayao4/publications.html
+[Jiliang Tang]: http://www.cse.msu.edu/~tangjili/publication.html
