@@ -10,7 +10,11 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 </p>
 
 
-![Graph convolutional neura](ReadMe.assets/Graph convolutional neura.png)
+<p align="center">
+  <img width="1024" src="./ReadMe.assets/Graph convolutional neura.png">
+</p>
+
+![Graph convolutional neura](./ReadMe.assets/Graph convolutional neura.png)
 
 **Table of Contents**
 1. [Recomendation](##Recomendation)
