@@ -14,9 +14,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   <img width="1024" src="./ReadMe.assets/Graph convolutional neura.png">
 </p>
 
-![Graph convolutional neura](./ReadMe.assets/Graph convolutional neura.png)
+You need to zoom in on this image to view this picture.
 
 **Table of Contents**
+
 1. [Recomendation](##Recomendation)
 2. [Graph](##Graph)
 3. [Bayesian Deep Learning](##BayesianDeepLearning)
@@ -127,8 +128,11 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
   - [Graph-neural-networks jupyter tutorial](https://github.com/SeongokRyu/Graph-neural-networks)
   - [Deep Graph Library (DGL) Python package](https://docs.dgl.ai/index.html)
-  - [gnn-benchmark](https://github.com/shchur/gnn-benchmark)
+  - [pitafall: gnn model collection](https://github.com/shchur/gnn-benchmark)
   - [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
+  - [alimama euler framework](https://github.com/alibaba/euler)
+  - [Liaojunjie: gnn model collection](https://github.com/lrjconan/LanczosNetwork)
+  - [node embedding from deepwalk to struc2vec](https://github.com/shenweichen/GraphEmbedding)
 
   **Other reading materials**:
 
@@ -138,6 +142,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [awesome-network-embedding](https://github.com/chihming/awesome-network-embedding)
   - [dynamic graph](https://github.com/woojeongjin/dynamic-KG)
   - [zhihu link for graph](https://zhuanlan.zhihu.com/p/55944583)
+  - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
 
 ## BayesianDeepLearning
 
