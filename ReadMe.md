@@ -64,6 +64,8 @@ You need to zoom in on this image to view this picture.
 |                                                              |                                                              |                                                              |                                                              |
 |           **<font color=red>Graph Theory</font>**            |                                                              |                                                              |                                                              |
 |                                                              |                                                              |                                                              |                                                              |
+|                                                              |                                                              |                                                              |                                                              |
+| [Representation Learning on Graphs with Jumping Knowledge Networks](https://arxiv.org/abs/1806.03536) |                          ICML 2018                           | Keyulu Xu, Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka |                                                              |
 | [Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://arxiv.org/abs/1810.05997) |                          ICLR 2019                           | Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann  | [Pytorch and Tensorflow](https://github.com/klicperajo/ppnp) |
 |                                                              |                                                              |                                                              |                                                              |
 | [Bayesian graph convolutional neural networks for semi-supervised classification](https://arxiv.org/pdf/1811.11103.pdf) |                          AAAI 2019                           |        Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang         |                                                              |
@@ -81,6 +83,7 @@ You need to zoom in on this image to view this picture.
 | [Pitfalls of Graph Neural Network Evaluation](https://arxiv.org/abs/1811.05868) |                          NIPS 2018                           |                   Shchur  Oleksandr et al                    | [Tensorflow & gnn bench mark](https://github.com/shchur/gnn-benchmark) |
 | [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/abs/1609.02907) |                          ICLR 2017                           |               [Thomas N. Kipf],  [Max Welling]               |          [Tensorflow](https://github.com/tkipf/gcn)          |
 |         **<font color=red>Graph Application</font>**         |                                                              |                                                              |                                                              |
+| [DeepInf: Social Influence Prediction with Deep Learning](https://arxiv.org/pdf/1807.05560.pdf) |                           KDD 2018                           |              Jiezhong Qiu , [Jie Tang]， et al               |          [Pytorch](https://github.com/sunqm/pyscf)           |
 | [Signed Graph Convolutional Network](https://arxiv.org/pdf/1808.06354.pdf) |                          ICDM 2018                           |               Tyler Derr, Yao Ma, Jiliang Tang               |    [Pytorch](https://github.com/benedekrozemberczki/SGCN)    |
 | [Graph convolutional networks for text classification](https://arxiv.org/abs/1809.05679) |                          AAAI 2019                           |             Liang Yao, Chengsheng Mao, Yuan Luo              |     [Tensorflow](https://github.com/yao8839836/text_gcn)     |
 | [Learning Graph Pooling and Hybrid Convolutional Operations for Text Representations](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/folders/gpool_www19/README.md) |                           WWW 2019                           |          Hongyang Gao,  Yongjun Chen,  Shuiwang Ji           |                                                              |
@@ -109,7 +112,7 @@ You need to zoom in on this image to view this picture.
 | [Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks](http://shichuan.org/doc/46.pdf) |                          IJCAI 2018                          | Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song |         [Tensorflow](https://github.com/ahxt/NeuACF)         |
 | [Deep Collective Classification in Heterogeneous Information Networks](https://dl.acm.org/authorize?N655839) |                           WWW 2018                           |                                                              | [Keras](https://github.com/zyz282994112/GraphInception.git)  |
 | [Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks](http://www.cse.ust.hk/~hzhaoaf/data/kdd17-paper.pdf) |                           KDD 2017                           | [Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee |       [Python](https://github.com/HKUST-KnowComp/FMG)        |
-| [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |                           KDD 2017                           |                        [Yuxiao Dong]                         |  [C++](https://ericdongyx.github.io/metapath2vec/m2v.html)   |
+| [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |                           KDD 2017                           |                        [Yuxiao Dong]                         | [C++](https://ericdongyx.github.io/metapath2vec/m2v.html), [Tensorflow](https://github.com/apple2373/metapath2vec) |
 |       **<font color=red>Hyperbolic embedding</font>**        |                                                              |                                                              |                                                              |
 | [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039) |                          NIPS 2017                           |               [Maximilian Nickel], Kiela Douwe               | [Pytorch](https://github.com/facebookresearch/poincare-embeddings) |
 | [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |                          NIPS 2018                           |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
@@ -133,6 +136,7 @@ You need to zoom in on this image to view this picture.
   - [alimama euler framework](https://github.com/alibaba/euler)
   - [Liaojunjie: gnn model collection](https://github.com/lrjconan/LanczosNetwork)
   - [node embedding from deepwalk to struc2vec](https://github.com/shenweichen/GraphEmbedding)
+  - [spektral](https://github.com/danielegrattarola/spektral)
 
   **Other reading materials**:
 
@@ -143,6 +147,7 @@ You need to zoom in on this image to view this picture.
   - [dynamic graph](https://github.com/woojeongjin/dynamic-KG)
   - [zhihu link for graph](https://zhuanlan.zhihu.com/p/55944583)
   - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
+  - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
 
 ## BayesianDeepLearning
 
@@ -216,3 +221,4 @@ other useful dataset links
 [Min Zhang]: http://www.thuir.org/group/~mzhang/
 [Yao Ma]: http://cse.msu.edu/~mayao4/publications.html
 [Jiliang Tang]: http://www.cse.msu.edu/~tangjili/publication.html
+[jian tang]:  https://jian-tang.com/
