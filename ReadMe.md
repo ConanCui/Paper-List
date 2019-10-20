@@ -134,6 +134,7 @@ You need to zoom in on this image to view this picture.
   - [pitafall: gnn model collection](https://github.com/shchur/gnn-benchmark)
   - [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric)
   - [alimama euler framework](https://github.com/alibaba/euler)
+  - [tencent angel frame work](<https://github.com/Angel-ML/angel>)
   - [Liaojunjie: gnn model collection](https://github.com/lrjconan/LanczosNetwork)
   - [node embedding from deepwalk to struc2vec](https://github.com/shenweichen/GraphEmbedding)
   - [spektral](https://github.com/danielegrattarola/spektral)
