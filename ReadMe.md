@@ -28,18 +28,10 @@ You need to zoom in on this image to view this picture.
 ## daily read
 
 
-
-
-
-
-
-
-
-
-
-
 | 日期 | 文章题目                                                     | 作者     |          会议          |                             代码                             | 备注                                                         |
 | :--: | :----------------------------------------------------------- | -------- | :--------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
+|      | Compositional Fairness Constraints for Graph Embeddings      |          |       ICML 2019        |                                                              | embedding中，包含了很多sensitive信息，比如在movielens中，user不希望推荐和自己的性别有关，这时候的user  embedding应当不包含性别信息。具体做法是通过adversarial training的方法，对抗学习一个filter和一个discriminator。其中filter是对已经学习到的embedding进行过滤变形，得到变形后的embedding仍能做link prediction来进行推荐，但是其又不包含性别信息，比如从新用一个classifier无法对这些过滤后的embedding进行分类。 |
+|      | CONTRASTIVE REPRESENTATION DISTILLATION                      |          |                        | 众多KD的pytorch实现https://github.com/HobbitLong/RepDistiller |                                                              |
 |      | Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation |          |       CIMK 2019        |               https://github.com/xfl15/RecoGCN               |                                                              |
 |      | DEEP GAUSSIAN EMBEDDING OF GRAPHS:<br/>UNSUPERVISED INDUCTIVE LEARNING VIA RANKING |          |       ICLR 2018        |           https://www.kdd.in.tum.de/research/g2g/            | 提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding。 |
 |      | Robust Graph Convolutional Networks Against Adversarial<br/>Attacks |          |        KDD 2019        | GCN: https://github.com/tkipf/gcn<br/>• GAT: https://github.com/PetarV-/GAT<br/>• RL-S2V: https://github.com/Hanjun-Dai/graph_adversarial_attack<br/>• NETTACK: https://github.com/danielzuegner/nettack | gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播。 |
@@ -56,14 +48,6 @@ You need to zoom in on this image to view this picture.
 |      | Metapath-guided Heterogeneous Graph Neural Network for<br/>Intent Recommendation |          |        KDD 2019        |                                                              | z在itent 推荐场景下，user，item，query。是为了向用户推荐query。所有object都可以用word term来表示，可以大大减少embedding的参数数量，其余并没有太大改进。基本就是利用metapath得到用户和query的neighboor，然后利用GNN聚合得到两者的表示，然后做内积就是常见的作法。而metaph中，卷积只在query和item上来卷积，因为只有他们有共同的term来表示，而其他不共有的特征则是在最后将这些特征拼接上去。 |
 |      | 2019 - KDD - NPA Neural News Recommendation with personalized attention |          |                        |                                                              | 作者的出发点是，同一篇文章被不同用户点击的原因不一样。user会有对应ID，映射为embedding，这个作为query vector会和文章中的每一个字作attention，这个title的表达就由这些字的受用户的attention来进行聚合。然后呢，用户的embedding还会再一次作为query vector和 不同的文章的表达来进行聚合，这些文章聚合后在作为用户的表达，和刚才的文章表达做内积即可。整个下来，需要存储的是user的embedding。整体下来文章是用户embedding和文章的内容交互后的vector来表达，而用户是有被用户embedding交互过的文章vector来进行表达。 |
 |      | GNN Explainer                                                | Rex ying |       NIPS 2019        |                                                              | 以往的可解释方法主要用于解释特征，无法应用于GNN类网络，本文用mutual information去解释，GNN中，哪些点和哪些特征维度对当前的预测影响较大，有一个工具包LIME |
-
-
-
-
-
-
-
-
 
 
 
@@ -196,14 +180,18 @@ You need to zoom in on this image to view this picture.
 
 ## BayesianDeepLearning
 
-| Title                                                        | Conference | Author                                         | Attachment |
-| ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ---------- |
-| **<font color=red>Survey</font>**                            |            |                                                |            |
-| [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) | NIPS 2018  | Michael Tschannen, Olivier Bachem, Mario Lucic |            |
+| Title                                                        | Conference | Author                                         | Attachment                                                   |
+| ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| **<font color=red>Survey</font>**                            |            |                                                |                                                              |
+| [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) | NIPS 2018  | Michael Tschannen, Olivier Bachem, Mario Lucic |                                                              |
+| What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision? | NIPS 2017  |                                                |                                                              |
+| Modeling Uncertainty with Hedged Instance Embedding          | ICLR 2019  |                                                |                                                              |
+| Uncertainty Quantification in Deep Learning                  |            |                                                | https://www.inovex.de/blog/uncertainty-quantification-deep-learning/ |
 
 ## Datasets
 
 ### homegenerous graph dataset
+
 - **PubMed Diabetes**
   - The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. The README file in the dataset provides more details.
   - Download Link:
