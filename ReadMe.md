@@ -187,6 +187,10 @@ You need to zoom in on this image to view this picture.
 | What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision? | NIPS 2017  |                                                |                                                              |
 | Modeling Uncertainty with Hedged Instance Embedding          | ICLR 2019  |                                                |                                                              |
 | Uncertainty Quantification in Deep Learning                  |            |                                                | https://www.inovex.de/blog/uncertainty-quantification-deep-learning/ |
+| 2019 - thisis - Uncertainty Quantification in Deep Learning  |            |                                                |                                                              |
+| 2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles |            |                                                |                                                              |
+| 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning |            |                                                |                                                              |
+| 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning |            |                                                |                                                              |
 
 ## Datasets
 
