@@ -73,6 +73,9 @@ You need to zoom in on this image to view this picture.
 |                                                              |                |                                                              |                                                              |
 | [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](http://www.thuir.cn/group/~mzhang/publications/WSDM2019ChenChong.pdf) |   WSDM 2019    |                 Chong Chen, Min Zhang, et al                 |      [Tensorflow](https://github.com/chenchongthu/SAMN)      |
 | [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf) |    WWW 2019    |             Wenqi Fan, [Yao Ma], [Jiliang Tang]              |                                                              |
+|    **<font color=red>Disentangled Recommendation</font>**    |                |                                                              |                                                              |
+|   Learning Disentangled Representations for Recommendation   |   NIPS 2019    |                          [Peng Cui]                          |             [code](https://jianxinma.github.io/)             |
+|          Disentangled Graph Convolutional Networks           |   ICML 2019    |                          [Peng Cui]                          |             [code](https://jianxinma.github.io/)             |
 
 ### Explainable
 
@@ -191,6 +194,11 @@ You need to zoom in on this image to view this picture.
 | 2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles |            |                                                |                                                              |
 | 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning |            |                                                |                                                              |
 | 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning |            |                                                |                                                              |
+| 2020 - AISTATS - Confident Learning Estimating Uncertainty in Dataset Labels |            |                                                | https://github.com/cgnorthcutt/cleanlab                      |
+| 2019 - NIPS - Practical Deep Learning with Bayesian Principles |            |                                                |                                                              |
+| 2017 - ICML - On Calibration of Modern Neural Networks       |            |                                                |                                                              |
+| 2019 - KDD - Robust Graph Convolutional Networks Against Adversarial |            |                                                |                                                              |
+| 2019 - ICML - Are Graph Neural Networks Miscalibrated.pdf    |            |                                                |                                                              |
 
 ## Datasets
 
