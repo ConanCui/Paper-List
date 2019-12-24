@@ -10,50 +10,47 @@
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
 
-
 Table of Contents
 =================
 
    * [Awesome paper list](#awesome-paper-list)
-   * [Table of Contents](#table-of-contents)
-      * [1 Recommendation](#1-recommendation)
-         * [1.1 Large Scale Recommendation](#11-large-scale-recommendation)
-         * [1.2 Novel Application](#12-novel-application)
-         * [1.3 News Recommendation](#13-news-recommendation)
-         * [1.3 Social Recommendation](#13-social-recommendation)
-         * [1.4 Disentangled Recommendation](#14-disentangled-recommendation)
-         * [1.5 Explainable Recommendation](#15-explainable-recommendation)
-      * [2 Graph](#2-graph)
-         * [2.1 Survey](#21-survey)
-         * [2.2 Theory](#22-theory)
-         * [2.3 Application](#23-application)
-            * [2.3.1 Knowledge Graph](#231-knowledge-graph)
-         * [2.4 HyperGraph](#24-hypergraph)
-         * [2.5 Heterogeneous Information Network](#25-heterogeneous-information-network)
-            * [2.5.1 Architecture](#251-architecture)
-            * [2.5.2 Recommendation and Other Application](#252-recommendation-and-other-application)
-         * [2.6 Network Representation Learning](#26-network-representation-learning)
-            * [2.6.1 Survey](#261-survey)
-         * [2.7 Sources](#27-sources)
-            * [2.7.1 Industry Implement](#271-industry-implement)
-            * [2.7.2 Acdamic Implement](#272-acdamic-implement)
-            * [2.7.3 Reading Source](#273-reading-source)
-         * [2.8 Graph Modification and Robust](#28-graph-modification-and-robust)
-         * [2.9 Understanding](#29-understanding)
-         * [2.10 Sampling](#210-sampling)
-      * [3 BayesianDeepLearning](#3-bayesiandeeplearning)
-         * [3.1 Survey](#31-survey)
-         * [3.2 Uncertainty](#32-uncertainty)
-      * [4 Others](#4-others)
-      * [5 Datasets](#5-datasets)
-         * [5.1 homegenerous graph dataset](#51-homegenerous-graph-dataset)
-         * [5.2 heteregeneous graph datasets](#52-heteregeneous-graph-datasets)
+   * [Recommendation](#recommendation)
+      * [Large Scale Recommendation](#large-scale-recommendation)
+      * [Novel Application](#novel-application)
+      * [News Recommendation](#news-recommendation)
+      * [Social Recommendation](#social-recommendation)
+      * [Disentangled Recommendation](#disentangled-recommendation)
+      * [Explainable Recommendation](#explainable-recommendation)
+   * [Graph](#graph)
+      * [Survey](#survey)
+      * [Theory](#theory)
+      * [Application](#application)
+      * [Graph Modification and Robust](#graph-modification-and-robust)
+      * [Understanding](#understanding)
+      * [Sampling](#sampling)
+      * [HyperGraph](#hypergraph)
+      * [Heterogeneous Information Network](#heterogeneous-information-network)
+         * [Architecture](#architecture)
+         * [Recommendation and Other Application](#recommendation-and-other-application)
+      * [Network Representation Learning](#network-representation-learning)
+         * [Survey](#survey-1)
+      * [Sources](#sources)
+         * [Industry Implement](#industry-implement)
+         * [Acdamic Implement](#acdamic-implement)
+         * [Reading Source](#reading-source)
+   * [BayesianDeepLearning](#bayesiandeeplearning)
+      * [Survey](#survey-2)
+      * [Uncertainty](#uncertainty)
+   * [Others](#others)
+   * [Datasets](#datasets)
+      * [homegenerous graph dataset](#homegenerous-graph-dataset)
+      * [heteregeneous graph datasets](#heteregeneous-graph-datasets)
 
 
 
-## 1 Recommendation
+# Recommendation
 
-### 1.1 Large Scale Recommendation
+## Large Scale Recommendation
 
 - 2017- KDD -  Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration
   - *Xuejian Wang, Lantao Yu, Kan Ren*
@@ -68,7 +65,7 @@ Table of Contents
   - *Guorui Zhou, Kun Gai, et al*
   - *click prediction*
 
-### 1.2 Novel Application
+## Novel Application
 
 - 2018 - Recsys - Learning Consumer and Producer Embeddings for User-Generated Content Recommendation
   - *[Wang-Cheng Kang], [Julian McAuley]*
@@ -76,7 +73,7 @@ Table of Contents
 
 - 2019 - ICML - Compositional Fairness Constraints for Graph Embeddings
 
-### 1.3 News Recommendation
+## News Recommendation
 
 - 2019 - KDD - NPA Neural News Recommendation with personalized attention
 
@@ -88,7 +85,7 @@ Table of Contents
 - 2018 - IJCAI - [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://github.com/hustlingchen/A3NCF)
   - *Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song*
 
-### 1.3 Social Recommendation
+## Social Recommendation
 
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
   - *Chong Chen, Min Zhang, et al*
@@ -99,12 +96,12 @@ Table of Contents
 - 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *[Jianxin Ma, Peng Cui]*
 
-### 1.4 Disentangled Recommendation
+## Disentangled Recommendation
 
 - 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *[Jianxin Ma, Peng Cui]*
 
-### 1.5 Explainable Recommendation
+## Explainable Recommendation
 
 - 2018 - AAAI - Explainable Recommendation Through Attentive Multi-View Learning
 
@@ -114,18 +111,20 @@ Table of Contents
 
 - [Min Zhang] website (aim at explainable recommender system)
 
-## 2 Graph
+# Graph
 
-### 2.1 Survey
+## Survey
 - 2019  - Representation Learning on Graphs: Methods and Applications
   - *[William L. Hamilton], [Rex Ying], [Jure Leskovec]*
-
+  
 - 2019  - A Comprehensive Survey on Graph Neural Networks
   - *Zonghan Wu ,Philip S. Yu*
 
-### 2.2 Theory
+## Architecture
 
-
+- 2020 - ICLR - [Geom-GCN: Geometric Graph Convolutional Networks](https://github.com/anonymous-conference-submission/geom-gcn/)
+  - *Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang*
+  - *图卷积网络已经成功被应用到图表示学习的很多应用当中。但是目前的图卷积网络中仍有两个缺陷限制了他们的表达学习能力，一是在节点信息汇聚的过程中，以往的mean，max pooling操作会丢失掉了节点的结构信息，无法区分一些特殊的非同构数据。二是对于一些disassortative的图，以往的相邻节点的定义方法无法利用上在图结构上距离较远的节点。本文针对以上两个限制，为图卷积网络提出了一种新的邻居节点定义方法和汇聚方式。主要分为三步，节点嵌入，从图结构和节点嵌入空间一起选取相邻节点，两阶段的节点汇聚。最终作者在八个数据集，按照6：2：2的比例划分数据集，超越了GCN和GAT的节点分类效果，并给出了对照试验验证了各个模块的有效性。*
 
 - 2019 - ICML - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *Jinxi Ma, [Peng Cui]*
@@ -133,10 +132,17 @@ Table of Contents
 - 2018 - ICML - Representation Learning on Graphs with Jumping Knowledge Networks
   - *[Keyulu Xu], Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka*
   - *jump connection;*
-  
+
 - 2019 - ICLR - [Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://github.com/klicperajo/ppnp)
   - *Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann*
   - *page rank;*
+
+
+## Theory
+
+- 2019 - NIPS - [Diffusion Improves Graph Learning](https://github.com/klicperajo/gdc)
+  - *Johannes Klicpera, Stefan Weißenberger, [Stephan Günnemann]*
+
 
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
   
@@ -178,7 +184,53 @@ Table of Contents
 - 2017 - ICLR - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://github.com/tkipf/gcn)
   - *[Thomas N. Kipf],  [Max Welling]*
 
-### 2.3 Application
+
+## Graph Modification and Robust 
+
+- 2019 - ICLR - Bayesian Graph Convolutional Neural Networks Using Non-Parametric Graph Learning
+  - *Soumyasundar Pal, Florence Regol & Mark Coates*
+
+- 2019 - NIPS - Variational Spectral Graph Convolutional Networks
+  - *Louis Tiao, Pantelis Elinas, Harrison Nguyen, Edwin V. Bonilla*
+
+
+- 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
+  - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
+  - *本文提出了一个基于graph的半监督学习框架。基于graph的半监督学习算法在半监督任务上效果出众，例如label propagation，他们基于的基本假设是一个节点的标签可以通过周围节点的类别来推测。但是在真实的世界中，许多的graph中节点之间存在边并不代表两个节点共属于同一类。本文基于WSDM2018的工作，提出了graph aggrement model，其引入辅助任务帮助判断两个节点之间的边是否有助于当前的主任务，例如分类。并在主任务和辅助任务之间通过co training的方式进行训练，最终在半监督任务上取得了优异的效果，超越了GAT。*
+
+- 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
+  - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
+  - *edge modification;*
+
+- 2019 - ICML - Learning Discrete Structures for Graph Neural Networks
+
+- 2019 - ICML - Are Graph Neural Networks Miscalibrated
+
+- 2019 - ICLR - DEEP GAUSSIAN EMBEDDING OF GRAPHS UNSUPERVISED INDUCTIVE LEARNING VIA RANKING
+  - *提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding*
+- 2019 - KDD - Robust Graph Convolutional Networks Against Adversaria Attacks  
+  - *gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播*
+
+## Understanding 
+
+- 2020 - ICLR - Measuring and Improving the Use of Graph Information in Graph Neural Networks
+  - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
+
+- 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
+  - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
+
+- 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
+  - *Deli Chen, Yankai Lin, Wei Li, Peng Li, Jie Zhou, Xu Sun* 
+  - *作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。*
+
+## Sampling
+- 2019 - KDD - [Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks](https://www.paperweekly.site/papers/3251)
+
+## Application
+
+- 2018 - KDD - [Inductive Matrix Completion Based on Graph Neural Networks](https://github.com/muhanzhang/IGMC)
+  - *[Muhan Zhang], Yixin Chen*
+  - *该文章提出了一种基于图卷积网络的inductive，并且不使用辅助信息的矩阵补全方法。矩阵补全作为一个经典的问题，在许多领域有着应用，例如推荐系统。以往的方法比如低秩矩阵分解将矩阵分解成两个向量的乘积，他们往往是transductive的，不能够泛化到新的矩阵行和列上，KDD 2018的GCMC应用node-level的图卷积网络在bipartie graph上学习用户和物品特征表达，但其仍属于transductive的方法，而同为KDD 2018的pinsage虽然是inductive的模型，但是要依赖辅助信息如特征，并且特征的质量往往会影响模型的效果。本文提出一种基于图卷积网络的inductive矩阵补全方法，使得模型不依赖特征就可以泛化到新用户和新物品的矩阵补全方法。该方法主要由三步构成，包括了1.抽取包含目标用户和物品的sub-graph；2.为subgraph中不同的节点打上标签；3.graph-level的图卷积网络进行评分预测。最终作者在4个数据集上取得最好的表现效果，值得一提的是在movielens数据集上训练的模型在Douban数据集上进行测试，也能够超越一大部分baseline，显出该方法有着良好的transfer能力。*
 
 - 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
   - *Jiezhong Qiu , Jie Tang， et al*
@@ -195,8 +247,6 @@ Table of Contents
 - 2018 - KDD - PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems
   - *[Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]*
 
-#### 2.3.1 Knowledge Graph
-
 - 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
 
 - 2019 - AAAI - [Modeling Relational Data with Graph Convolutional Networks](https://github.com/tkipf/relational-gcn)
@@ -211,7 +261,10 @@ Table of Contents
 - 2013 - NIPS - [Translating Embeddings for Modeling Multi-relational Data](https://github.com/thunlp/KB2E)
   - *Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko*
 
-### 2.4 HyperGraph
+## HyperGraph
+
+- 2020 - ICLR - [Hyper-SAGNN: a self-attention based graph neural network for hypergraphs](https://drive.google.com/drive/folders/1kIOc4SlAJllUJsrr2OnZ4izIQIw2JexU?usp=sharing)
+  - *Ruochi Zhang,  Yuesong Zou,  Jian Ma*
 
 - 2019 - AAAI - [Hypergraph Neural Networks](https://github.com/Yue-Group/HGNN)
   - *Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]*
@@ -219,10 +272,9 @@ Table of Contents
 - 2018 - AAAI - [Structural Deep Embedding for Hyper-Networks](https://github.com/tadpole/DHNE)
   - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
 
+## Heterogeneous Information Network
 
-### 2.5 Heterogeneous Information Network
-
-#### 2.5.1 Architecture
+### Architecture
 
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
   - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
@@ -245,7 +297,7 @@ Table of Contents
 - 2017 - KDD - [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://github.com/apple2373/metapath2vec)
   - *[Yuxiao Dong]* 	
 
-#### 2.5.2 Recommendation and Other Application
+###  Recommendation and Other Application
 
 - 2019 - CIKM - [Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation](https://github.com/xfl15/RecoGCN)
   - *neighborhood sampling;*
@@ -268,9 +320,9 @@ Table of Contents
   - *Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song*
 
 
-### 2.6 Network Representation Learning
+## Network Representation Learning
 
-#### 2.6.1 Survey
+### Survey
 
 - 2018 - A Survey on Network Embedding
   - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
@@ -292,15 +344,15 @@ Table of Contents
 - 2018 IJCAI - [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://github.com/cszhangzhen/ANRL)
   - *Zhen Zhang, Hongxia Yang, Jiajun Bu, Sheng Zhou, Pinggang Yu, Jianwei Zhang, Martin Ester, Can Wang*
 
-### 2.7 Sources
+## Sources
 
-#### 2.7.1 Industry Implement
+###  Industry Implement
 
   - [alimama euler framework](https://github.com/alibaba/euler)
   - [tencent angel frame work](<https://github.com/Angel-ML/angel>)
   - [tencent plato]( https://github.com/Tencent/plato )
 
-#### 2.7.2 Acdamic Implement
+### Acdamic Implement
   - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
   - [Graph-neural-networks jupyter tutorial](https://github.com/SeongokRyu/Graph-neural-networks)
   - [Deep Graph Library (DGL) Python package](https://docs.dgl.ai/index.html)
@@ -313,7 +365,7 @@ Table of Contents
   - [visualization of graph- graph tool]( https://graph-tool.skewed.de/ )
   - [analysis the spectral of graph pyqsp]( https://github.com/epfl-lts2/pygsp )
 
-#### 2.7.3 Reading Source
+### Reading Source
   - [Tsinghua University Graph papers reading list](https://github.com/thunlp/GNNPapers)
   - [gnn literature](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/README.md)
   - [MIA reading group](https://github.com/shagunsodhani/Graph-Reading-Group)
@@ -323,39 +375,10 @@ Table of Contents
   - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
 
-### 2.8 Graph Modification and Robust 
 
-- 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
-  - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
-  - *self learning; edge  modification*
+# BayesianDeepLearning
 
-- 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
-  - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
-  - *edge modification;*
-
-- 2019 - ICML - Learning Discrete Structures for Graph Neural Networks
-
-- 2019 - ICML - Are Graph Neural Networks Miscalibrated
-
-- 2019 - ICLR - DEEP GAUSSIAN EMBEDDING OF GRAPHS UNSUPERVISED INDUCTIVE LEARNING VIA RANKING
-  - *提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding*
-- 2019 - KDD - Robust Graph Convolutional Networks Against Adversaria Attacks  
-  - *gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播*
-
-### 2.9 Understanding 
-
-- 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
-  - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
-
-- 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
-  - *作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。*
-
-### 2.10 Sampling
-- 2019 - KDD - [Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks](https://www.paperweekly.site/papers/3251)
-
-## 3 BayesianDeepLearning
-
-### 3.1 Survey
+##  Survey
 
 - 2018 - NIPS - Recent Advances in Autoencoder-Based Representation Learning
   - *Michael Tschannen, Olivier Bachem, Mario Lucic*
@@ -364,7 +387,7 @@ Table of Contents
 
 - 2019 - NIPS - Variational Graph Convolutional Networks
 
-### 3.2 Uncertainty
+## Uncertainty
 
 - 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
 
@@ -380,7 +403,7 @@ Table of Contents
 
 2019 - NIPS - Practical Deep Learning with Bayesian Principles
 
-## 4 Others
+# Others
 
 2020 - CVPR - [CONTRASTIVE REPRESENTATION DISTILLATION](https://github.com/HobbitLong/RepDistiller)   
 
@@ -390,9 +413,9 @@ Table of Contents
 
 2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels] (https://github.com/cgnorthcutt/cleanlab)
 
-## 5 Datasets
+#  Datasets
 
-### 5.1 homegenerous graph dataset
+## homegenerous graph dataset
 
 - **PubMed Diabetes**
   - The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. The README file in the dataset provides more details.
@@ -413,7 +436,7 @@ other useful datasets link:
 - citation dataset
   - https://linqs.soe.ucsc.edu/data
 
-### 5.2 heteregeneous graph datasets
+## heteregeneous graph datasets
 
 - **IMDB Datasets**
   - MovieLens Latest Dataset which consists of 33,000 movies. And it contains four types of nodes: movie, director, actor and actress, connected by two types of relations/link: directed link and actor/actress staring link. Each movie is assigned with a set of class labels, indicating generes of the movie. For each movie, we extract a bag of words vector of all the plot summary about the movie as local features, which include 1000 words.
@@ -458,4 +481,5 @@ other useful dataset links
 [jian tang]:  https://jian-tang.com/
 [Keyulu Xu]: http://keyulux.com/
 [Philip S. Yu]:  https://www.cs.uic.edu/~psyu
-
+[Muhan Zhang]: https://muhanzhang.github.io/
+[Stephan Günnemann]: https://www.in.tum.de/daml/startseite/
