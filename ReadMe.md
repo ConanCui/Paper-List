@@ -5,41 +5,9 @@
 
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
-1. [Recomendation](#Recommendation)
-
-1. [Graph](##Graph)
-2. [Bayesian Deep Learning](##BayesianDeepLearning)
-3. [Datasets](##Datasets)
 
 
-
-## daily read
-
-
-| 日期 | 文章题目                                                     | 作者     |          会议          |                             代码                             | 备注                                                         |
-| :--: | :----------------------------------------------------------- | -------- | :--------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-|      | Compositional Fairness Constraints for Graph Embeddings      |          |       ICML 2019        |                                                              | embedding中，包含了很多sensitive信息，比如在movielens中，user不希望推荐和自己的性别有关，这时候的user  embedding应当不包含性别信息。具体做法是通过adversarial training的方法，对抗学习一个filter和一个discriminator。其中filter是对已经学习到的embedding进行过滤变形，得到变形后的embedding仍能做link prediction来进行推荐，但是其又不包含性别信息，比如从新用一个classifier无法对这些过滤后的embedding进行分类。 |
-|      | CONTRASTIVE REPRESENTATION DISTILLATION                      |          |                        | 众多KD的pytorch实现https://github.com/HobbitLong/RepDistiller |                                                              |
-|      | Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation |          |       CIMK 2019        |               https://github.com/xfl15/RecoGCN               |                                                              |
-|      | DEEP GAUSSIAN EMBEDDING OF GRAPHS:<br/>UNSUPERVISED INDUCTIVE LEARNING VIA RANKING |          |       ICLR 2018        |           https://www.kdd.in.tum.de/research/g2g/            | 提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding。 |
-|      | Robust Graph Convolutional Networks Against Adversarial<br/>Attacks |          |        KDD 2019        | GCN: https://github.com/tkipf/gcn<br/>• GAT: https://github.com/PetarV-/GAT<br/>• RL-S2V: https://github.com/Hanjun-Dai/graph_adversarial_attack<br/>• NETTACK: https://github.com/danielzuegner/nettack | gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播。 |
-|      | Heterogeneous Graph Neural Network                           |          |        KDD 2019        |       https://github.com/chuxuzhang/KDD2019_HetGNN.git       | 相比于WWW中的GAT，多考虑了content的heterogeneous特性。       |
-|      | Characterize and Transfer Attention in Graph Neural Networks |          | ICLR 2020 under review |                                                              | GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果。 |
-|      | Strategies for Pre-training Graph Neural Networks            |          | ICLR 2020 under review |                                                              | 1. node level self-supervised learning including masking attribute, structure similarity. 2. graph level supervised  multitask learning |
-|      | Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View |          | AAAI 2020 under review |                                                              | 作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。 |
-|      | PairNorm  Tackling Oversmoothing in GNNs                     |          | ICLR 2020 under review |                                                              |                                                              |
-|      | Revisiting Semi-Supervised Learning with Graph Embeddings    |          |       ICML 2016        |                                                              | ![1571274794606](C:\Users\kncue\AppData\Roaming\Typora\typora-user-images\1571274794606.png) |
-|      | 2020 - ICLR - DropEdge Towards Deep Graph Convolutional Networks on Node Classification |          | ICLR 2020 under review |                                                              |                                                              |
-|      | Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks |          |        KDD 2019        |                                                              | <https://www.paperweekly.site/papers/3251>                   |
-|      | Learning Discrete Structures for Graph Neural Networks       |          |       ICML 2019        |                                                              | <https://www.paperweekly.site/recommend-paper>               |
-|      | Heterogeneous Graph Attention Networks for Semi-supervised<br/>Short Text Classification |          |       EMNLP 2019       |                                                              | s石川的工作，短文本分类因为semantic非常sparse，原来的工作又利用knowledge的side information，在这里作者提议利用短文本和entity以及topic之间的relation的关系，构成一幅异构图。相比于text gcn中 所有word和document都当作node，并且用one hot来表示，在这里，作者对每个node都使用了特征，这面临着他们特征不同，怎么进行卷积操作呢，在每层卷积中，它提议针对不同种类的节点之间的关系，以及不同的特征，把大图化成小图，并且不同的特征经过映射为同一特征空间，这和GCMC以及RGCN操作类似，另外，作者还有一个分层attention，一层是对连接种类做，然后基于此每一个节点会对其他所有节点进行attention。最后是softmax分类没什么说的 |
-|      | Metapath-guided Heterogeneous Graph Neural Network for<br/>Intent Recommendation |          |        KDD 2019        |                                                              | z在itent 推荐场景下，user，item，query。是为了向用户推荐query。所有object都可以用word term来表示，可以大大减少embedding的参数数量，其余并没有太大改进。基本就是利用metapath得到用户和query的neighboor，然后利用GNN聚合得到两者的表示，然后做内积就是常见的作法。而metaph中，卷积只在query和item上来卷积，因为只有他们有共同的term来表示，而其他不共有的特征则是在最后将这些特征拼接上去。 |
-|      | 2019 - KDD - NPA Neural News Recommendation with personalized attention |          |                        |                                                              | 作者的出发点是，同一篇文章被不同用户点击的原因不一样。user会有对应ID，映射为embedding，这个作为query vector会和文章中的每一个字作attention，这个title的表达就由这些字的受用户的attention来进行聚合。然后呢，用户的embedding还会再一次作为query vector和 不同的文章的表达来进行聚合，这些文章聚合后在作为用户的表达，和刚才的文章表达做内积即可。整个下来，需要存储的是user的embedding。整体下来文章是用户embedding和文章的内容交互后的vector来表达，而用户是有被用户embedding交互过的文章vector来进行表达。 |
-|      | GNN Explainer                                                | Rex ying |       NIPS 2019        |                                                              | 以往的可解释方法主要用于解释特征，无法应用于GNN类网络，本文用mutual information去解释，GNN中，哪些点和哪些特征维度对当前的预测影响较大，有一个工具包LIME |
-
-
-
-
+[TOC]
 
 ## 1 Recommendation
 
@@ -58,21 +26,22 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - *Guorui Zhou, Kun Gai, et al*
   - *click prediction*
 
-### 1.2 Main
+### 1.2 Novel Application
 
 - 2018 - Recsys - Learning Consumer and Producer Embeddings for User-Generated Content Recommendation
   - *[Wang-Cheng Kang], [Julian McAuley]*
   - *user based*
 
+- 2019 - ICML - Compositional Fairness Constraints for Graph Embeddings
+
 ### 1.3 News Recommendation
+
+- 2019 - KDD - NPA Neural News Recommendation with personalized attention
 
 - 2013 -WSDM - News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content
   - *Lei Li, Tao Li*
 
-
 - 2018 - CIKM - [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation](https://github.com/dhruvkhattar/WE3CN)
-  - *Lei Li, Tao Li*
-
 
 - 2018 - IJCAI - [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://github.com/hustlingchen/A3NCF)
   - *Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song*
@@ -92,8 +61,6 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *[Jianxin Ma, Peng Cui]*
- 
-|          Disentangled Graph Convolutional Networks           | ICML 2019  |                          [Peng Cui]                          |        [code](https://jianxinma.github.io/)        |
 
 ### 1.5 Explainable Recommendation
 
@@ -116,60 +83,72 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 ### 2.2 Theory
 
-- 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
-  - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
-  - *self learning; edge  modification*
+
+
+- 2019 - ICML - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
+  - *Jinxi Ma, [Peng Cui]*
 
 - 2018 - ICML - Representation Learning on Graphs with Jumping Knowledge Networks
   - *[Keyulu Xu], Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka*
-  - *jump connection;*
-
+- *jump connection;*
+  
 - 2019 - ICLR - [Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://github.com/klicperajo/ppnp)
   - *Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann*
   - *page rank;*
 
-- 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
-  - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
-  - *edge modification;*
-
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
-  - *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
-
+  
+- *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
+  
 - 2018 - AAAI - [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://github.com/hwwang55/GraphGAN)
-  - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
-
+  
+- *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
+  
 - 2018 - CIKM - [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://github.com/dm-thu/GraphSGAN)
-  - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
-
+  
+- *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
+  
 - 2019 - ICML - [Simplifying Graph Convolutional Networks](https://github.com/Tiiiger/SGC)
-  - *Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q.*
-
+  
+- *Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q.*
+  
 - 2019 - ICLR - [HOW POWERFUL ARE GRAPH NEURAL NETWORKS](https://github.com/Tiiiger/SGC)
-  - *[Keyulu Xu], Weihua Hu, [Jure Leskovec], Stefanie Jegelka*
-
+  
+- *[Keyulu Xu], Weihua Hu, [Jure Leskovec], Stefanie Jegelka*
+  
 - 2019 - ICLR - [LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://github.com/lrjconan/LanczosNetwork)
-  - *[Renjie Liao], et al*
-
+  
+- *[Renjie Liao], et al*
+  
 - 2019 - AAAI - [GeniePath: Graph Neural Networks with Adaptive Receptive Paths](https://github.com/lrjconan/LanczosNetwork)
-  - *Le Song, Yuan Qi, et al*
-
-- 2019 - AAAI - [Graph Attention Networks](https://github.com/PetarV-/GAT)
-  - *Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio*
-
+  
+- *Le Song, Yuan Qi, et al*
+  
+- 2018 - ICLR - [Graph Attention Networks](https://github.com/PetarV-/GAT)
+  
+- *Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio*
+  
 - 2018 - NIPS - [Hierarchical Graph Representation Learning with Differentiable Pooling](https://github.com/RexYing/diffpool)
-  - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
-
+  
+- *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
+  
 - 2018 - NIPS - GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations
-  - *Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun*
-
+  
+- *Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun*
+  
 - 2017 - NIPS - [GraphSAGE: Inductive Representation Learning on Large Graphs](http://snap.stanford.edu/graphsage/#code)
-  - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
-
+  
+- *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
+  
 - 2018 - NIPS - [Pitfalls of Graph Neural Network Evaluation](https://github.com/shchur/gnn-benchmark)
-  - *Shchur  Oleksandr et al*
-
+  
+- *Shchur  Oleksandr et al*
+  
 - 2017 - ICLR - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://github.com/tkipf/gcn)
+  
   - *[Thomas N. Kipf],  [Max Welling]*
+  
+  
 
 ### 2.3 Application
 
@@ -200,7 +179,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2017 - AAAI - [Convolutional 2D Knowledge Graph Embeddings](https://github.com/TimDettmers/ConvE)
   - *[Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel*
- 
+
 - 2013 - NIPS - [Translating Embeddings for Modeling Multi-relational Data](https://github.com/thunlp/KB2E)
   - *Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko*
 
@@ -238,7 +217,15 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - 2017 - KDD - [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://github.com/apple2373/metapath2vec)
   - *[Yuxiao Dong]* 	
 
-#### 2.5.2 Recommendation
+#### 2.5.2 Recommendation and Other Application
+
+- 2019 - CIKM - [Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation](https://github.com/xfl15/RecoGCN)
+  - *neighborhood sampling;*
+
+- 2019 - KDD - Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation
+
+- 2019 -EMNLP - Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification
+
 
 - 2017 - KDD - [Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks](https://github.com/HKUST-KnowComp/FMG)
   - *[Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee*
@@ -251,7 +238,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2018 - IJCAI - [Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks](https://github.com/ahxt/NeuACF)
   - *Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song*
- 
+
 
 ### 2.6 Network Representation Learning
 
@@ -308,6 +295,35 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
 
+### 2.8 Graph Modification and Robust 
+
+- 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
+  - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
+  - *self learning; edge  modification*
+
+- 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
+  - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
+  - *edge modification;*
+
+- 2019 - ICML - Learning Discrete Structures for Graph Neural Networks
+
+- 2019 - ICML - Are Graph Neural Networks Miscalibrated
+
+- 2019 - ICLR - DEEP GAUSSIAN EMBEDDING OF GRAPHS UNSUPERVISED INDUCTIVE LEARNING VIA RANKING
+  - *提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding*
+- 2019 - KDD - Robust Graph Convolutional Networks Against Adversaria Attacks  
+  - *gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播*
+
+### 2.9 Understanding 
+
+- 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
+  - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
+
+- 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
+  - *作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。*
+
+### 2.10 Sampling
+- 2019 - KDD - [Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks](https://www.paperweekly.site/papers/3251)
 
 ## 3 BayesianDeepLearning
 
@@ -323,28 +339,32 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 ### 3.2 Uncertainty
 
 - 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
+
 - 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning
+
 - 2019 - NIPS - [Uncertainty posters](https://nips.cc/Conferences/2019/ScheduleMultitrack?session=15553)
 
+- 2019 - ICLR - [Modeling Uncertainty with Hedged Instance Embedding](https://github.com/google/n-digit-mnist)
 
-                                                      |
-| Modeling Uncertainty with Hedged Instance Embedding          | ICLR 2019  |                                                |                                                              |
-| Uncertainty Quantification in Deep Learning                  |            |                                                | https://www.inovex.de/blog/uncertainty-quantification-deep-learning/ |
-| 2019 - thisis - Uncertainty Quantification in Deep Learning  |            |                                                |                                                              |
-| 2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles |            |                                                |                                                              |
-|  |            |                                                |                                                              |
-| 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning |            |                                                |                                                              |
-| 2020 - AISTATS - Confident Learning Estimating Uncertainty in Dataset Labels |            |                                                | https://github.com/cgnorthcutt/cleanlab                      |
-| 2019 - NIPS - Practical Deep Learning with Bayesian Principles |            |                                                |                                                              |
-| 2017 - ICML - On Calibration of Modern Neural Networks       |            |                                                |                                                              |
-| 2019 - KDD - Robust Graph Convolutional Networks Against Adversarial |            |                                                |                                                              |
-| 2019 - ICML - Are Graph Neural Networks Miscalibrated        |            |                                                |                                                              |
+- 2019 - thisis - Uncertainty Quantification in Deep Learning
 
+- 2019 - [Uncertainty Quantification in Deep Learning(https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
 
+2019 - NIPS - Practical Deep Learning with Bayesian Principles
 
-## Datasets
+## 4 Others
 
-### homegenerous graph dataset
+2020 - CVPR - [CONTRASTIVE REPRESENTATION DISTILLATION](https://github.com/HobbitLong/RepDistiller)   
+
+2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
+
+2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning
+
+2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels] (https://github.com/cgnorthcutt/cleanlab)
+
+## 5 Datasets
+
+### 5.1 homegenerous graph dataset
 
 - **PubMed Diabetes**
   - The Pubmed Diabetes dataset consists of 19717 scientific publications from PubMed database pertaining to diabetes classified into one of three classes. The citation network consists of 44338 links. Each publication in the dataset is described by a TF/IDF weighted word vector from a dictionary which consists of 500 unique words. The README file in the dataset provides more details.
@@ -365,8 +385,7 @@ other useful datasets link:
 - citation dataset
   - https://linqs.soe.ucsc.edu/data
 
-
-### heteregeneous graph datasets
+### 5.2 heteregeneous graph datasets
 
 - **IMDB Datasets**
   - MovieLens Latest Dataset which consists of 33,000 movies. And it contains four types of nodes: movie, director, actor and actress, connected by two types of relations/link: directed link and actor/actress staring link. Each movie is assigned with a set of class labels, indicating generes of the movie. For each movie, we extract a bag of words vector of all the plot summary about the movie as local features, which include 1000 words.
