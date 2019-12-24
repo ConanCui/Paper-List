@@ -92,12 +92,27 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ## Social Recommendation
 
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
-  - *Chong Chen, Min Zhang, et al*
+  - *[Chong Chen], Min Zhang, et al*
 
 
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
+## Review Based Recommendation
+
+- 2019 - EMNLP - Reviews Meet Graphs Enhancing User and Item Representations for recommendation with Hierachical Attentive Graph Neural Network
+  - *Chuhan Wu, Fangzhao Wu, Tao Qi, Suyu Ge, Yongfeng Huang, and [Xing Xie]*
+
+- 2019 - KDD - DAML  Dual Attention Mutual Learning between Ratings and reviews
+
+- 2018 - WWW - [Neural At-tentional Rating Regression with Review-level Explanations](https://github.com/chenchongthu/NARRE)
+  - *[Chong Chen], [Min Zhang]*
+
+## Multi-Relation Recommendation
+
+- 2020 - AAAI - [Efficient Heterogeneous Collaborative Filtering without Negative Sampling for Recommendation](https://github.com/chenchongthu/EHCF)
+  - *[Chong Chen], [Min Zhang]*
+  
 ## Disentangled Recommendation
 
 - 2019 - NIPS - [Learning Disentangled Representations for Recommendation](https://jianxinma.github.io/)
@@ -485,3 +500,4 @@ other useful dataset links
 [Philip S. Yu]:  https://www.cs.uic.edu/~psyu
 [Muhan Zhang]: https://muhanzhang.github.io/
 [Stephan Günnemann]: https://www.in.tum.de/daml/startseite/
+[Chong Chen]: https://github.com/chenchongthu/
