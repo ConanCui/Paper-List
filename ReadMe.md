@@ -49,8 +49,11 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - *Xuejian Wang, Lantao Yu, Kan Ren*
   - *news recommendation*
 - 2018 - WWW - [DKN: Deep Knowledge-Aware Network for News Recommendation](https://github.com/hwwang55/DKN)
-  - [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo
+  - *[Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo*
   - *news recommendation; knowledge graph*
+- 2018 - KDD - [Deep Interest Network for Click-Through Rate Prediction](https://github.com/zhougr1993/DeepInterestNetwork)
+  - *Guorui Zhou, Kun Gai, et al*
+  - *click prediction*
 
 
 |                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
