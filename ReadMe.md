@@ -10,6 +10,7 @@
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
 
+
 Table of Contents
 =================
 
@@ -23,14 +24,15 @@ Table of Contents
       * [Explainable Recommendation](#explainable-recommendation)
    * [Graph](#graph)
       * [Survey](#survey)
+      * [Architecture](#architecture)
       * [Theory](#theory)
-      * [Application](#application)
       * [Graph Modification and Robust](#graph-modification-and-robust)
       * [Understanding](#understanding)
       * [Sampling](#sampling)
+      * [Application](#application)
       * [HyperGraph](#hypergraph)
       * [Heterogeneous Information Network](#heterogeneous-information-network)
-         * [Architecture](#architecture)
+         * [Architecture](#architecture-1)
          * [Recommendation and Other Application](#recommendation-and-other-application)
       * [Network Representation Learning](#network-representation-learning)
          * [Survey](#survey-1)
@@ -45,6 +47,8 @@ Table of Contents
    * [Datasets](#datasets)
       * [homegenerous graph dataset](#homegenerous-graph-dataset)
       * [heteregeneous graph datasets](#heteregeneous-graph-datasets)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 
@@ -89,12 +93,8 @@ Table of Contents
 
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
   - *Chong Chen, Min Zhang, et al*
-
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
-
-- 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
-  - *[Jianxin Ma, Peng Cui]*
 
 ## Disentangled Recommendation
 
@@ -278,21 +278,15 @@ Table of Contents
 
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
   - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
-
 - 2019 - WWW - [Heterogeneous Graph Attention Network](https://github.com/Jhy1993/HAN)
   - *Houye Ji, [Chuan Shi], [Peng Cui] et al*
-
 - 2019 - AAAI - [Relation Structure-Aware Heterogeneous Information Network Embedding](https://github.com/rootlu/RHINE)
   - *Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu*
-
 - 2018 - CIKM - Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings
   - *[Rana Hussein]*
-
 - 2018 - WWW - [Deep Collective Classification in Heterogeneous Information Networks](https://github.com/zyz282994112/GraphInception.git)
-  - *[Rana Hussein]*
 
 - 2018 - KDD - PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction
-  - *[Hongxu Chen]*
 
 - 2017 - KDD - [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://github.com/apple2373/metapath2vec)
   - *[Yuxiao Dong]* 	
@@ -323,9 +317,6 @@ Table of Contents
 ## Network Representation Learning
 
 ### Survey
-
-- 2018 - A Survey on Network Embedding
-  - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
 
 - 2018 - A Survey on Network Embedding
   - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
@@ -411,7 +402,7 @@ Table of Contents
 
 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning
 
-2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels] (https://github.com/cgnorthcutt/cleanlab)
+2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels](https://github.com/cgnorthcutt/cleanlab)
 
 #  Datasets
 
