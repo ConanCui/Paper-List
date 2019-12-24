@@ -3,9 +3,53 @@
 [![PRs Welcome](ReadMe.assets/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
+<p align="center">
+  <img width="460" src="Word Art.png">
+</p>
+
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
-[TOC]
+
+
+Table of Contents
+=================
+
+   * [Awesome paper list](#awesome-paper-list)
+   * [Table of Contents](#table-of-contents)
+      * [1 Recommendation](#1-recommendation)
+         * [1.1 Large Scale Recommendation](#11-large-scale-recommendation)
+         * [1.2 Novel Application](#12-novel-application)
+         * [1.3 News Recommendation](#13-news-recommendation)
+         * [1.3 Social Recommendation](#13-social-recommendation)
+         * [1.4 Disentangled Recommendation](#14-disentangled-recommendation)
+         * [1.5 Explainable Recommendation](#15-explainable-recommendation)
+      * [2 Graph](#2-graph)
+         * [2.1 Survey](#21-survey)
+         * [2.2 Theory](#22-theory)
+         * [2.3 Application](#23-application)
+            * [2.3.1 Knowledge Graph](#231-knowledge-graph)
+         * [2.4 HyperGraph](#24-hypergraph)
+         * [2.5 Heterogeneous Information Network](#25-heterogeneous-information-network)
+            * [2.5.1 Architecture](#251-architecture)
+            * [2.5.2 Recommendation and Other Application](#252-recommendation-and-other-application)
+         * [2.6 Network Representation Learning](#26-network-representation-learning)
+            * [2.6.1 Survey](#261-survey)
+         * [2.7 Sources](#27-sources)
+            * [2.7.1 Industry Implement](#271-industry-implement)
+            * [2.7.2 Acdamic Implement](#272-acdamic-implement)
+            * [2.7.3 Reading Source](#273-reading-source)
+         * [2.8 Graph Modification and Robust](#28-graph-modification-and-robust)
+         * [2.9 Understanding](#29-understanding)
+         * [2.10 Sampling](#210-sampling)
+      * [3 BayesianDeepLearning](#3-bayesiandeeplearning)
+         * [3.1 Survey](#31-survey)
+         * [3.2 Uncertainty](#32-uncertainty)
+      * [4 Others](#4-others)
+      * [5 Datasets](#5-datasets)
+         * [5.1 homegenerous graph dataset](#51-homegenerous-graph-dataset)
+         * [5.2 heteregeneous graph datasets](#52-heteregeneous-graph-datasets)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 
@@ -139,7 +183,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 ### 2.3 Application
 
 - 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
-  - *Jiezhong Qiu , [Jie Tang]， et al*
+  - *Jiezhong Qiu , Jie Tang， et al*
 
 - 2018 - KDD - [Signed Graph Convolutional Network](https://github.com/benedekrozemberczki/SGCN)
   - *yler Derr, Yao Ma, Jiliang Tang*
@@ -198,7 +242,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - *[Rana Hussein]*
 
 - 2018 - KDD - PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction
-  - *[ Hongxu Chen]*
+  - *[Hongxu Chen]*
 
 - 2017 - KDD - [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://github.com/apple2373/metapath2vec)
   - *[Yuxiao Dong]* 	
@@ -214,10 +258,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 
 - 2017 - KDD - [Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks](https://github.com/HKUST-KnowComp/FMG)
-  - *[Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee*
+  - *Huan Zhao, anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee*
 
 - 2019 - AAAI - [Cash-out User Detection based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](https://github.com/librahu/HACUD)
-  - *Binbin Hu, Zhiqiang Zhang,[Chuan Shi], Jun Zhou, Xiaolong Li, Yuan Qi*
+  - *Binbin Hu, Zhiqiang Zhang, [Chuan Shi], Jun Zhou, Xiaolong Li, Yuan Qi*
 
 - 2018 - KDD - [Leveraging Meta-path based Context for Top- N Recommendation with A Neural Co-Attention Model](https://github.com/librahu/MCRec)
   - *Binbin Hu, [Chuan Shi], Wayne Xin Zhao, [Philip S. Yu]*
@@ -415,6 +459,5 @@ other useful dataset links
 [Jiliang Tang]: http://www.cse.msu.edu/~tangjili/publication.html
 [jian tang]:  https://jian-tang.com/
 [Keyulu Xu]: http://keyulux.com/
-
-
+[Philip S. Yu]:  https://www.cs.uic.edu/~psyu
 
