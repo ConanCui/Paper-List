@@ -6,9 +6,10 @@
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
 1. [Recomendation](#Recommendation)
-2. [Graph](##Graph)
-3. [Bayesian Deep Learning](##BayesianDeepLearning)
-4. [Datasets](##Datasets)
+
+1. [Graph](##Graph)
+2. [Bayesian Deep Learning](##BayesianDeepLearning)
+3. [Datasets](##Datasets)
 
 
 
@@ -40,12 +41,25 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 
 
-## Recommendation
+## 1 Recommendation
+
+### 1.1 Large Scale Recommendation
+
+KDD - 2017 - Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration
+
+​	| *Xuejian Wang, Lantao Yu, Kan Ren*
+​    | *news recommendation*
+
+WWW - 2018 - DKN: Deep Knowledge-Aware Network for News Recommendation 
+
+	| *Xuejian Wang, Lantao Yu, Kan Ren*
+	| *news recommendation*
+
 
 |                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
 | :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|    **<font color=red>Large Scale Recommendation</font>**     |                |                                                              |                                                              |
-| [Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration](https://dl.acm.org/citation.cfm?id=3098096) |    KDD 2017    |               Xuejian Wang, Lantao Yu, Kan Ren               |                                                              |
+|                 **<font color=red></font>**                  |                |                                                              |                                                              |
+|                                                              |                |                                                              |                                                              |
 | [DKN: Deep Knowledge-Aware Network for News Recommendation ](https://dl.acm.org/citation.cfm?id=3186175) |    WWW 2018    |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
 | [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978) |    KDD 2018    |                 Guorui Zhou, Kun Gai, et al                  | [Tensorflow](https://github.com/zhougr1993/DeepInterestNetwork) |
 |              **<font color=red>Normal</font>**               |                |                                                              |                                                              |
