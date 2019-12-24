@@ -406,6 +406,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Uncertainty
 
+- 2019 - ICCV - [Probabilistic Face Embedding](https://github.com/seasonSH/Probabilistic-Face-Embeddings)
+
 - 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
 
 - 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning
@@ -416,19 +418,26 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - 2019 - thisis - Uncertainty Quantification in Deep Learning
 
-- 2019 - [Uncertainty Quantification in Deep Learning(https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
+- 2019 - [Uncertainty Quantification in Deep Learning](https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
 
-2019 - NIPS - Practical Deep Learning with Bayesian Principles
+- 2019 - NIPS - Practical Deep Learning with Bayesian Principles
+
+## Ensemble
+
+- 2018 - NIPS - [Multimodal Generative Models for Scalable Weakly-Supervised Learning](https://github.com/mhw32/multimodal-vae-public)
+
+
+- 2014 - NIPS - Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions
 
 # Others
 
-2020 - CVPR - [CONTRASTIVE REPRESENTATION DISTILLATION](https://github.com/HobbitLong/RepDistiller)   
+- 2020 - CVPR - [CONTRASTIVE REPRESENTATION DISTILLATION](https://github.com/HobbitLong/RepDistiller)   
 
-2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
+- 2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles
 
-2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning
+- 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning
 
-2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels](https://github.com/cgnorthcutt/cleanlab)
+- 2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels](https://github.com/cgnorthcutt/cleanlab)
 
 #  Datasets
 
