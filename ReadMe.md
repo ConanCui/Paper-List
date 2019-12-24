@@ -277,14 +277,15 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - 2018 IJCAI - [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://github.com/cszhangzhen/ANRL)
   - *Zhen Zhang, Hongxia Yang, Jiajun Bu, Sheng Zhou, Pinggang Yu, Jianwei Zhang, Martin Ester, Can Wang*
 
-  **Other industry implement resource**:
+### 2.7 Sources
+
+#### 2.7.1 Industry Implement
 
   - [alimama euler framework](https://github.com/alibaba/euler)
   - [tencent angel frame work](<https://github.com/Angel-ML/angel>)
   - [tencent plato]( https://github.com/Tencent/plato )
 
-**Other research implement resource**
-
+#### 2.7.2 Acdamic Implement
   - [gated-graph-neural-network-samples](https://github.com/Microsoft/gated-graph-neural-network-samples)
   - [Graph-neural-networks jupyter tutorial](https://github.com/SeongokRyu/Graph-neural-networks)
   - [Deep Graph Library (DGL) Python package](https://docs.dgl.ai/index.html)
@@ -297,8 +298,7 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [visualization of graph- graph tool]( https://graph-tool.skewed.de/ )
   - [analysis the spectral of graph pyqsp]( https://github.com/epfl-lts2/pygsp )
 
-  **Other reading materials**:
-
+#### 2.7.3 Reading Source
   - [Tsinghua University Graph papers reading list](https://github.com/thunlp/GNNPapers)
   - [gnn literature](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/README.md)
   - [MIA reading group](https://github.com/shagunsodhani/Graph-Reading-Group)
@@ -308,27 +308,39 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
 
-## BayesianDeepLearning
 
-| Title                                                        | Conference | Author                                         | Attachment                                                   |
-| ------------------------------------------------------------ | ---------- | ---------------------------------------------- | ------------------------------------------------------------ |
-| **<font color=red>Survey</font>**                            |            |                                                |                                                              |
-| **On Calibration of Modern Neural Networks**                 | ICML 2017  |                                                | https://github.com/gpleiss/temperature_scaling               |
-| Variational Graph Convolutional Networks                     | NIPS 2019  |                                                | **[stellargraph](https://github.com/stellargraph/stellargraph)** |
-| [Recent Advances in Autoencoder-Based Representation Learning](https://arxiv.org/abs/1812.05069) | NIPS 2018  | Michael Tschannen, Olivier Bachem, Mario Lucic |                                                              |
-| What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision? | NIPS 2017  |                                                |                                                              |
+## 3 BayesianDeepLearning
+
+### 3.1 Survey
+
+- 2018 - NIPS - Recent Advances in Autoencoder-Based Representation Learning
+  - *Michael Tschannen, Olivier Bachem, Mario Lucic*
+
+- 2017 - ICML - [On Calibration of Modern Neural Networks](https://github.com/gpleiss/temperature_scaling)
+
+- 2019 - NIPS - Variational Graph Convolutional Networks
+
+### 3.2 Uncertainty
+
+- 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
+- 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning
+- 2019 - NIPS - [Uncertainty posters](https://nips.cc/Conferences/2019/ScheduleMultitrack?session=15553)
+
+
+                                                      |
 | Modeling Uncertainty with Hedged Instance Embedding          | ICLR 2019  |                                                |                                                              |
 | Uncertainty Quantification in Deep Learning                  |            |                                                | https://www.inovex.de/blog/uncertainty-quantification-deep-learning/ |
 | 2019 - thisis - Uncertainty Quantification in Deep Learning  |            |                                                |                                                              |
 | 2017 - NIPS - Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles |            |                                                |                                                              |
-| 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning |            |                                                |                                                              |
+|  |            |                                                |                                                              |
 | 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning |            |                                                |                                                              |
 | 2020 - AISTATS - Confident Learning Estimating Uncertainty in Dataset Labels |            |                                                | https://github.com/cgnorthcutt/cleanlab                      |
 | 2019 - NIPS - Practical Deep Learning with Bayesian Principles |            |                                                |                                                              |
 | 2017 - ICML - On Calibration of Modern Neural Networks       |            |                                                |                                                              |
 | 2019 - KDD - Robust Graph Convolutional Networks Against Adversarial |            |                                                |                                                              |
 | 2019 - ICML - Are Graph Neural Networks Miscalibrated        |            |                                                |                                                              |
-| 2019 - NIPS - Uncertainty posters                            |            |                                                | https://nips.cc/Conferences/2019/ScheduleMultitrack?session=15553 |
+
+
 
 ## Datasets
 
