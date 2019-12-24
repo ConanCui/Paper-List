@@ -5,20 +5,7 @@
 
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
-<p align="center">
-  <img width="460" src="Word Art.png">
-</p>
-
-
-<p align="center">
-  <img width="1024" src="./ReadMe.assets/Graph convolutional neura.png">
-</p>
-
-You need to zoom in on this image to view this picture.
-
-**Table of Contents**
-
-1. [Recomendation](##Recomendation)
+1. [Recomendation](##Recommendation)
 2. [Graph](##Graph)
 3. [Bayesian Deep Learning](##BayesianDeepLearning)
 4. [Datasets](##Datasets)
@@ -53,7 +40,7 @@ You need to zoom in on this image to view this picture.
 
 
 
-## Recomendation
+## Recommendation
 
 |                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
 | :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
