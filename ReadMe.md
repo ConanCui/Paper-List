@@ -55,28 +55,32 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   - *Guorui Zhou, Kun Gai, et al*
   - *click prediction*
 
+### 1.2 Main
 
-|                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
-| :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|                 **<font color=red></font>**                  |                |                                                              |                                                              |
-|                                                              |                |                                                              |                                                              |
-| [DKN: Deep Knowledge-Aware Network for News Recommendation ](https://dl.acm.org/citation.cfm?id=3186175) |    WWW 2018    |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
-| [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978) |    KDD 2018    |                 Guorui Zhou, Kun Gai, et al                  | [Tensorflow](https://github.com/zhougr1993/DeepInterestNetwork) |
-|              **<font color=red>Normal</font>**               |                |                                                              |                                                              |
-| [Learning Consumer and Producer Embeddings for User-Generated Content Recommendation](https://arxiv.org/abs/1809.09739) |  Recsys 2018   |             [Wang-Cheng Kang], [Julian McAuley]              |                                                              |
-| [Spectral Collaborative Filtering](https://arxiv.org/abs/1808.10523v1) |  Recsys 2018   |              [Lei Zheng], Chun-Ta, Philip S. Yu              |                                                              |
-| [Music Recommendation by Unified Hypergraph : Combining Social Media Information and Music Content](https://dl.acm.org/citation.cfm?id=1874005) |    MM 2010     |             Bu Jiajun, Tan Shulong, [Xiaofei He]             |                                                              |
-|        **<font color=red>News Recommendation</font>**        |                |                                                              |                                                              |
-| [News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content](https://dl.acm.org/citation.cfm?id=2433436) |   WSDM 2013    |                        Lei Li, Tao Li                        |                                                              |
-| [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation]() |   CIKM 2018    |                                                              |        [Keras](https://github.com/dhruvkhattar/WE3CN)        |
-|    **<font color=red>Review Based Recommendation</font>**    |                |                                                              |                                                              |
-| [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://www.comp.nus.edu.sg/~xiangnan/papers/ijcai18-A3NCF.pdf) |   IJCAI 2018   | Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song, Mohan Kankanhalli |        [Keras](https://github.com/hustlingchen/A3NCF)        |
-|                                                              |                |                                                              |                                                              |
-| [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](http://www.thuir.cn/group/~mzhang/publications/WSDM2019ChenChong.pdf) |   WSDM 2019    |                 Chong Chen, Min Zhang, et al                 |      [Tensorflow](https://github.com/chenchongthu/SAMN)      |
-| [Graph Neural Networks for Social Recommendation](https://arxiv.org/pdf/1902.07243.pdf) |    WWW 2019    |             Wenqi Fan, [Yao Ma], [Jiliang Tang]              |                                                              |
-|    **<font color=red>Disentangled Recommendation</font>**    |                |                                                              |                                                              |
-|   Learning Disentangled Representations for Recommendation   |   NIPS 2019    |                          [Peng Cui]                          |             [code](https://jianxinma.github.io/)             |
-|          Disentangled Graph Convolutional Networks           |   ICML 2019    |                          [Peng Cui]                          |             [code](https://jianxinma.github.io/)             |
+- 2018 - Recsys - Learning Consumer and Producer Embeddings for User-Generated Content Recommendation
+  - *[Wang-Cheng Kang], [Julian McAuley]*
+  - *user based*
+
+### 1.3 News Recommendation
+
+- 2013 -WSDM - News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content
+  - *Lei Li, Tao Li *
+- 2018 - CIKM - [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation](https://github.com/dhruvkhattar/WE3CN)
+  - *Lei Li, Tao Li *
+- 2018 - IJCAI - [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://github.com/hustlingchen/A3NCF)
+  - *Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song*
+
+### 1.3 Social Recommendation
+- 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
+  - *Chong Chen, Min Zhang, et al *
+- 2019 - WWW - Graph Neural Networks for Social Recommendation
+  - *Wenqi Fan, [Yao Ma], [Jiliang Tang] *
+
+### 1.4 Disentangled Recommendation
+- 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
+  - *[Jianxin Ma, Peng Cui]*
+ 
+|          Disentangled Graph Convolutional Networks           | ICML 2019  |                          [Peng Cui]                          |        [code](https://jianxinma.github.io/)        |
 
 ### Explainable
 
