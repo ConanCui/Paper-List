@@ -20,6 +20,8 @@ Table of Contents
       * [Novel Application](#novel-application)
       * [News Recommendation](#news-recommendation)
       * [Social Recommendation](#social-recommendation)
+      * [Review Based Recommendation](#review-based-recommendation)
+      * [Multi-Relation Recommendation](#multi-relation-recommendation)
       * [Disentangled Recommendation](#disentangled-recommendation)
       * [Explainable Recommendation](#explainable-recommendation)
    * [Graph](#graph)
@@ -43,12 +45,11 @@ Table of Contents
    * [BayesianDeepLearning](#bayesiandeeplearning)
       * [Survey](#survey-2)
       * [Uncertainty](#uncertainty)
+      * [Ensemble](#ensemble)
    * [Others](#others)
    * [Datasets](#datasets)
       * [homegenerous graph dataset](#homegenerous-graph-dataset)
       * [heteregeneous graph datasets](#heteregeneous-graph-datasets)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 
@@ -348,7 +349,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
 
 - 2018 - A Tutorial on Network Embeddings
-  - *Haochen Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen%2C+H), [Bryan Perozzi](https://arxiv.org/search/cs?searchtype=author&query=Perozzi%2C+B), [Rami Al-Rfou](https://arxiv.org/search/cs?searchtype=author&query=Al-Rfou%2C+R), [Steven Skiena](https://arxiv.org/search/cs?searchtype=author&query=Skiena%2C+S)*
+  - *[Haochen Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen%2C+H), [Bryan Perozzi](https://arxiv.org/search/cs?searchtype=author&query=Perozzi%2C+B), [Rami Al-Rfou](https://arxiv.org/search/cs?searchtype=author&query=Al-Rfou%2C+R), [Steven Skiena](https://arxiv.org/search/cs?searchtype=author&query=Skiena%2C+S)*
 
 - 2017 - IJCAI - [TransNet : Translation-Based Network Representation Learning for Social Relation Extraction](https://github.com/thunlp/TransNet)
   - *Cunchao Tu, Zhengyan, Maosong Sun* 
