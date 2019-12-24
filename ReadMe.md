@@ -5,7 +5,7 @@
 
 A collection of graph embedding, deep learning, recommendation, knowledge graph, heterogeneous graph papers with reference implementations
 
-1. [Recomendation](##Recommendation)
+1. [Recomendation](#Recommendation)
 2. [Graph](##Graph)
 3. [Bayesian Deep Learning](##BayesianDeepLearning)
 4. [Datasets](##Datasets)
