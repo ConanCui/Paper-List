@@ -47,9 +47,8 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2017- KDD -  Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration
 
-​	| *Xuejian Wang, Lantao Yu, Kan Ren*
-
-​    | *news recommendation*
+  - *Xuejian Wang, Lantao Yu, Kan Ren*
+  - *news recommendation*
 
 - 2018 - WWW - [DKN: Deep Knowledge-Aware Network for News Recommendation](https://github.com/hwwang55/DKN)
 
