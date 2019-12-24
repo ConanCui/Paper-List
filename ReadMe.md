@@ -46,11 +46,14 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 ### 1.1 Large Scale Recommendation
 
 - 2017- KDD -  Dynamic Attention Deep Model for Article Recommendation by Learning Human Editors’ Demonstration
-- *Xuejian Wang, Lantao Yu, Kan Ren*
+  - *Xuejian Wang, Lantao Yu, Kan Ren*
   - *news recommendation*
+
 - 2018 - WWW - [DKN: Deep Knowledge-Aware Network for News Recommendation](https://github.com/hwwang55/DKN)
   - *[Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo*
   - *news recommendation; knowledge graph*
+
+
 - 2018 - KDD - [Deep Interest Network for Click-Through Rate Prediction](https://github.com/zhougr1993/DeepInterestNetwork)
   - *Guorui Zhou, Kun Gai, et al*
   - *click prediction*
@@ -65,8 +68,12 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2013 -WSDM - News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content
   - *Lei Li, Tao Li*
+
+
 - 2018 - CIKM - [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation](https://github.com/dhruvkhattar/WE3CN)
   - *Lei Li, Tao Li*
+
+
 - 2018 - IJCAI - [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://github.com/hustlingchen/A3NCF)
   - *Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song*
 
@@ -74,6 +81,8 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
   - *Chong Chen, Min Zhang, et al*
+
+
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
