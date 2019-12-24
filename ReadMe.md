@@ -66,8 +66,10 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
   [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578)
 
   :   | *Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Qiaozhu Mei*
-      | **WWW 2015**
-      | *First-order, Second-order, Node classification*
+
+  ​    | **WWW 2015**
+
+  ​    | *First-order, Second-order, Node classification*
 
 |                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
 | :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
