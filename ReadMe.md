@@ -64,29 +64,33 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 ### 1.3 News Recommendation
 
 - 2013 -WSDM - News Recommendation via Hypergraph Learning: Encapsulation of User Behavior and News Content
-  - *Lei Li, Tao Li *
+  - *Lei Li, Tao Li*
 - 2018 - CIKM - [Weave & Rec : A Word Embedding based 3-D Convolutional Network for News Recommendation](https://github.com/dhruvkhattar/WE3CN)
-  - *Lei Li, Tao Li *
+  - *Lei Li, Tao Li*
 - 2018 - IJCAI - [A3NCF: An Adaptive Aspect Attention Model for Rating Prediction](https://github.com/hustlingchen/A3NCF)
   - *Zhiyong Cheng, Ying Ding, [Xiangnan He], Lei Zhu, Xuemeng Song*
 
 ### 1.3 Social Recommendation
+
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
-  - *Chong Chen, Min Zhang, et al *
+  - *Chong Chen, Min Zhang, et al*
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
-  - *Wenqi Fan, [Yao Ma], [Jiliang Tang] *
+  - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
 ### 1.4 Disentangled Recommendation
+
 - 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *[Jianxin Ma, Peng Cui]*
  
 |          Disentangled Graph Convolutional Networks           | ICML 2019  |                          [Peng Cui]                          |        [code](https://jianxinma.github.io/)        |
 
-### Explainable
+### 1.5 Explainable Recommendation
 
-- **Explainable Reasoning over Knowledge Graphs for Recommendation**
-- **Explainable Recommendation Through Attentive Multi-View Learning (AAAI 2018)**
-- **RippleNet : Propagating User Preferences on the Knowledge Graph for Recommender Systems (CIKM 2018)**
+- 2018 - AAAI - Explainable Recommendation Through Attentive Multi-View Learning
+
+- 2018 - CIKM - RippleNet : Propagating User Preferences on the Knowledge Graph for Recommender Systems
+
+- 2019 - AAAI - Explainable Reasoning over Knowledge Graphs for Recommendation
 
 - [Min Zhang] website (aim at explainable recommender system)
 
