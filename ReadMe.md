@@ -135,64 +135,147 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
   - *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
 
+- 2018 - AAAI - [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://github.com/hwwang55/GraphGAN)
+  - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
+
+- 2018 - CIKM - [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://github.com/dm-thu/GraphSGAN)
+  - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
+
+- 2019 - ICML - [Simplifying Graph Convolutional Networks](https://github.com/Tiiiger/SGC)
+  - *Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q.*
+
+- 2019 - ICLR - [HOW POWERFUL ARE GRAPH NEURAL NETWORKS](https://github.com/Tiiiger/SGC)
+  - *[Keyulu Xu], Weihua Hu, [Jure Leskovec], Stefanie Jegelka*
+
+- 2019 - ICLR - [LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://github.com/lrjconan/LanczosNetwork)
+  - *[Renjie Liao], et al*
+
+- 2019 - AAAI - [GeniePath: Graph Neural Networks with Adaptive Receptive Paths](https://github.com/lrjconan/LanczosNetwork)
+  - *Le Song, Yuan Qi, et al*
+
+- 2019 - AAAI - [Graph Attention Networks](https://github.com/PetarV-/GAT)
+  - *Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio*
+
+- 2018 - NIPS - [Hierarchical Graph Representation Learning with Differentiable Pooling](https://github.com/RexYing/diffpool)
+  - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
+
+- 2018 - NIPS - GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations
+  - *Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun*
+
+- 2017 - NIPS - [GraphSAGE: Inductive Representation Learning on Large Graphs](http://snap.stanford.edu/graphsage/#code)
+  - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
+
+- 2018 - NIPS - [Pitfalls of Graph Neural Network Evaluation](https://github.com/shchur/gnn-benchmark)
+  - *Shchur  Oleksandr et al*
+
+- 2017 - ICLR - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://github.com/tkipf/gcn)
+  - *[Thomas N. Kipf],  [Max Welling]*
+
+### 2.3 Application
+
+- 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
+  - *Jiezhong Qiu , [Jie Tang]， et al*
+
+- 2018 - KDD - [Signed Graph Convolutional Network](https://github.com/benedekrozemberczki/SGCN)
+  - *yler Derr, Yao Ma, Jiliang Tang*
+
+- 2019 - AAAI - [Signed Graph Convolutional Network](https://github.com/yao8839836/text_gcn)
+  - *Liang Yao, Chengsheng Mao, Yuan Luo*
+
+- 2018 - KDD - [Graph Convolutional Matrix Completion](https://github.com/riannevdberg/gc-mc)
+  - *Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]*
+
+- 2018 - KDD - PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems
+  - *[Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]*
+
+#### 2.3.1 Knowledge Graph
+
+- 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
+
+- 2019 - AAAI - [Modeling Relational Data with Graph Convolutional Networks](https://github.com/tkipf/relational-gcn)
+  - *Michael Schlichtkrull, [Thomas N. Kipf]*
+
+- 2018 - NIPS - [SimplE Embedding for Link Prediction in Knowledge Graphs](https://github.com/Mehran-k/SimplE)
+  - *[Seyed Mehran Kazemi], David Poole*
+
+- 2017 - AAAI - [Convolutional 2D Knowledge Graph Embeddings](https://github.com/TimDettmers/ConvE)
+  - *[Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel*
+ 
+- 2013 - NIPS - [Translating Embeddings for Modeling Multi-relational Data](https://github.com/thunlp/KB2E)
+  - *Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko*
+
+### 2.4 HyperGraph
+
+- 2019 - AAAI - [Hypergraph Neural Networks](https://github.com/Yue-Group/HGNN)
+  - *Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]*
+
+- 2018 - AAAI - [Structural Deep Embedding for Hyper-Networks](https://github.com/tadpole/DHNE)
+  - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
 
 
-| [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://arxiv.org/pdf/1711.08267.pdf) |                          AAAI 2018                           | [Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo |      [Tensorflow](https://github.com/hwwang55/GraphGAN)      |
-| [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://arxiv.org/pdf/1809.00130.pdf) |                          CIKM 2018                           |                     Ming Ding，Jie Tang                      |         [Code](https://github.com/dm-thu/GraphSGAN)          |
-| [Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153) |                    ICML 2019 under review                    | Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q. |          [Pytorch](https://github.com/Tiiiger/SGC)           |
-| [HOW POWERFUL ARE GRAPH NEURAL NETWORKS](https://openreview.net/forum?id=ryGs6iA5Km) |                          ICLR 2019                           |  [Keyulu Xu], Weihua Hu, [Jure Leskovec], Stefanie Jegelka   |                                                              |
-| [LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/folders/lanczosnet_iclr19/README.md) |                          ICLR 2019                           |                     [Renjie Liao], et al                     |      [code](https://github.com/lrjconan/LanczosNetwork)      |
-| [GeniePath: Graph Neural Networks with Adaptive Receptive Paths](https://arxiv.org/abs/1802.00910)![1551274095870](ReadMe.assets/1551274095870.png) |                          AAAI 2019                           |                   Le Song, Yuan Qi, et al                    |                                                              |
-| [Graph Attention Networks](https://arxiv.org/abs/1710.10903) |                          ICLR 2018                           | Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio |         [Tensorflow](https://github.com/PetarV-/GAT)         |
-| [Hierarchical Graph Representation Learning with Differentiable Pooling](https://dl.acm.org/citation.cfm?id=2433436) |                          NIPS 2018                           | [Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec |         [Code](https://github.com/RexYing/diffpool)          |
-| [GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations](https://arxiv.org/abs/1806.05662) |                          NIPS 2018                           | Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun |                                                              |
-| [GraphSAGE: Inductive Representation Learning on Large Graphs](https://arxiv.org/pdf/1706.02216.pdf) |                          NIPS 2017                           |                                                              |       [Code](http://snap.stanford.edu/graphsage/#code)       |
-| [Pitfalls of Graph Neural Network Evaluation](https://arxiv.org/abs/1811.05868) |                          NIPS 2018                           |                   Shchur  Oleksandr et al                    | [Tensorflow & gnn bench mark](https://github.com/shchur/gnn-benchmark) |
-| [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://arxiv.org/abs/1609.02907) |                          ICLR 2017                           |               [Thomas N. Kipf],  [Max Welling]               |          [Tensorflow](https://github.com/tkipf/gcn)          |
-|         **<font color=red>Graph Application</font>**         |                                                              |                                                              |                                                              |
-| [DeepInf: Social Influence Prediction with Deep Learning](https://arxiv.org/pdf/1807.05560.pdf) |                           KDD 2018                           |              Jiezhong Qiu , [Jie Tang]， et al               |          [Pytorch](https://github.com/sunqm/pyscf)           |
-| [Signed Graph Convolutional Network](https://arxiv.org/pdf/1808.06354.pdf) |                          ICDM 2018                           |               Tyler Derr, Yao Ma, Jiliang Tang               |    [Pytorch](https://github.com/benedekrozemberczki/SGCN)    |
-| [Graph convolutional networks for text classification](https://arxiv.org/abs/1809.05679) |                          AAAI 2019                           |             Liang Yao, Chengsheng Mao, Yuan Luo              |     [Tensorflow](https://github.com/yao8839836/text_gcn)     |
-| [Learning Graph Pooling and Hybrid Convolutional Operations for Text Representations](https://github.com/naganandy/graph-based-deep-learning-literature/blob/master/conference-publications/folders/gpool_www19/README.md) |                           WWW 2019                           |          Hongyang Gao,  Yongjun Chen,  Shuiwang Ji           |                                                              |
-| [Graph Convolutional Matrix Completion](https://arxiv.org/pdf/1706.02263.pdf) |                           KDD 2018                           |    Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]     |     [Tensorflow](https://github.com/riannevdberg/gc-mc)      |
-| [PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems](https://dl.acm.org/citation.cfm?id=3219890) |                           KDD 2018                           | [Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec] |                                                              |
-|          **<font color=red>Knowledge Graph</font>**          |                                                              |                                                              |                                                              |
-| [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://arxiv.org/abs/1811.04441) |                           AAAI2019                           |                                                              | [Pytorch](1https://github.com/JD-AI-Research-Silicon-Valley/SACN) |
-| [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) |                          ESWC 2018                           | Michael Schlichtkrull, [Thomas N. Kipf], Peter Bloem, Rianne van den Berg, Ivan Titov, [Max Welling] | [Keras](https://github.com/tkipf/relational-gcn),[Tensorflow](https://github.com/MichSchli/RelationPrediction) |
-| [SimplE Embedding for Link Prediction in Knowledge Graphs](https://arxiv.org/abs/1802.04868) |                          NIPS 2018                           |              [Seyed Mehran Kazemi], David Poole              |       [Tensorflow](https://github.com/Mehran-k/SimplE)       |
-| [RippleNet: Propagating User Preferences on the Knowledge Graph for Recommender Systems](https://arxiv.org/abs/1803.03467) |                          CIKM 2018                           | [Hongwei Wang], Fuzheng Zhang, Jialin Wang, Miao Zhao, Wenjie Li, [Xing Xie], Minyi Guo |     [Tensorflow](https://github.com/hwwang55/RippleNet)      |
-| [DKN: Deep Knowledge-Aware Network for News Recommendation](https://dl.acm.org/citation.cfm?id=3186175) |                           WWW 2018                           |      [Hongwei Wang], Fuzheng Zhang, Xing Xie, Minyi Guo      |        [Tensorflow](https://github.com/hwwang55/DKN)         |
-| [Convolutional 2D Knowledge Graph Embeddings](https://arxiv.org/abs/1707.01476) |                          AAAI 2017                           | [Tim Dettmers], Pasquale Minervini, Pontus Stenetorp, Sebastian Riedel |       [Pytorch](https://github.com/TimDettmers/ConvE)        |
-| [Translating Embeddings for Modeling Multi-relational Data](https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data) |                          NIPS 2013                           | Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, Oksana Yakhnenko | [Code for TransE, TransH, TransR and PTransE](https://github.com/thunlp/KB2E) |
-|                                                              |                                                              |                                                              |                                                              |
-|            **<font color=red>HyperGraph</font>**             |                                                              |                                                              |                                                              |
-| [Hypergraph Neural Networks](https://arxiv.org/abs/1809.09401) |                          AAAI 2019                           | Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao] |         [Pytorch](https://github.com/Yue-Group/HGNN)         |
-| [Structural Deep Embedding for Hyper-Networks](https://arxiv.org/abs/1711.10146) |                          AAAI 2018                           |      Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu       |        [Tensorflow](https://github.com/tadpole/DHNE)         |
-| [Modeling Multi-way Relations with Hypergraph Embedding](https://dl.acm.org/citation.cfm?id=3269274) |                          CIKM 2018                           |   Chia-An Yu, Ching-Lun Tai, Tak-Shing Chan, Yi-Hsuan Yang   |           [matlab](http://github.com/chia-an/HGE)            |
-| **<font color=red>Heterogeneous Information Network</font>** |                                                              |                                                              |                                                              |
-|                  Graph Transformer Networks                  |                                                              |                          NIPS 2019                           | [Pytorch](https://github.com/seongjunyun/Graph_Transformer_Networks) |
-| [Cash-out User Detection based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](http://shichuan.org/doc/64.pdf) | Binbin Hu, Zhiqiang Zhang,[Chuan Shi], Jun Zhou, Xiaolong Li, Yuan Qi |                          AAAI 2019                           | [Code will be released ?](https://github.com/librahu/HACUD)  |
-| [Heterogeneous Graph Attention Network](http://pengcui.thumedialab.com/papers/HeterogeneousGAN.pdf) |                           WWW 2019                           |                [Chuan Shi], [Peng Cui] et al                 |          [Pyotrch](https://github.com/Jhy1993/HAN)           |
-| [Relation Structure-Aware Heterogeneous Information Network Embedding](http://shichuan.org/doc/63.pdf) |                          AAAI 2019                           |        Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu        |          [Pytorch](https://github.com/rootlu/RHINE)          |
-| [Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings](https://dl.acm.org/citation.cfm?id=3271777) |                          CIKM 2018                           |                        [Rana Hussein]                        |                       Request in email                       |
-| [Leveraging Meta-path based Context for Top- N Recommendation with A Neural Co-Attention Model](http://shichuan.org/doc/47.pdf) |                           KDD 2018                           |    Binbin Hu, [Chuan Shi], Wayne Xin Zhao, [Philip S. Yu]    | [Tensorflow&Keras](https://github.com/librahu/MCRec),[Data](https://github.com/librahu/Heterogeneous-Information-Network-Datasets-for-Recommendation) |
-| [PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction](https://dl.acm.org/citation.cfm?id=3219986) |                           KDD 2018                           | [ Hongxu Chen](https://dl.acm.org/author_page.cfm?id=99659155111&coll=DL&dl=ACM&trk=0) et al |                       Request in email                       |
-| [Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks](http://shichuan.org/doc/46.pdf) |                          IJCAI 2018                          | Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song |         [Tensorflow](https://github.com/ahxt/NeuACF)         |
-| [Deep Collective Classification in Heterogeneous Information Networks](https://dl.acm.org/authorize?N655839) |                           WWW 2018                           |                                                              | [Keras](https://github.com/zyz282994112/GraphInception.git)  |
-| [Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks](http://www.cse.ust.hk/~hzhaoaf/data/kdd17-paper.pdf) |                           KDD 2017                           | [Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee |       [Python](https://github.com/HKUST-KnowComp/FMG)        |
-| [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf) |                           KDD 2017                           |                        [Yuxiao Dong]                         | [C++](https://ericdongyx.github.io/metapath2vec/m2v.html), [Tensorflow](https://github.com/apple2373/metapath2vec) |
-|       **<font color=red>Hyperbolic embedding</font>**        |                                                              |                                                              |                                                              |
-| [Poincaré Embeddings for Learning Hierarchical Representations](https://arxiv.org/abs/1705.08039) |                          NIPS 2017                           |               [Maximilian Nickel], Kiela Douwe               | [Pytorch](https://github.com/facebookresearch/poincare-embeddings) |
-| [Hyperbolic Neural Networks](https://arxiv.org/abs/1805.09112) |                          NIPS 2018                           |           [Octavian Eugen Ganea], Hofmann, Thomas            |     [Tensorflow](https://github.com/dalab/hyperbolic_nn)     |
-| **<font color=red>Network Representation Learning (unsupervised)</font>** |                                                              |                                                              |                                                              |
-| [A Survey on Network Embedding](https://arxiv.org/abs/1711.08752) |                             2017                             | [Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W) |                                                              |
-| [A Tutorial on Network Embeddings](https://arxiv.org/abs/1808.02590) |                             2018                             | [Haochen Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen%2C+H), [Bryan Perozzi](https://arxiv.org/search/cs?searchtype=author&query=Perozzi%2C+B), [Rami Al-Rfou](https://arxiv.org/search/cs?searchtype=author&query=Al-Rfou%2C+R), [Steven Skiena](https://arxiv.org/search/cs?searchtype=author&query=Skiena%2C+S) |                                                              |
-| [TransNet : Translation-Based Network Representation Learning for Social Relation Extraction](https://www.ijcai.org/proceedings/2017/0399.pdf) |                          IJCAI 2017                          |              Cunchao Tu, Zhengyan, Maosong Sun               |       [Tensorflow](https://github.com/thunlp/TransNet)       |
-| [TransConv: Relationship Embedding in Social Networks](https://www.aaai.org/Papers/AAAI/2019/AAAI-LaiYi-Yu.6773.pdf) |                        AAAI 2019 oral                        |                                                              |                                                              |
-|  [DEEP GRAPH INFOMAX](https://arxiv.org/pdf/1809.10341.pdf)  |                          ICLR 2019                           | Petar Velickovi ˇ c´, William L. Hamilton, [Yoshua Bengio] et al |          [Pytorch](https://github.com/PetarV-/DGI)           |
-| [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://www.ijcai.org/proceedings/2018/0438.pdf) |                          IJCAI 2018                          | Zhen Zhang, Hongxia Yang, Jiajun Bu, Sheng Zhou, Pinggang Yu, Jianwei Zhang, Martin Ester, Can Wang |      [Tensosrflow](https://github.com/cszhangzhen/ANRL)      |
-- **Exploiting Relational Information in Social Networks using Geometric Deep Learning on Hypergraphs**
+### 2.5 Heterogeneous Information Network
 
+#### 2.5.1 Architecture
+
+- 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
+  - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
+
+- 2019 - WWW - [Heterogeneous Graph Attention Network](https://github.com/Jhy1993/HAN)
+  - *Houye Ji, [Chuan Shi], [Peng Cui] et al*
+
+- 2019 - AAAI - [Relation Structure-Aware Heterogeneous Information Network Embedding](https://github.com/rootlu/RHINE)
+  - *Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu*
+
+- 2018 - CIKM - Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings
+  - *[Rana Hussein]*
+
+- 2018 - WWW - [Deep Collective Classification in Heterogeneous Information Networks](https://github.com/zyz282994112/GraphInception.git)
+  - *[Rana Hussein]*
+
+- 2018 - KDD - PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction
+  - *[ Hongxu Chen]*
+
+- 2017 - KDD - [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://github.com/apple2373/metapath2vec)
+  - *[Yuxiao Dong]* 	
+
+#### 2.5.2 Recommendation
+
+- 2017 - KDD - [Meta-Graph Based Recommendation Fusion over Heterogeneous Information Networks](https://github.com/HKUST-KnowComp/FMG)
+  - *[Huan Zhao], anming Yao, Jianda Li, Yangqiu Song and Dik Lun Lee*
+
+- 2019 - AAAI - [Cash-out User Detection based on Attributed Heterogeneous Information Network with a Hierarchical Attention Mechanism](https://github.com/librahu/HACUD)
+  - *Binbin Hu, Zhiqiang Zhang,[Chuan Shi], Jun Zhou, Xiaolong Li, Yuan Qi*
+
+- 2018 - KDD - [Leveraging Meta-path based Context for Top- N Recommendation with A Neural Co-Attention Model](https://github.com/librahu/MCRec)
+  - *Binbin Hu, [Chuan Shi], Wayne Xin Zhao, [Philip S. Yu]*
+
+- 2018 - IJCAI - [Aspect-Level Deep Collaborative Filtering via Heterogeneous Information Networks](https://github.com/ahxt/NeuACF)
+  - *Xiaotian Han, [Chuan Shi], Senzhang Wang, [Philip S. Yu], Li Song*
+ 
+
+### 2.6 Network Representation Learning
+
+#### 2.6.1 Survey
+
+- 2018 - A Survey on Network Embedding
+  - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
+
+- 2018 - A Survey on Network Embedding
+  - *[Peng Cui](https://arxiv.org/search/cs?searchtype=author&query=Cui%2C+P), [Xiao Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang%2C+X), [Jian Pei](https://arxiv.org/search/cs?searchtype=author&query=Pei%2C+J), [Wenwu Zhu](https://arxiv.org/search/cs?searchtype=author&query=Zhu%2C+W)*
+
+- 2018 - A Tutorial on Network Embeddings
+  - *Haochen Chen](https://arxiv.org/search/cs?searchtype=author&query=Chen%2C+H), [Bryan Perozzi](https://arxiv.org/search/cs?searchtype=author&query=Perozzi%2C+B), [Rami Al-Rfou](https://arxiv.org/search/cs?searchtype=author&query=Al-Rfou%2C+R), [Steven Skiena](https://arxiv.org/search/cs?searchtype=author&query=Skiena%2C+S)*
+
+- 2017 - IJCAI - [TransNet : Translation-Based Network Representation Learning for Social Relation Extraction](https://github.com/thunlp/TransNet)
+  - *Cunchao Tu, Zhengyan, Maosong Sun* 
+
+- 2019 - AAAI - TransConv: Relationship Embedding in Social Networks
+
+- 2019 - ICLR - [DEEP GRAPH INFOMAX](https://github.com/PetarV-/DGI)
+  - Petar Velickovi ˇ c´, William L. Hamilton, [Yoshua Bengio] et al
+
+- 2018 IJCAI - [ANRL: Attributed Network Representation Learning via Deep Neural Networks](https://github.com/cszhangzhen/ANRL)
+  - *Zhen Zhang, Hongxia Yang, Jiajun Bu, Sheng Zhou, Pinggang Yu, Jianwei Zhang, Martin Ester, Can Wang*
 
   **Other industry implement resource**:
 
