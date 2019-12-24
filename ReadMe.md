@@ -86,6 +86,9 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
+- 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
+  - *[Jianxin Ma, Peng Cui]*
+
 ### 1.4 Disentangled Recommendation
 
 - 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
