@@ -57,6 +57,18 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
   *news recommendation; knowledge graph*
 
+- [DeepWalk: Online Learning of Social Representations](https://arxiv.org/pdf/1403.6652)
+
+  :   | *Bryan Perozzi, Rami Al-Rfou, Steven Skiena*
+      | **KDD 2014**
+      | *Node classification, Random walk, Skip-gram*
+
+  [LINE: Large-scale Information Network Embedding](https://arxiv.org/pdf/1503.03578)
+
+  :   | *Jian Tang, Meng Qu, Mingzhe Wang, Ming Zhang, Jun Yan, Qiaozhu Mei*
+      | **WWW 2015**
+      | *First-order, Second-order, Node classification*
+
 |                            Title                             | **Conference** |                          **Author**                          |                        **Attachment**                        |
 | :----------------------------------------------------------: | :------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                 **<font color=red></font>**                  |                |                                                              |                                                              |
