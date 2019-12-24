@@ -49,8 +49,6 @@ Table of Contents
          * [5.1 homegenerous graph dataset](#51-homegenerous-graph-dataset)
          * [5.2 heteregeneous graph datasets](#52-heteregeneous-graph-datasets)
 
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
 
 
 ## 1 Recommendation
