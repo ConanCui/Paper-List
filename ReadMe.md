@@ -93,13 +93,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
   - *Chong Chen, Min Zhang, et al*
+
+
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
 ## Disentangled Recommendation
 
-- 2019 - NIPS - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
-  - *[Jianxin Ma, Peng Cui]*
+- 2019 - NIPS - [Learning Disentangled Representations for Recommendation](https://jianxinma.github.io/)
+  - *Jianxin Ma, [Peng Cui]*
 
 ## Explainable Recommendation
 
@@ -224,6 +226,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - *作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。*
 
 ## Sampling
+
 - 2019 - KDD - [Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks](https://www.paperweekly.site/papers/3251)
 
 ## Application
@@ -278,12 +281,20 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
   - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
+
+
 - 2019 - WWW - [Heterogeneous Graph Attention Network](https://github.com/Jhy1993/HAN)
   - *Houye Ji, [Chuan Shi], [Peng Cui] et al*
+
+
 - 2019 - AAAI - [Relation Structure-Aware Heterogeneous Information Network Embedding](https://github.com/rootlu/RHINE)
   - *Yuanfu Lu, [Chuan Shi], Linmei Hu, Zhiyuan Liu*
+
+
 - 2018 - CIKM - Are Meta-Paths Necessary ? Revisiting Heterogeneous Graph Embeddings
   - *[Rana Hussein]*
+
+
 - 2018 - WWW - [Deep Collective Classification in Heterogeneous Information Networks](https://github.com/zyz282994112/GraphInception.git)
 
 - 2018 - KDD - PME : Projected Metric Embedding on Heterogeneous Networks for Link Prediction
