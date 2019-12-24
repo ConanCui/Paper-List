@@ -82,7 +82,6 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 - 2019 - WSDM - [Social Attentional Memory Network: Modeling Aspect- and Friend-level Differences in Recommendation](https://github.com/chenchongthu/SAMN)
   - *Chong Chen, Min Zhang, et al*
 
-
 - 2019 - WWW - Graph Neural Networks for Social Recommendation
   - *Wenqi Fan, [Yao Ma], [Jiliang Tang]*
 
@@ -106,23 +105,38 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 
 - [Min Zhang] website (aim at explainable recommender system)
 
-## Graph
+## 2 Graph
 
-|                            Title                             |                        **Conference**                        |                          **Author**                          |                          Attachment                          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|              **<font color=red>Survey</font>**               |                                                              |                                                              |                                                              |
-| [Survey: Representation Learning on Graphs: Methods and Applications](https://arxiv.org/abs/1709.05584) |                                                              |      [William L. Hamilton], [Rex Ying], [Jure Leskovec]      |                                                              |
-| [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596?context=cs) |                                                              |                   Zonghan Wu ,Philip S. Yu                   |                                                              |
-|                                                              |                                                              |                                                              |                                                              |
-|           **<font color=red>Graph Theory</font>**            |                                                              |                                                              |                                                              |
-|     Graph Agreement Models for Semi-Supervised Learning      |                          NIPS 2019                           |                                                              | [tensorflow](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam) |
-|                      NIPS Graph posters                      |                          NIPS 2019                           |                                                              | https://nips.cc/Conferences/2019/ScheduleMultitrack?session=15596 |
-|                                                              |                                                              |                                                              |                                                              |
-| [Representation Learning on Graphs with Jumping Knowledge Networks](https://arxiv.org/abs/1806.03536) |                          ICML 2018                           | [Keyulu Xu], Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka |                                                              |
-| [Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://arxiv.org/abs/1810.05997) |                          ICLR 2019                           | Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann  | [Pytorch and Tensorflow](https://github.com/klicperajo/ppnp) |
-|                                                              |                                                              |                                                              |                                                              |
-| [Bayesian graph convolutional neural networks for semi-supervised classification](https://arxiv.org/pdf/1811.11103.pdf) |                          AAAI 2019                           |        Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang         |                                                              |
-| [Graph Wavelet Neural Network](https://openreview.net/forum?id=H1ewdiR5tQ) |                          ICLR 2019                           | [Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn)*,* [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn)*,* [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn)*,* [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn)*,* [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn) | [Pytorch](https://github.com/benedekrozemberczki/GraphWaveletNeuralNetwork), [Tensorflow](https://github.com/Eilene/GWNN) |
+### 2.1 Survey
+- 2019  - Representation Learning on Graphs: Methods and Applications
+  - *[William L. Hamilton], [Rex Ying], [Jure Leskovec]*
+
+- 2019  - A Comprehensive Survey on Graph Neural Networks
+  - *Zonghan Wu ,Philip S. Yu*
+
+### 2.2 Theory
+
+- 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
+  - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
+  - *self learning; edge  modification*
+
+- 2018 - ICML - Representation Learning on Graphs with Jumping Knowledge Networks
+  - *[Keyulu Xu], Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka*
+  - *jump connection;*
+
+- 2019 - ICLR - [Predict then Propagate: Graph Neural Networks meet Personalized PageRank](https://github.com/klicperajo/ppnp)
+  - *Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann*
+  - *page rank;*
+
+- 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
+  - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
+  - *edge modification;*
+
+- 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
+  - *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
+
+
+
 | [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://arxiv.org/pdf/1711.08267.pdf) |                          AAAI 2018                           | [Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo |      [Tensorflow](https://github.com/hwwang55/GraphGAN)      |
 | [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://arxiv.org/pdf/1809.00130.pdf) |                          CIKM 2018                           |                     Ming Ding，Jie Tang                      |         [Code](https://github.com/dm-thu/GraphSGAN)          |
 | [Simplifying Graph Convolutional Networks](https://arxiv.org/abs/1902.07153) |                    ICML 2019 under review                    | Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q. |          [Pytorch](https://github.com/Tiiiger/SGC)           |
