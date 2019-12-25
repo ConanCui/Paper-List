@@ -239,9 +239,20 @@ Table of Contents
 - 2019 - KDD - Robust Graph Convolutional Networks Against Adversaria Attacks  
   - *gcn中每一层特征都用一个gaussian distribution来表征，分布的好处是可以吸收对抗攻击的坏处。另外，设计了基于variance的attention方式，这样可以阻止对抗攻击在graph中的传播*
 
-## Understanding 
+## Understanding
 
-- 2020 - ICLR - Measuring and Improving the Use of Graph Information in Graph Neural Networks
+
+
+- 2020 - ICLR - [PairNorm: Tackling Oversmoothing in GNNs](https://drive.google.com/drive/folders/1b2ZvLMcCDVoxXpWsCJhwXhXrQ53d4siR)
+  - *Lingxiao Zhao, Leman Akoglu*
+  - *解决oversmoothing*
+
+
+- 2020 - ICLR - [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification]( https://github.com/DropEdge/DropEdge )
+  - *Yu Rong, Wenbing Huang, Tingyang Xu, Junzhou Huang*
+  - *解决oversmoothing*
+
+- 2020 - ICLR - [Measuring and Improving the Use of Graph Information in Graph Neural Networks]( https://github.com/yifan-h/CS-GNN )
   - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
 
 - 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
