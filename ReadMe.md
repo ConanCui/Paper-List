@@ -101,6 +101,9 @@ Table of Contents
 
 ## Review Based Recommendation
 
+- 2019 - CIKM - Spam Review Detection with Graph Convolutional Networks
+  - *spam review is hard to detect using the content itself, considering the content with other reviews is important*
+
 - 2019 - EMNLP - Reviews Meet Graphs Enhancing User and Item Representations for recommendation with Hierachical Attentive Graph Neural Network
   - *Chuhan Wu, Fangzhao Wu, Tao Qi, Suyu Ge, Yongfeng Huang, and [Xing Xie]*
 
@@ -108,6 +111,9 @@ Table of Contents
 
 - 2018 - WWW - [Neural At-tentional Rating Regression with Review-level Explanations](https://github.com/chenchongthu/NARRE)
   - *[Chong Chen], [Min Zhang]*
+
+## Sequential Recommendation
+- 2019 - TKDE - [Personalizing Graph Neural Networks with Attention Mechanism for Session-based Recommendation](https://github.com/CRIPAC-DIG/A-PGNN)
 
 ## Multi-Relation Recommendation
 
@@ -157,6 +163,10 @@ Table of Contents
 
 
 ## Theory
+
+- 2019 - NIPS - [Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://github.com/PwnerHarry/Stronger_GCN)
+  - *Luan, Sitao and Zhao, Mingde and Chang, Xiao-Wen and Precup, Doina*
+  - *提出了两种类似于densenet 的图卷积网络结构用于node classification，作者的motivation是从spectruml出发的，和LanczosNet属于同一系列工作*
 
 - 2019 - NIPS - [Diffusion Improves Graph Learning](https://github.com/klicperajo/gdc)
   - *Johannes Klicpera, Stefan Weißenberger, [Stephan Günnemann]*
@@ -392,6 +402,7 @@ Table of Contents
   - [zhihu link for graph](https://zhuanlan.zhihu.com/p/55944583)
   - [spatial-temporal graph](https://github.com/Eilene/spatio-temporal-paper-list/issues/1)
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
+  - [graph-adversarial-learning-literature](https://github.com/YingtongDou/graph-adversarial-learning-literature)
 
 
 # BayesianDeepLearning
@@ -399,13 +410,30 @@ Table of Contents
 ##  Survey
 
 - 2018 - NIPS - Recent Advances in Autoencoder-Based Representation Learning
-  - *Michael Tschannen, Olivier Bachem, Mario Lucic*
+  
+- *Michael Tschannen, Olivier Bachem, Mario Lucic*
+  
+  
+  
+
+## Uncertainty
+
+
 
 - 2017 - ICML - [On Calibration of Modern Neural Networks](https://github.com/gpleiss/temperature_scaling)
 
+
+
 - 2019 - NIPS - Variational Graph Convolutional Networks
 
-## Uncertainty
+
+
+- 2019 - ICML -[ Are Graph Neural Networks Miscalibrated?](https://github.com/PurdueMINDS/GNNsMiscalibrated)
+  - *Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro *
+  - *calibrated的定义为，在多分类模型中，softmax输出的概率是否和预测正确的频率相吻合，例如模型对这批数据的预测为0.8，那么10次给出这个标签，8次应该是对的。random classifier is a perfectly calibrated model so it is a orthogonal metric to model accuracy。该文章调研了之前比较成熟的calibration method包括了MC dropout和temprature scaling，显示了他们并不一定都对GNN有效果，但本篇文章并没有提出来任何改善GNN的calibration techniques。*
+- 2019 - NIPS - [Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty](https://github.com/hendrycks/ss-ood) 
+  - *Dan Hendrycks, Mantas Mazeika, Saurav Kadavath, Dawn Song*
+  - *该文在CV的分类任务上，在原有cross entropy loss基础上，附加了一种基于rotation的self-supervised loss用来增强模型的鲁棒性，可以应对噪声标签，噪声图片输入，对抗样本输入，out of distribution sample。在每个任务上均能提升5个点左右。该方法简单有效，可以作为plug添加到许多CV分类任务中*
 
 - 2019 - ICCV - [Probabilistic Face Embedding](https://github.com/seasonSH/Probabilistic-Face-Embeddings)
 
@@ -439,6 +467,12 @@ Table of Contents
 - 2019 - NIPS - A Simple Baseline for Bayesian Uncertainty in Deep Learning
 
 - 2020 - AISTATS - [Confident Learning Estimating Uncertainty in Dataset Labels](https://github.com/cgnorthcutt/cleanlab)
+
+
+## attack
+
+
+
 
 #  Datasets
 
@@ -487,7 +521,7 @@ other useful dataset links
 [Tim Dettmers]: http://timdettmers.com/about/
 [Seyed Mehran Kazemi]: https://www.cs.ubc.ca/~smkazemi/
 [Xiangnan He]: https://www.comp.nus.edu.sg/~xiangnan/
-[Hongwei Wang]: https://hwwang55.github.io/
+[Hongwei Wang]: https://cs.stanford.edu/~hongweiw/
 [Peng Cui]: http://pengcui.thumedialab.com/
 [William L. Hamilton]: https://williamleif.github.io/
 [Yue Gao]: http://www.gaoyue.org/tsinghua/pubs/index.htm
