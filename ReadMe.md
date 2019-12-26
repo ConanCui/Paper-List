@@ -254,13 +254,10 @@ Table of Contents
   - *解决oversmoothing*
 
 - 2020 - ICLR - [Measuring and Improving the Use of Graph Information in Graph Neural Networks]( https://github.com/yifan-h/CS-GNN )
-  
   - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
-  
   - *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
 
 - 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
-  
   - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
   
 - 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
