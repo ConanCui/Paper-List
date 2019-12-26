@@ -293,9 +293,7 @@ Table of Contents
   - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
 
-![1577331260804](ReadMe.assets\1577331260804.png)
-
-
+![1577331507505](ReadMe.assets/1577331507505.png)
 
 - 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
 
