@@ -293,29 +293,7 @@ Table of Contents
   - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
 
-
-
-
-$$
-\boldsymbol{h}_{v}^{k+1}=f\left(\sum_{(u, r) \in \mathcal{N}(v)} \boldsymbol{W}_{\lambda(r)}^{k} \phi\left(\boldsymbol{h}_{u}^{k}, \boldsymbol{h}_{r}^{k}\right)\right)
-$$
-
-$$
-\boldsymbol{h}_{r}^{k+1}=\boldsymbol{W}_{\mathrm{rel}}^{k} \boldsymbol{h}_{r}^{k}
-$$
-
-$$\boldsymbol{W}_{\mathrm{dir}(r)}=\left\{\begin{array}{ll}
-{\boldsymbol{W}_{O},} & {r \in \mathcal{R}} \\
-{\boldsymbol{W}_{I},} & {r \in \mathcal{R}_{i n v}} \\
-{\boldsymbol{W}_{S},} & {r=\top(\text {self-loop})}
-\end{array}\right.$$
-
-$$
-Subtraction $(\mathrm{Sub}): \phi\left(e_{s}, e_{r}\right)=e_{s}-e_{r}$\\
-Multiplication (Mult): $\phi\left(e_{s}, e_{r}\right)=e_{s} * e_{r}$ \\Circular-correlation (Corr): $\phi\left(e_{s}, e_{r}\right)=e_{s} \star e_{r}$
-$$
-
-
+![1577331260804](D:\pycharm_project\Paper List\ReadMe.assets\1577331260804.png)
 
 
 
