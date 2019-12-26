@@ -287,6 +287,16 @@ Table of Contents
 - 2018 - KDD - PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems
   - *[Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]*
 
+
+- 2020 - ICLR - Composition-based Multi-Relational Graph Convolutional Networks 
+  - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
+  - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
+$$
+\boldsymbol{h}_{v}=f\left(\sum_{(u, r) \in \mathcal{N}(v)} \boldsymbol{W}_{\lambda(r)} \phi\left(\boldsymbol{x}_{u}, \boldsymbol{z}_{r}\right)\right)
+$$
+
+
+
 - 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
 
 - 2019 - AAAI - [Modeling Relational Data with Graph Convolutional Networks](https://github.com/tkipf/relational-gcn)
@@ -342,7 +352,7 @@ Table of Contents
 ###  Recommendation and Other Application
 
 - 2019 - CIKM - [Relation-Aware Graph Convolutional Networks for Agent-Initiated Social E-Commerce Recommendation](https://github.com/xfl15/RecoGCN)
-  - *neighborhood sampling;*
+  - *relation aware aggregator; metapath based receptive field sampler; co-attention fusion;*
 
 - 2019 - KDD - Metapath-guided Heterogeneous Graph Neural Network for Intent Recommendation
 
