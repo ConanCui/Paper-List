@@ -293,7 +293,7 @@ Table of Contents
   - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
 
-![1577331260804](D:\pycharm_project\Paper List\ReadMe.assets\1577331260804.png)
+![1577331382680](ReadMe.assets/1577331382680.png)
 
 
 
