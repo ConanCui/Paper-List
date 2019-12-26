@@ -291,8 +291,11 @@ Table of Contents
 - 2020 - ICLR - Composition-based Multi-Relational Graph Convolutional Networks 
   - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
-  
-  $abc-\sum$
+
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 $$
 \boldsymbol{h}_{v}^{k+1}=f\left(\sum_{(u, r) \in \mathcal{N}(v)} \boldsymbol{W}_{\lambda(r)}^{k} \phi\left(\boldsymbol{h}_{u}^{k}, \boldsymbol{h}_{r}^{k}\right)\right)
 $$
