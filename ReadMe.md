@@ -1,32 +1,4 @@
 
-
-大家都看过[Stackoverflow](http://stackoverflow.com/)上的公式吧，漂亮，其生成的不是图片。这就要用到MathJax引擎，在Markdown中添加MathJax引擎也很简单，
-
-```
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-```
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-然后，再使用Tex写公式。`$$公式$$`表示行间公式，本来Tex中使用`\(公式\)`表示行内公式，但因为Markdown中`\`是转义字符，所以在Markdown中输入行内公式使用`\\(公式\\)`，如下代码：
-
-```
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-```
-
-分别显示结果（行间公式）：
-
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-
-行内公式：
-
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-
-不信，你可以试一下，在公式上还可以使用鼠标右键操作。
-
-
-
 # Awesome paper list
 
 [![PRs Welcome](ReadMe.assets/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -332,13 +304,11 @@ $$
 \boldsymbol{h}_{r}^{k+1}=\boldsymbol{W}_{\mathrm{rel}}^{k} \boldsymbol{h}_{r}^{k}
 $$
 
-$$
-\boldsymbol{W}_{\mathrm{dir}(r)}=\left\{\begin{array}{ll}
+$$\boldsymbol{W}_{\mathrm{dir}(r)}=\left\{\begin{array}{ll}
 {\boldsymbol{W}_{O},} & {r \in \mathcal{R}} \\
 {\boldsymbol{W}_{I},} & {r \in \mathcal{R}_{i n v}} \\
 {\boldsymbol{W}_{S},} & {r=\top(\text {self-loop})}
-\end{array}\right.
-$$
+\end{array}\right.$$
 
 $$
 Subtraction $(\mathrm{Sub}): \phi\left(e_{s}, e_{r}\right)=e_{s}-e_{r}$\\
