@@ -162,7 +162,6 @@ Table of Contents
   - *Johannes Klicpera, Aleksandar Bojchevski, Stephan Günnemann*
   - *page rank;*
 
-
 ## Theory
 
 - 2019 - NIPS - [Break the Ceiling: Stronger Multi-scale Deep Graph Convolutional Networks](https://github.com/PwnerHarry/Stronger_GCN)
@@ -171,6 +170,7 @@ Table of Contents
 
 - 2019 - NIPS - [Diffusion Improves Graph Learning](https://github.com/klicperajo/gdc)
   - *Johannes Klicpera, Stefan Weißenberger, [Stephan Günnemann]*
+  - *该文章提出GNN输入的图T要先经过如下的diffusion后，再把diffusion后的图S送入GNN*![1577342694209](ReadMe.assets/1577342694209.png)
 
 
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
@@ -254,11 +254,15 @@ Table of Contents
   - *解决oversmoothing*
 
 - 2020 - ICLR - [Measuring and Improving the Use of Graph Information in Graph Neural Networks]( https://github.com/yifan-h/CS-GNN )
+  
   - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
+  
+  - *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
 
 - 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
+  
   - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
-
+  
 - 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
   - *Deli Chen, Yankai Lin, Wei Li, Peng Li, Jie Zhou, Xu Sun* 
   - *作者发现对于node classification这样的任务，inter class edge是有用的，而intra classi的edge是noisy的。作者提供了两种指标来衡量smoothing。同时作者还提出了两种方法来解决oversmooting，一种是加regularizer，在graph较近的node之间的feature vector的cosine distance变小，而graph上离得比较远的node之间的distance变大，另外一种方法为对graph进行重建，期望graph之间confidence比较高的edge得以保留，confidence比较低的边去除掉。这两种方法来使得在达到较高的层数的时候，performance的衰退变慢。*
@@ -276,10 +280,10 @@ Table of Contents
 - 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
   - *Jiezhong Qiu , Jie Tang， et al*
 
-- 2018 - KDD - [Signed Graph Convolutional Network](https://github.com/benedekrozemberczki/SGCN)
+- 2018 - ICDM- [Signed Graph Convolutional Network](https://github.com/benedekrozemberczki/SGCN)
   - *yler Derr, Yao Ma, Jiliang Tang*
 
-- 2019 - AAAI - [Signed Graph Convolutional Network](https://github.com/yao8839836/text_gcn)
+- 2019 - AAAI - [ Graph Convolutional Networks for Text Classification ](https://github.com/yao8839836/text_gcn)
   - *Liang Yao, Chengsheng Mao, Yuan Luo*
 
 - 2018 - KDD - [Graph Convolutional Matrix Completion](https://github.com/riannevdberg/gc-mc)
@@ -294,6 +298,8 @@ Table of Contents
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
 
 ![1577331507505](ReadMe.assets/1577331507505.png)
+
+
 
 - 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
 
