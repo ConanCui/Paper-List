@@ -119,8 +119,20 @@ Table of Contents
 ## Multi-Relation Recommendation
 
 - 2020 - AAAI - [Efficient Heterogeneous Collaborative Filtering without Negative Sampling for Recommendation](https://github.com/chenchongthu/EHCF)
+  
   - *[Chong Chen], [Min Zhang]*
   
+  ​    ![1577350649297](ReadMe.assets/1577350649297.png)
+  
+- 2018 - CIKM - [Sequential Recommendation Through Mixtures of Heterogeneous Item Relationships](https://github.com/kang205/MoHR)
+  
+  - *[Wang-Cheng Kang], Mengting Wan, [Julian McAuley]*
+
+
+- 2018 - WWW - [Latent Relational Metric Learning via Memory-based Attention for Collaborative Ranking](https://github.com/vanzytay/WWW2018_LRML)
+  - *Yi Tay and, Luu Anh Tuan, Siu Cheung Hui*
+
+
 ## Disentangled Recommendation
 
 - 2019 - NIPS - [Learning Disentangled Representations for Recommendation](https://jianxinma.github.io/)
@@ -153,6 +165,8 @@ Table of Contents
 
 - 2019 - ICML - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *Jinxi Ma, [Peng Cui]*
+  - *作者假设edge存在是不同的原因导致的，应当是disentangle的。相比于GCN的不同做法，本文在message passing过程中，将feature分成了K个channel，每个channel上基于特征相似度的attention进行汇聚，部分算法如下*![1577344906333](ReadMe.assets/1577344906333.png)
+
 
 - 2018 - ICML - Representation Learning on Graphs with Jumping Knowledge Networks
   - *[Keyulu Xu], Chengtao Li, Yonglong Tian, Tomohiro Sonobe,Ken-ichi Kawarabayashi, Stefanie Jegelka*
@@ -168,6 +182,8 @@ Table of Contents
   - *Luan, Sitao and Zhao, Mingde and Chang, Xiao-Wen and Precup, Doina*
   - *提出了两种类似于densenet 的图卷积网络结构用于node classification，作者的motivation是从spectruml出发的，和LanczosNet属于同一系列工作*
 
+  
+  
 - 2019 - NIPS - [Diffusion Improves Graph Learning](https://github.com/klicperajo/gdc)
   - *Johannes Klicpera, Stefan Weißenberger, [Stephan Günnemann]*
   - *该文章提出GNN输入的图T要先经过如下的diffusion后，再把diffusion后的图S送入GNN*![1577342694209](ReadMe.assets/1577342694209.png)
@@ -176,40 +192,31 @@ Table of Contents
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
   
   - *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
-  
 - 2018 - AAAI - [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://github.com/hwwang55/GraphGAN)
   - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
-  
 - 2018 - CIKM - [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://github.com/dm-thu/GraphSGAN)  
-  - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
-  
+
+
+
+
 - 2019 - ICML - [Simplifying Graph Convolutional Networks](https://github.com/Tiiiger/SGC)
   - *Wu Felix, Zhang Tianyi, Souza, Amauri, Holanda de Fifty, Christopher, Yu, Tao, Weinberger, Kilian Q.*
-  
 - 2019 - ICLR - [HOW POWERFUL ARE GRAPH NEURAL NETWORKS](https://github.com/Tiiiger/SGC)
   - *[Keyulu Xu], Weihua Hu, [Jure Leskovec], Stefanie Jegelka*
-  
 - 2019 - ICLR - [LanczosNet: Multi-Scale Deep Graph Convolutional Networks](https://github.com/lrjconan/LanczosNetwork)
   - *[Renjie Liao], et al*
-  
 - 2019 - AAAI - [GeniePath: Graph Neural Networks with Adaptive Receptive Paths](https://github.com/lrjconan/LanczosNetwork)
   - *Le Song, Yuan Qi, et al*
-  
 - 2018 - ICLR - [Graph Attention Networks](https://github.com/PetarV-/GAT)
   - *Petar Veliˇckovi´, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li`, Yoshua Bengio*
-  
 - 2018 - NIPS - [Hierarchical Graph Representation Learning with Differentiable Pooling](https://github.com/RexYing/diffpool)
   - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
-  
 - 2018 - NIPS - GLoMo: Unsupervisedly Learned Relational Graphs as Transferable Representations
   - *Zhilin Yang, Jake Zhao, Bhuwan Dhingra, Kaiming He, William W. Cohen, Ruslan Salakhutdinov, Yann LeCun*
-  
 - 2017 - NIPS - [GraphSAGE: Inductive Representation Learning on Large Graphs](http://snap.stanford.edu/graphsage/#code)
   - *[Rex Ying], Jiaxuan You, Christopher Morris, Xiang Ren, William L. Hamilton, Jure Leskovec*
-  
 - 2018 - NIPS - [Pitfalls of Graph Neural Network Evaluation](https://github.com/shchur/gnn-benchmark)
   - *Shchur  Oleksandr et al*
-
 - 2017 - ICLR - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://github.com/tkipf/gcn)
   - *[Thomas N. Kipf],  [Max Welling]*
 
@@ -250,14 +257,19 @@ Table of Contents
 
 
 - 2020 - ICLR - [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification]( https://github.com/DropEdge/DropEdge )
+  
   - *Yu Rong, Wenbing Huang, Tingyang Xu, Junzhou Huang*
-  - *解决oversmoothing*
-
+- *解决oversmoothing*
+  
 - 2020 - ICLR - [Measuring and Improving the Use of Graph Information in Graph Neural Networks]( https://github.com/yifan-h/CS-GNN )
+  
   - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
-  - *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
-
+- *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
+  
+  ![1577345532488](ReadMe.assets/1577345532488.png)
+  
 - 2020 - ICLR - Characterize and Transfer Attention in Graph Neural Networks 
+  
   - *GAT在citation数据集上不同node的attention区分度不明显，在PPI上明显。这个attention和不同的数据集有着相关性，利用attention score作为feature vector，可以明显的区分出来不同的dataset。另外，作者尝试利用GAT得到的attention score对edge进行过滤，发现graph中的仅仅保留30-40%边仍能够得到不错的效果*
   
 - 2020 - AAAI - Measuring and Relieving the Over-smoothing Problem for Graph Neural Networks from the Topological View
@@ -270,23 +282,38 @@ Table of Contents
 
 ## Application
 
+
+
+- 2019 - SIGIR - [Neural Graph Collaborative Filtering]( https://github.com/xiangwang1223/neural_graph_collaborative_filtering )
+
+  - *Xiang Wang, Xiangnan He, Meng Wang, Fuli Feng, Tat Seng Chua*
+
+    ![1577350352133](ReadMe.assets/1577350352133.png)
+
+    
+
 - 2018 - KDD - [Inductive Matrix Completion Based on Graph Neural Networks](https://github.com/muhanzhang/IGMC)
   - *[Muhan Zhang], Yixin Chen*
   - *该文章提出了一种基于图卷积网络的inductive，并且不使用辅助信息的矩阵补全方法。矩阵补全作为一个经典的问题，在许多领域有着应用，例如推荐系统。以往的方法比如低秩矩阵分解将矩阵分解成两个向量的乘积，他们往往是transductive的，不能够泛化到新的矩阵行和列上，KDD 2018的GCMC应用node-level的图卷积网络在bipartie graph上学习用户和物品特征表达，但其仍属于transductive的方法，而同为KDD 2018的pinsage虽然是inductive的模型，但是要依赖辅助信息如特征，并且特征的质量往往会影响模型的效果。本文提出一种基于图卷积网络的inductive矩阵补全方法，使得模型不依赖特征就可以泛化到新用户和新物品的矩阵补全方法。该方法主要由三步构成，包括了1.抽取包含目标用户和物品的sub-graph；2.为subgraph中不同的节点打上标签；3.graph-level的图卷积网络进行评分预测。最终作者在4个数据集上取得最好的表现效果，值得一提的是在movielens数据集上训练的模型在Douban数据集上进行测试，也能够超越一大部分baseline，显出该方法有着良好的transfer能力。*
 
 - 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
-  - *Jiezhong Qiu , Jie Tang， et al*
-
+  
+- *Jiezhong Qiu , Jie Tang， et al*
+  
 - 2018 - ICDM- [Signed Graph Convolutional Network](https://github.com/benedekrozemberczki/SGCN)
-  - *yler Derr, Yao Ma, Jiliang Tang*
-
+  
+- *yler Derr, Yao Ma, Jiliang Tang*
+  
 - 2019 - AAAI - [ Graph Convolutional Networks for Text Classification ](https://github.com/yao8839836/text_gcn)
-  - *Liang Yao, Chengsheng Mao, Yuan Luo*
-
+  
+- *Liang Yao, Chengsheng Mao, Yuan Luo*
+  
 - 2018 - KDD - [Graph Convolutional Matrix Completion](https://github.com/riannevdberg/gc-mc)
-  - *Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]*
-
+  
+- *Rianne van den Berg, [Thomas N. Kipf],  [Max Welling]*
+  
 - 2018 - KDD - PinSage: Graph Convolutional Neural Networks for Web-Scale Recommender Systems
+  
   - *[Rex Ying], Ruining He, Kaifeng Chen, Pong Eksombatchai, William L. Hamilton, [Jure Leskovec]*
 
 
@@ -327,8 +354,11 @@ Table of Contents
 
 ### Architecture
 
+- 2020 - AAAI - [An Attention-based Graph Neural Network for Heterogeneous Structural Learning](https://github.com/didi/hetsann)
+- *Huiting Hong, Hantao Guo, Yucheng Lin, Xiaoqing Yang, Zang Li, Jieping Ye*
+- *Metapath free method; Multi-Task; Self-attention*
+
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
-  - *Ke Tu, [Peng Cui], Xiao Wang, Fei Wang, Wenwu Zhu*
 
 
 - 2019 - WWW - [Heterogeneous Graph Attention Network](https://github.com/Jhy1993/HAN)
@@ -426,8 +456,10 @@ Table of Contents
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
   - [graph-adversarial-learning-literature](https://github.com/YingtongDou/graph-adversarial-learning-literature)
 
-
 # BayesianDeepLearning
+
+## WorkShop
+- NIPS - Bayesian Deep Learning(http://bayesiandeeplearning.org/)
 
 ##  Survey
 
@@ -440,15 +472,40 @@ Table of Contents
 
 ## Uncertainty
 
+### Theory
+- 2018 - CVPR - [Multi-Task Learning Using Uncertainty to Weigh Losses
+for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example.ipynb)
+  - *Alex Kendall, [Yarin Gal], Roberto Cipolla*
+  - *该文提出利用  Task-dependent or Homoscedastic uncertainty去刻画当前任务的noisy程度，如果uncertainty越大的话，那么他在multi-task的loss中应当占更少的比例。*
+  $$
+\begin{aligned}
+&=-\log p\left(\mathbf{y}_{1}, \mathbf{y}_{2} | \mathbf{f}^{\mathbf{W}}(\mathbf{x})\right)\\
+&\propto \frac{1}{2 \sigma_{1}^{2}}\left\|\mathbf{y}_{1}-\mathbf{f}^{\mathbf{W}}(\mathbf{x})\right\|^{2}+\frac{1}{2 \sigma_{2}^{2}}\left\|\mathbf{y}_{2}-\mathbf{f}^{\mathbf{W}}(\mathbf{x})\right\|^{2}+\log \sigma_{1} \sigma_{2}\\
+&=\frac{1}{2 \sigma_{1}^{2}} \mathcal{L}_{1}(\mathbf{W})+\frac{1}{2 \sigma_{2}^{2}} \mathcal{L}_{2}(\mathbf{W})+\log \sigma_{1} \sigma_{2}
+  \end{aligned}
+  $$
+- 2019 - CVPR - Striking the Right Balance with Uncertainty
 
+- 2019 - thisis - Uncertainty Quantification in Deep Learning
+
+- 2019 - [Uncertainty Quantification in Deep Learning](https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
+
+- 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
+
+- 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning
+
+### Application
+
+- 2019 - ICCV - [Probabilistic Face Embedding](https://github.com/seasonSH/Probabilistic-Face-Embeddings)
+
+
+- 2019 - ICCV - [Robust Person Re-identification by Modelling Feature Uncertainty](https://github.com/TianyuanYu/DistributionNet.
+)
+  - *Tianyuan Yu， Da Li， Yongxin Yang，Timothy Hospedales，Tao Xiang* 
 
 - 2017 - ICML - [On Calibration of Modern Neural Networks](https://github.com/gpleiss/temperature_scaling)
 
-
-
 - 2019 - NIPS - Variational Graph Convolutional Networks
-
-
 
 - 2019 - ICML -[ Are Graph Neural Networks Miscalibrated?](https://github.com/PurdueMINDS/GNNsMiscalibrated)
   - *Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro *
@@ -457,26 +514,15 @@ Table of Contents
   - *Dan Hendrycks, Mantas Mazeika, Saurav Kadavath, Dawn Song*
   - *该文在CV的分类任务上，在原有cross entropy loss基础上，附加了一种基于rotation的self-supervised loss用来增强模型的鲁棒性，可以应对噪声标签，噪声图片输入，对抗样本输入，out of distribution sample。在每个任务上均能提升5个点左右。该方法简单有效，可以作为plug添加到许多CV分类任务中*
 
-- 2019 - ICCV - [Probabilistic Face Embedding](https://github.com/seasonSH/Probabilistic-Face-Embeddings)
-
-- 2017 - NIPS - What Uncertainties Do We Need in Bayesian  Deep Learning for Computer Vision?
-
-- 2016 - ICML - Dropout as a Bayesian Approximation Representing Model Uncertainty in Deep Learning
-
 - 2019 - NIPS - [Uncertainty posters](https://nips.cc/Conferences/2019/ScheduleMultitrack?session=15553)
 
 - 2019 - ICLR - [Modeling Uncertainty with Hedged Instance Embedding](https://github.com/google/n-digit-mnist)
-
-- 2019 - thisis - Uncertainty Quantification in Deep Learning
-
-- 2019 - [Uncertainty Quantification in Deep Learning](https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
 
 - 2019 - NIPS - Practical Deep Learning with Bayesian Principles
 
 ## Ensemble
 
 - 2018 - NIPS - [Multimodal Generative Models for Scalable Weakly-Supervised Learning](https://github.com/mhw32/multimodal-vae-public)
-
 
 - 2014 - NIPS - Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions
 
@@ -567,3 +613,4 @@ other useful dataset links
 [Muhan Zhang]: https://muhanzhang.github.io/
 [Stephan Günnemann]: https://www.in.tum.de/daml/startseite/
 [Chong Chen]: https://github.com/chenchongthu/
+[Yarin Gal]: http://www.cs.ox.ac.uk/people/yarin.gal/website/publications.html
