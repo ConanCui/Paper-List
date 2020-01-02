@@ -355,8 +355,8 @@ Table of Contents
 ### Architecture
 
 - 2020 - AAAI - [An Attention-based Graph Neural Network for Heterogeneous Structural Learning](https://github.com/didi/hetsann)
-- *Huiting Hong, Hantao Guo, Yucheng Lin, Xiaoqing Yang, Zang Li, Jieping Ye*
-- *Metapath free method; Multi-Task; Self-attention*
+  - *Huiting Hong, Hantao Guo, Yucheng Lin, Xiaoqing Yang, Zang Li, Jieping Ye*
+  - *Metapath free method; Multi-Task; Self-attention*
 
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
 
