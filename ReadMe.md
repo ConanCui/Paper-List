@@ -162,11 +162,16 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 # Graph
 
 ## Survey
+
 - 2019  - Representation Learning on Graphs: Methods and Applications
   - *[William L. Hamilton], [Rex Ying], [Jure Leskovec]*
   
 - 2019  - A Comprehensive Survey on Graph Neural Networks
   - *Zonghan Wu ,Philip S. Yu*
+
+## Workshop
+
+- 2019 - NIPS - [Graph Representation Learning](https://grlearning.github.io/)
 
 ## Architecture
 
