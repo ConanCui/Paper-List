@@ -488,13 +488,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example.ipynb)
   - *Alex Kendall, [Yarin Gal], Roberto Cipolla*
   - *该文提出利用  Task-dependent or Homoscedastic uncertainty去刻画当前任务的noisy程度，如果uncertainty越大的话，那么他在multi-task的loss中应当占更少的比例。*
-  $$
-\begin{aligned}
-&=-\log p\left(\mathbf{y}_{1}, \mathbf{y}_{2} | \mathbf{f}^{\mathbf{W}}(\mathbf{x})\right)\\
-&\propto \frac{1}{2 \sigma_{1}^{2}}\left\|\mathbf{y}_{1}-\mathbf{f}^{\mathbf{W}}(\mathbf{x})\right\|^{2}+\frac{1}{2 \sigma_{2}^{2}}\left\|\mathbf{y}_{2}-\mathbf{f}^{\mathbf{W}}(\mathbf{x})\right\|^{2}+\log \sigma_{1} \sigma_{2}\\
-&=\frac{1}{2 \sigma_{1}^{2}} \mathcal{L}_{1}(\mathbf{W})+\frac{1}{2 \sigma_{2}^{2}} \mathcal{L}_{2}(\mathbf{W})+\log \sigma_{1} \sigma_{2}
-  \end{aligned}
-  $$
+  
+![1578028178885](ReadMe.assets/1578028178885.png)
 - 2019 - CVPR - Striking the Right Balance with Uncertainty
 
 - 2019 - thisis - Uncertainty Quantification in Deep Learning
