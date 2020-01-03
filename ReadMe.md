@@ -16,11 +16,8 @@ Table of Contents
 =================
 
 
-Table of Contents
-=================
 
    * [Awesome paper list](#awesome-paper-list)
-   * [Table of Contents](#table-of-contents)
    * [Recommendation](#recommendation)
       * [Large Scale Recommendation](#large-scale-recommendation)
       * [Novel Application](#novel-application)
@@ -175,6 +172,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Architecture
 
+
+- 2019 - NIPS-GRL - Learnable Aggregator for GCN
+  - *Li Zhang*
+  - *相比于GAT更进一步，在每个feature dimension上进行attention*
+
+
 - 2020 - ICLR - [Geom-GCN: Geometric Graph Convolutional Networks](https://github.com/anonymous-conference-submission/geom-gcn/)
   - *Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang*
   - *图卷积网络已经成功被应用到图表示学习的很多应用当中。但是目前的图卷积网络中仍有两个缺陷限制了他们的表达学习能力，一是在节点信息汇聚的过程中，以往的mean，max pooling操作会丢失掉了节点的结构信息，无法区分一些特殊的非同构数据。二是对于一些disassortative的图，以往的相邻节点的定义方法无法利用上在图结构上距离较远的节点。本文针对以上两个限制，为图卷积网络提出了一种新的邻居节点定义方法和汇聚方式。主要分为三步，节点嵌入，从图结构和节点嵌入空间一起选取相邻节点，两阶段的节点汇聚。最终作者在八个数据集，按照6：2：2的比例划分数据集，超越了GCN和GAT的节点分类效果，并给出了对照试验验证了各个模块的有效性。*
@@ -198,8 +201,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - *Luan, Sitao and Zhao, Mingde and Chang, Xiao-Wen and Precup, Doina*
   - *提出了两种类似于densenet 的图卷积网络结构用于node classification，作者的motivation是从spectruml出发的，和LanczosNet属于同一系列工作*
 
-  
-  
 - 2019 - NIPS - [Diffusion Improves Graph Learning](https://github.com/klicperajo/gdc)
   - *Johannes Klicpera, Stefan Weißenberger, [Stephan Günnemann]*
   - *该文章提出GNN输入的图T要先经过如下的diffusion后，再把diffusion后的图S送入GNN*![1577342694209](ReadMe.assets/1577342694209.png)
@@ -211,8 +212,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - 2018 - AAAI - [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://github.com/hwwang55/GraphGAN)
   - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
 - 2018 - CIKM - [Semi-supervised Learning on Graphs with Generative Adversarial Nets](https://github.com/dm-thu/GraphSGAN)  
-
-
 
 
 - 2019 - ICML - [Simplifying Graph Convolutional Networks](https://github.com/Tiiiger/SGC)
@@ -236,15 +235,17 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 - 2017 - ICLR - [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](https://github.com/tkipf/gcn)
   - *[Thomas N. Kipf],  [Max Welling]*
 
+## Graph Modification and Robust
 
-## Graph Modification and Robust 
+- 2019 - AISTATS - Confidence-based Graph Convolutional Networks for Semi-supervised learning
+  - *[Shikhar Vashishth], Prateek Yadav, Manik Bhandari, Partha Talukdar*
+  - *Cora-ML数据集有更大的Label Mismatch，即两个连接的点有着不同label的概率。该模型提出的方法在这种数据集上号称有着更好的表现，同时他实验分析得到GAT学习的attention系数并不能阻止这种现象。*
 
 - 2019 - ICLR - Bayesian Graph Convolutional Neural Networks Using Non-Parametric Graph Learning
   - *Soumyasundar Pal, Florence Regol & Mark Coates*
 
 - 2019 - NIPS - Variational Spectral Graph Convolutional Networks
   - *Louis Tiao, Pantelis Elinas, Harrison Nguyen, Edwin V. Bonilla*
-
 
 - 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
   - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
@@ -334,12 +335,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 - 2020 - ICLR - Composition-based Multi-Relational Graph Convolutional Networks 
-  - *Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar*
+  - *[Shikhar Vashishth], Soumya Sanyal, Vikram Nitin, Partha Talukdar*
   - *propose the relation embedding in the aggregation as below to solve the over-parameterization problem*
 
 ![1577331507505](ReadMe.assets/1577331507505.png)
 
-
+[Shikhar Vashishth]: https://shikhar-vashishth.github.io/publications/
 
 - 2019 - AAAI - [End-to-end Structure-Aware Convolutional Networks for Knowledge Base Completion](https://github.com/JD-AI-Research-Silicon-Valley/SACN)
 
@@ -494,6 +495,7 @@ for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learnin
   - *Alex Kendall, [Yarin Gal], Roberto Cipolla*
   - *该文提出利用  Task-dependent or Homoscedastic uncertainty去刻画当前任务的noisy程度，如果uncertainty越大的话，那么他在multi-task的loss中应当占更少的比例。*
   
+
 ![1578028178885](ReadMe.assets/1578028178885.png)
 - 2019 - CVPR - Striking the Right Balance with Uncertainty
 
