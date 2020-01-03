@@ -15,13 +15,19 @@ A collection of graph embedding, deep learning, recommendation, knowledge graph,
 Table of Contents
 =================
 
+
+Table of Contents
+=================
+
    * [Awesome paper list](#awesome-paper-list)
+   * [Table of Contents](#table-of-contents)
    * [Recommendation](#recommendation)
       * [Large Scale Recommendation](#large-scale-recommendation)
       * [Novel Application](#novel-application)
       * [News Recommendation](#news-recommendation)
       * [Social Recommendation](#social-recommendation)
       * [Review Based Recommendation](#review-based-recommendation)
+      * [Sequential Recommendation](#sequential-recommendation)
       * [Multi-Relation Recommendation](#multi-relation-recommendation)
       * [Disentangled Recommendation](#disentangled-recommendation)
       * [Explainable Recommendation](#explainable-recommendation)
@@ -44,14 +50,19 @@ Table of Contents
          * [Acdamic Implement](#acdamic-implement)
          * [Reading Source](#reading-source)
    * [BayesianDeepLearning](#bayesiandeeplearning)
+      * [WorkShop](#workshop)
       * [Survey](#survey-2)
       * [Uncertainty](#uncertainty)
+         * [Theory](#theory-1)
+         * [Application](#application-1)
       * [Ensemble](#ensemble)
    * [Others](#others)
+      * [attack](#attack)
    * [Datasets](#datasets)
       * [homegenerous graph dataset](#homegenerous-graph-dataset)
       * [heteregeneous graph datasets](#heteregeneous-graph-datasets)
 
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 # Recommendation
@@ -236,7 +247,7 @@ Table of Contents
 
 - 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
   - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
-  - *edge modification;*
+  - *provided an example of the framework for the case of an assortative mixed membership stochastic block model and explained how approximate inference can be performed using a combination of stochastic optimization*
 
 - 2019 - ICML - Learning Discrete Structures for Graph Neural Networks
 
@@ -356,7 +367,7 @@ Table of Contents
 
 - 2020 - AAAI - [An Attention-based Graph Neural Network for Heterogeneous Structural Learning](https://github.com/didi/hetsann)
   - *Huiting Hong, Hantao Guo, Yucheng Lin, Xiaoqing Yang, Zang Li, Jieping Ye*
-  - *Metapath free method; Multi-Task; Self-attention*
+  - *Metapath free method; Multi-Task; Self-attention*，在message passing时，相关的属于不同种类的节点先transform到特定的目标节点种类空间，然后在该空间内进行汇聚，不再考虑metapath，一层message passing考虑到一阶的关系，如AA,或者PA，如果对于比较长的meta path，该模型需要多层的message passing layer。
 
 - 2019 - NIPS - [Graph Transformer Networks](https://github.com/seongjunyun/Graph_Transformer_Networks)
 
@@ -459,7 +470,7 @@ Table of Contents
 # BayesianDeepLearning
 
 ## WorkShop
-- NIPS - Bayesian Deep Learning(http://bayesiandeeplearning.org/)
+- NIPS - [Bayesian Deep Learning](http://bayesiandeeplearning.org/)
 
 ##  Survey
 
