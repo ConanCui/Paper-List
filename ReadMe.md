@@ -172,7 +172,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Architecture
 
+- 2019 - Arxiv - [Revisiting Graph Neural Networks: All We Have is Low-Pass Filters](https://github.com/gear)
+  - *本文作者提出了几个对于GNN的理解，其中两点挺有意思，1.Input features consist of low-frequency true features and noise. The true features
+have sufficient information for the machine learning task；2.multiplying graph signals with propagation matrices corresponds to low-pass filtering *
 
+
+- 2019 - Arxiv - Feature-Attention Graph Convolutional Networks for Noise Resilient Learning 
+  - *作者提出以往的GCN是假设了数据当中的每个node的content都是正确无误的，并且各个特征之间是相互独立的，并且他们对于节点的表征学习同等重要，这篇文章则认为这个假设有问题。首先使用LSTM对node content进行编码，其次设计了基于feature的attention来汇聚信息，这样每个节点的所有特征会因为不同的汇聚，而产生变化，并且在汇聚过程中，挑选出来最具有代表性的特征来进行汇聚，例如两个节点paper，有很多公用词，但是这届特征不应当是两篇文章被分类的原因，也不是两篇文章有连接的原因，而feature attention则会对不同feature维度施加不同权重，这和GAT中对不同节点施加不同权重不同，前者是feature dim level，后者是node level。相比于。另外作者给出了一些实验数据集的分析，其中cora和citeseer这两个数据集，graph较为稀疏，所以内容起到的作用相对较多。而DBLP数据集中，content内容比较稀疏，graph相对稠密，所以graph起到的信息作用比较多。*
 - 2019 - NIPS-GRL - Learnable Aggregator for GCN
   - *Li Zhang*
   - *相比于GAT更进一步，在每个feature dimension上进行attention*
@@ -180,7 +186,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 - 2020 - ICLR - [Geom-GCN: Geometric Graph Convolutional Networks](https://github.com/anonymous-conference-submission/geom-gcn/)
   - *Hongbin Pei, Bingzhe Wei, Kevin Chen-Chuan Chang, Yu Lei, Bo Yang*
-  - *图卷积网络已经成功被应用到图表示学习的很多应用当中。但是目前的图卷积网络中仍有两个缺陷限制了他们的表达学习能力，一是在节点信息汇聚的过程中，以往的mean，max pooling操作会丢失掉了节点的结构信息，无法区分一些特殊的非同构数据。二是对于一些disassortative的图，以往的相邻节点的定义方法无法利用上在图结构上距离较远的节点。本文针对以上两个限制，为图卷积网络提出了一种新的邻居节点定义方法和汇聚方式。主要分为三步，节点嵌入，从图结构和节点嵌入空间一起选取相邻节点，两阶段的节点汇聚。最终作者在八个数据集，按照6：2：2的比例划分数据集，超越了GCN和GAT的节点分类效果，并给出了对照试验验证了各个模块的有效性。*
+  - *图卷积网络已经成功被应用到图表示学习的很多应用当中。但是目前的图卷积网络中仍有两个缺陷限制了他们的表达学习能力，一是在节点信息汇聚的过程中，以往的mean，max pooling操作会丢失掉了节点的结构信息，无法区分一些特殊的非同构数据。二是对于一些disassortative的图，以往的相邻节点的定义方法无法利用上在图结构上距离较远的节点。本文针对以上两个限制，为图卷积网络提出了一种新的邻居节点定义方法和汇聚方式。主要分为三步，节点嵌入，从图结构和节点嵌入空间一起选取相邻节点，两阶段的节点汇聚。最终作者在八个数据集，按照6：2：2的比例划分数据集，超越了GCN和GAT的节点分类效果，并给出了对照试验验证了各个模块的有效性。该文章的工作整体分成两部，embedding和后续的操作，不是一个end to end的work，前边的embedding要手动调整。*
 
 - 2019 - ICML - [Disentangled Graph Convolutional Networks](https://jianxinma.github.io/)
   - *Jinxi Ma, [Peng Cui]*
@@ -207,7 +213,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 - 2019 - ICLR - [Graph Wavelet Neural Network](https://github.com/Eilene/GWNN)
-  
   - *[Bingbing Xu](https://openreview.net/profile?email=xubingbing%40ict.ac.cn), [Huawei Shen](https://openreview.net/profile?email=shenhuawei%40ict.ac.cn), [Qi Cao](https://openreview.net/profile?email=caoqi%40ict.ac.cn), [Yunqi Qiu](https://openreview.net/profile?email=qiuyunqi%40ict.ac.cn), [Xueqi Cheng](https://openreview.net/profile?email=cxq%40ict.ac.cn)*
 - 2018 - AAAI - [GraphGAN: Graph Representation Learning with Generative Adversarial Nets](https://github.com/hwwang55/GraphGAN)
   - *[Hongwei Wang], Jia Wang, Jialin Wang,Miao Zhao,Weinan Zhang,Fuzheng Zhang Xing Xie, Minyi Guo*
@@ -236,6 +241,8 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
   - *[Thomas N. Kipf],  [Max Welling]*
 
 ## Graph Modification and Robust
+
+- 2019 - Chemical - 2019 - Chemical - A Bayesian graph convolutional network for reliable prediction of molecular properties with uncertainty quantification
 
 - 2019 - AISTATS - Confidence-based Graph Convolutional Networks for Semi-supervised learning
   - *[Shikhar Vashishth], Prateek Yadav, Manik Bhandari, Partha Talukdar*
