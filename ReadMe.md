@@ -244,28 +244,23 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
 - 2019 - Chemical - 2019 - Chemical - A Bayesian graph convolutional network for reliable prediction of molecular properties with uncertainty quantification
 
+![1578454645510](ReadMe.assets/1578454645510.png)
+
 - 2019 - AISTATS - Confidence-based Graph Convolutional Networks for Semi-supervised learning
   - *[Shikhar Vashishth], Prateek Yadav, Manik Bhandari, Partha Talukdar*
   - *Cora-ML数据集有更大的Label Mismatch，即两个连接的点有着不同label的概率。该模型提出的方法在这种数据集上号称有着更好的表现，同时他实验分析得到GAT学习的attention系数并不能阻止这种现象。*
-
 - 2019 - ICLR - Bayesian Graph Convolutional Neural Networks Using Non-Parametric Graph Learning
   - *Soumyasundar Pal, Florence Regol & Mark Coates*
-
 - 2019 - NIPS - Variational Spectral Graph Convolutional Networks
   - *Louis Tiao, Pantelis Elinas, Harrison Nguyen, Edwin V. Bonilla*
-
 - 2019 - NIPS - [Graph Agreement Models for Semi-Supervised Learning](https://github.com/tensorflow/neural-structured-learning/tree/master/research/gam)
   - *Otilia Stretcu · Krishnamurthy Viswanathan · Dana Movshovitz-Attias · Emmanouil Platanios · Sujith Ravi · Andrew*
   - *本文提出了一个基于graph的半监督学习框架。基于graph的半监督学习算法在半监督任务上效果出众，例如label propagation，他们基于的基本假设是一个节点的标签可以通过周围节点的类别来推测。但是在真实的世界中，许多的graph中节点之间存在边并不代表两个节点共属于同一类。本文基于WSDM2018的工作，提出了graph aggrement model，其引入辅助任务帮助判断两个节点之间的边是否有助于当前的主任务，例如分类。并在主任务和辅助任务之间通过co training的方式进行训练，最终在半监督任务上取得了优异的效果，超越了GAT。*
-
 - 2019 - AAAI - [Bayesian graph convolutional neural networks for semi-supervised classification](https://github.com/huawei-noah/BGCN)
   - *Jiatao Jiang, Zhen Cui, Chunyan Xu, Jian Yang*
   - *provided an example of the framework for the case of an assortative mixed membership stochastic block model and explained how approximate inference can be performed using a combination of stochastic optimization*
-
 - 2019 - ICML - Learning Discrete Structures for Graph Neural Networks
-
 - 2019 - ICML - Are Graph Neural Networks Miscalibrated
-
 - 2019 - ICLR - DEEP GAUSSIAN EMBEDDING OF GRAPHS UNSUPERVISED INDUCTIVE LEARNING VIA RANKING
   - *提出概率建模，variance对应有具体的含义，另外提出ranking，即1 hop node embedding的similarity要大于2 hop node embedding，利用KL来计算similarity。同时，相比于node2vec这样的node embedding算法，该算法能够利用node attribute做到inductive，相比于graph sage，能够做到在test阶段，即使没有link，也能够产生node 的 embedding*
 - 2019 - KDD - Robust Graph Convolutional Networks Against Adversaria Attacks  
@@ -482,7 +477,12 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
 # BayesianDeepLearning
 
+## Tutorial
+
+-  2019 - KDD - [Deep Bayesian Mining, Learning and Understanding](https://drive.google.com/file/d/1W_f-W_V8XJZjkHG5vaSVdnAfOI3af3cg/view)
+  - *Jen-Tzung Chien*
 ## WorkShop
+
 - NIPS - [Bayesian Deep Learning](http://bayesiandeeplearning.org/)
 
 ##  Survey
@@ -547,6 +547,17 @@ for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learnin
 - 2014 - NIPS - Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions
 
 # Others
+
+- 2018 - ECCV - CBAM  Convolutional Block Attention Module
+  
+  - *提出了spatial 和 channel attention模块*
+  
+    ![1578451400619](ReadMe.assets/1578451400619.png)
+  
+  ![1578451386244](ReadMe.assets/1578451386244.png)
+  
+  ![1578451363471](ReadMe.assets/1578451363471.png)
+
 
 - 2020 - CVPR - [CONTRASTIVE REPRESENTATION DISTILLATION](https://github.com/HobbitLong/RepDistiller)   
 
