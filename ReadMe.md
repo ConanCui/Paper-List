@@ -546,6 +546,8 @@ for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learnin
 
 - 2014 - NIPS - Generalized Product of Experts for Automatic and Principled Fusion of Gaussian Process Predictions
 
+## Label Noise
+- Github -[ Label Noise paper and implementation collection](https://github.com/subeeshvasu/Awesome-Learning-with-Label-Noise)
 # Others
 
 - 2018 - ECCV - CBAM  Convolutional Block Attention Module
