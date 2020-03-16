@@ -242,6 +242,9 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
 ## Graph Modification and Robust
 
+- Stochastic Shared Embeddings Data-driven Regularization of Embedding Layers
+  - *Liwei Wu, Shuqing Li, Cho-Jui Hsieh, James Sharpnack *
+
 - 2019 - Chemical - 2019 - Chemical - A Bayesian graph convolutional network for reliable prediction of molecular properties with uncertainty quantification
 
 ![1578454645510](ReadMe.assets/1578454645510.png)
@@ -278,12 +281,12 @@ have sufficient information for the machine learning task；2.multiplying graph 
 - 2020 - ICLR - [DropEdge: Towards Deep Graph Convolutional Networks on Node Classification]( https://github.com/DropEdge/DropEdge )
   
   - *Yu Rong, Wenbing Huang, Tingyang Xu, Junzhou Huang*
-- *解决oversmoothing*
+  - *解决oversmoothing*
   
 - 2020 - ICLR - [Measuring and Improving the Use of Graph Information in Graph Neural Networks]( https://github.com/yifan-h/CS-GNN )
   
   - *Yifan Hou, Jian Zhang, James Cheng, Kaili Ma, Richard T. B. Ma, Hongzhi Chen, Ming-Chang Yang*
-- *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
+  - *该文提出一个理解，target node和周围节点特征差异越大，获取到的信息增益就越大，但这部分信息增益可能有噪声不利于分类任务，假设噪声来自于不同class节点，所以该文提出如下attention机制，差异越大，attention越大，汇聚信息越多。之后再考虑noisy再进行进一步挑选信息，把一部分attention系数置为零。*![1577343451312](ReadMe.assets/1577343451312.png)
   
   ![1577345532488](ReadMe.assets/1577345532488.png)
   
@@ -311,10 +314,11 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
     
 
-- 2018 - KDD - [Inductive Matrix Completion Based on Graph Neural Networks](https://github.com/muhanzhang/IGMC)
+- 2019 - NIPS - [Inductive Matrix Completion Based on Graph Neural Networks](https://github.com/muhanzhang/IGMC)
+  
   - *[Muhan Zhang], Yixin Chen*
-  - *该文章提出了一种基于图卷积网络的inductive，并且不使用辅助信息的矩阵补全方法。矩阵补全作为一个经典的问题，在许多领域有着应用，例如推荐系统。以往的方法比如低秩矩阵分解将矩阵分解成两个向量的乘积，他们往往是transductive的，不能够泛化到新的矩阵行和列上，KDD 2018的GCMC应用node-level的图卷积网络在bipartie graph上学习用户和物品特征表达，但其仍属于transductive的方法，而同为KDD 2018的pinsage虽然是inductive的模型，但是要依赖辅助信息如特征，并且特征的质量往往会影响模型的效果。本文提出一种基于图卷积网络的inductive矩阵补全方法，使得模型不依赖特征就可以泛化到新用户和新物品的矩阵补全方法。该方法主要由三步构成，包括了1.抽取包含目标用户和物品的sub-graph；2.为subgraph中不同的节点打上标签；3.graph-level的图卷积网络进行评分预测。最终作者在4个数据集上取得最好的表现效果，值得一提的是在movielens数据集上训练的模型在Douban数据集上进行测试，也能够超越一大部分baseline，显出该方法有着良好的transfer能力。*
-
+- *该文章提出了一种基于图卷积网络的inductive，并且不使用辅助信息的矩阵补全方法。矩阵补全作为一个经典的问题，在许多领域有着应用，例如推荐系统。以往的方法比如低秩矩阵分解将矩阵分解成两个向量的乘积，他们往往是transductive的，不能够泛化到新的矩阵行和列上，KDD 2018的GCMC应用node-level的图卷积网络在bipartie graph上学习用户和物品特征表达，但其仍属于transductive的方法，而同为KDD 2018的pinsage虽然是inductive的模型，但是要依赖辅助信息如特征，并且特征的质量往往会影响模型的效果。本文提出一种基于图卷积网络的inductive矩阵补全方法，使得模型不依赖特征就可以泛化到新用户和新物品的矩阵补全方法。该方法主要由三步构成，包括了1.抽取包含目标用户和物品的sub-graph；2.为subgraph中不同的节点打上标签；3.graph-level的图卷积网络进行评分预测。最终作者在4个数据集上取得最好的表现效果，值得一提的是在movielens数据集上训练的模型在Douban数据集上进行测试，也能够超越一大部分baseline，显出该方法有着良好的transfer能力。*
+  
 - 2018 - KDD - [DeepInf: Social Influence Prediction with Deep Learning](https://github.com/sunqm/pyscf)
   
 - *Jiezhong Qiu , Jie Tang， et al*
@@ -362,7 +366,8 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
 - 2020 - ICLR - [Hyper-SAGNN: a self-attention based graph neural network for hypergraphs](https://drive.google.com/drive/folders/1kIOc4SlAJllUJsrr2OnZ4izIQIw2JexU?usp=sharing)
   - *Ruochi Zhang,  Yuesong Zou,  Jian Ma*
-
+- 
+  
 - 2019 - AAAI - [Hypergraph Neural Networks](https://github.com/Yue-Group/HGNN)
   - *Yifan Feng, Haoxuan You, Zizhao Zhang, Rongrong Ji, [Yue Gao]*
 
@@ -475,6 +480,12 @@ have sufficient information for the machine learning task；2.multiplying graph 
   - [Technische Universität München](https://www.kdd.in.tum.de/forschung/machine-learning-for-graphsnetworks/)
   - [graph-adversarial-learning-literature](https://github.com/YingtongDou/graph-adversarial-learning-literature)
 
+# Self-supervise Learning
+
+-   2020 - ICLR - CONTRASTIVE REPRESENTATION DISTILLATION  
+- 2020 - CVPR - Self-training with Noisy Student improves ImageNet classification
+- [Multi-view]( https://github.com/lslrh/multi-view )
+
 # BayesianDeepLearning
 
 ## Tutorial
@@ -492,11 +503,27 @@ have sufficient information for the machine learning task；2.multiplying graph 
 - *Michael Tschannen, Olivier Bachem, Mario Lucic*
   
   
+## Posterior Sampling
+
+- 2017 - NIPS - [Bayesian GAN](https://github.com/andrewgordonwilson/bayesgan)
+  
+  - *对GAN的D和G的参数使用分布进行建模，利用Stochastic Gradient Hamiltonian Monte Carlo方法来对进行优化
+  
+- 2014 - ICML - Stochastic Gradient Hamiltonian Monte Carlo
+  
   
 
 ## Uncertainty
 
 ### Theory
+
+- 2019 - MICA - Uncertainty-aware Self-ensembling Model for Semi-supervised 3D Left Atrium Segmentation 
+
+- 2020 - AAAI - Uncertainty-Aware Multi-Shot Knowledge Distillation for Image-Based Object Re-Identification
+
+- 2020 - CVPR - 3D Semi-Supervised Learning with Uncertainty-Aware Multi-View Co-Training
+  - *co training中需要把每个view下的预测标签去作为另外一个view的训练样本，但其实应挑选置信度高的样本，这篇利用epistemic uncertainty (model parameters)去挑选置信度高的样本*
+
 - 2018 - CVPR - [Multi-Task Learning Using Uncertainty to Weigh Losses
 for Scene Geometry and Semantics](https://github.com/yaringal/multi-task-learning-example/blob/master/multi-task-learning-example.ipynb)
   - *Alex Kendall, [Yarin Gal], Roberto Cipolla*
