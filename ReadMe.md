@@ -492,6 +492,8 @@ have sufficient information for the machine learning task；2.multiplying graph 
 
 -  2019 - KDD - [Deep Bayesian Mining, Learning and Understanding](https://drive.google.com/file/d/1W_f-W_V8XJZjkHG5vaSVdnAfOI3af3cg/view)
   - *Jen-Tzung Chien*
+-  [Bayesian Deep Learning code](https://github.com/abhinavsagar/bayesian-deep-learning/blob/master/bayes_by_backprop.ipynb)
+-  [Bayesian Neural Networks code](https://github.com/JavierAntoran/Bayesian-Neural-Networks/blob/master/src/MC_dropout/model.py)
 ## WorkShop
 
 - NIPS - [Bayesian Deep Learning](http://bayesiandeeplearning.org/)
